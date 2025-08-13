@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 896ed964d97b31a8af427f1bedd06892, type: 3}
+  m_Name: ConfigRealTimeWeather
+  m_EditorClassIdentifier:
+  _objectReferences: []
+  _serializedStateKeys:
+  - siteUsage
+  - weatherMatch
+  _serializedStateValues:
+  - '{"sinaWeather":true,"yahooWeather":true,"sinaNews":false}'
+  - '[{"realTimeWeatherType":"Sunny","weatherPatterns":[{"configName":"Default","sceneId":0}]},{"realTimeWeatherType":"Cloudy","weatherPatterns":[{"configName":"Default","sceneId":1}]},{"realTimeWeatherType":"HeavyCloudy","weatherPatterns":[{"configName":"Cloudy","sceneId":0},{"configName":"Cloudy","sceneId":1}]},{"realTimeWeatherType":"Rainy","weatherPatterns":[{"configName":"Lightning","sceneId":0}]},{"realTimeWeatherType":"Snowy","weatherPatterns":[{"configName":"Lightning","sceneId":0}]},{"realTimeWeatherType":"Windy","weatherPatterns":[{"configName":"Cloudy","sceneId":0},{"configName":"Cloudy","sceneId":1}]},{"realTimeWeatherType":"Lightning","weatherPatterns":[{"configName":"Lightning","sceneId":0}]},{"realTimeWeatherType":"Extreme","weatherPatterns":[{"configName":"Lightning","sceneId":0}]}]'
+  maxRetryTime: 5
+  retryInterval: 10
+  weatherInfoPeriod: 3600
+  siteUsage:
+    sinaWeather: 1
+    yahooWeather: 1
+    sinaNews: 0
+  defaultConfigName: Default
+  defaultSceneId: 0
+  weatherMatch:
+  - realTimeWeatherType: 1
+    weatherPatterns:
+    - configName: Default
+      sceneId: 0
+  - realTimeWeatherType: 2
+    weatherPatterns:
+    - configName: Default
+      sceneId: 1
+  - realTimeWeatherType: 3
+    weatherPatterns:
+    - configName: Cloudy
+      sceneId: 0
+    - configName: Cloudy
+      sceneId: 1
+  - realTimeWeatherType: 4
+    weatherPatterns:
+    - configName: Lightning
+      sceneId: 0
+  - realTimeWeatherType: 5
+    weatherPatterns:
+    - configName: Lightning
+      sceneId: 0
+  - realTimeWeatherType: 6
+    weatherPatterns:
+    - configName: Cloudy
+      sceneId: 0
+    - configName: Cloudy
+      sceneId: 1
+  - realTimeWeatherType: 7
+    weatherPatterns:
+    - configName: Lightning
+      sceneId: 0
+  - realTimeWeatherType: 8
+    weatherPatterns:
+    - configName: Lightning
+      sceneId: 0

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e0a35cb38a586fe285a02ff0c7a690f, type: 3}
+  m_Name: Himeko_Move_EventPattern
+  m_EditorClassIdentifier:
+  _objectReferences: []
+  _serializedStateKeys:
+  - patterns
+  _serializedStateValues:
+  - '[{"name":"Himeko_Fast_Run","animatorEvents":[{"AnimEventID":"#Avatar/Avatar_Walk_Smoke_Right","normalizedTime":0.0649999976158142,"forceTrigger":false,"forceTriggerOnTransitionOut":false,"$type":"MoleMole.Config.AnimatorEventAnimEventHandler"},{"AnimEventID":"#Avatar/Avatar_Walk_Smoke_Left","normalizedTime":0.316000014543533,"forceTrigger":false,"forceTriggerOnTransitionOut":false,"$type":"MoleMole.Config.AnimatorEventAnimEventHandler"},{"AnimEventID":"#Avatar/Avatar_Walk_Smoke_Right","normalizedTime":0.565999984741211,"forceTrigger":false,"forceTriggerOnTransitionOut":false,"$type":"MoleMole.Config.AnimatorEventAnimEventHandler"},{"AnimEventID":"#Avatar/Avatar_Walk_Smoke_Left","normalizedTime":0.819000005722046,"forceTrigger":false,"forceTriggerOnTransitionOut":false,"$type":"MoleMole.Config.AnimatorEventAnimEventHandler"}]},{"name":"Himeko_Run","animatorEvents":[{"AnimEventID":"#Avatar/Avatar_Walk_Smoke_Left","normalizedTime":0.068000003695488,"forceTrigger":false,"forceTriggerOnTransitionOut":false,"$type":"MoleMole.Config.AnimatorEventAnimEventHandler"},{"AnimEventID":"#Avatar/Avatar_Walk_Smoke_Right","normalizedTime":0.305000007152557,"forceTrigger":false,"forceTriggerOnTransitionOut":false,"$type":"MoleMole.Config.AnimatorEventAnimEventHandler"},{"AnimEventID":"#Avatar/Avatar_Walk_Smoke_Left","normalizedTime":0.560999989509583,"forceTrigger":false,"forceTriggerOnTransitionOut":false,"$type":"MoleMole.Config.AnimatorEventAnimEventHandler"},{"AnimEventID":"#Avatar/Avatar_Walk_Smoke_Right","normalizedTime":0.797999978065491,"forceTrigger":false,"forceTriggerOnTransitionOut":false,"$type":"MoleMole.Config.AnimatorEventAnimEventHandler"}]},{"name":"Himeko_Combat_Run_To_Run","animatorEvents":[{"EffectPatternName":"Avatar_Walk_Smoke_Left","Predicate1":null,"Predicate2":null,"normalizedTime":0.0219999998807907,"forceTrigger":false,"forceTriggerOnTransitionOut":false,"$type":"MoleMole.Config.AnimatorEventTriggerEffectPattern"},{"AnimEventID":"Set_IsNotCombat","normalizedTime":0.28600001335144,"forceTrigger":false,"forceTriggerOnTransitionOut":false,"$type":"MoleMole.Config.AnimatorEventAnimEventHandler"},{"EffectPatternName":"Avatar_Walk_Smoke_Right","Predicate1":null,"Predicate2":null,"normalizedTime":0.60699999332428,"forceTrigger":false,"forceTriggerOnTransitionOut":false,"$type":"MoleMole.Config.AnimatorEventTriggerEffectPattern"}]},{"name":"Himeko_Combat_Run","animatorEvents":[]},{"name":"Himeko_Combat_To_StandBy","animatorEvents":[{"AnimEventID":"Set_IsNotCombat","normalizedTime":0.522000014781952,"forceTrigger":false,"forceTriggerOnTransitionOut":false,"$type":"MoleMole.Config.AnimatorEventAnimEventHandler"}]},{"name":"Himeko_Fast_Run_AS","animatorEvents":[{"EffectPatternName":"Avatar_Himeko_FastRun_Stop","Predicate1":null,"Predicate2":null,"normalizedTime":0.546999990940094,"forceTrigger":true,"forceTriggerOnTransitionOut":false,"$type":"MoleMole.Config.AnimatorEventTriggerEffectPattern"}]}]'

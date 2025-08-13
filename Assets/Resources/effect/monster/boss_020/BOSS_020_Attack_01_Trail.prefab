@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1103258090344228
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4205380089549147}
+  - 114: {fileID: 114754380273289554}
+  - 114: {fileID: 114653746678880652}
+  - 114: {fileID: 114427795042477576}
+  m_Layer: 11
+  m_Name: BOSS_020_Attack_01_Trail
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1015964763882500
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4043289652121625}
+  - 114: {fileID: 114387873655359139}
+  m_Layer: 10
+  m_Name: TrailRenderer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1577585366492312
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4872715244222049}
+  m_Layer: 11
+  m_Name: TrailAnchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4205380089549147
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1103258090344228}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4043289652121625}
+  - {fileID: 4872715244222049}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114754380273289554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1103258090344228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f7fbafc4371703ac17b495f722b2df1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  OffsetVec3: {x: 0, y: 0, z: 0}
+  RotateX: 0
+  dontDestroyWhenOwnerEvade: 0
+  IgnoreTimescale: 0
+--- !u!114 &114653746678880652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1103258090344228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1605b10155584b9d18f683b34bad8f06, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  TrailRendererTransform: {fileID: 4043289652121625}
+  AniAnchorTransform: {fileID: 4872715244222049}
+  FramePosList:
+  - {x: -1.4246541, y: 1.0383567, z: 0.019459765}
+  - {x: -1.5112625, y: 0.9452578, z: 0.37352535}
+  - {x: -1.4602075, y: 0.88658553, z: 0.7364596}
+  - {x: -1.2769608, y: 0.8702478, z: 1.0744702}
+  - {x: -0.9795397, y: 0.9001349, z: 1.3561295}
+  - {x: -0.59679526, y: 0.9757507, z: 1.5553584}
+  - {x: -0.16567603, y: 1.0922594, z: 1.6538993}
+  - {x: 0.2722786, y: 1.2409446, z: 1.6430502}
+  - {x: 0.67488116, y: 1.4100367, z: 1.5244895}
+  - {x: 1.0032982, y: 1.5858287, z: 1.310118}
+  - {x: 1.2257373, y: 1.753979, z: 1.0209274}
+  - {x: 1.320462, y: 1.9008701, z: 0.68501127}
+  - {x: 1.2778565, y: 2.0149026, z: 0.33489525}
+  - {x: 1.1013368, y: 2.0875952, z: 0.0044543934}
+  - {x: 0.80702716, y: 2.1143894, z: -0.2743046}
+  MaterialOverrideKey:
+  EffectOverlayKey:
+--- !u!114 &114427795042477576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1103258090344228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53247d14f71197bc5a304e3a8ea73532, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  enterPatternName:
+  - eventName: Mon_Boss_020_ATK_01_Wsh
+    delayTime: 0
+  exitPatternName: []
+--- !u!4 &4043289652121625
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1015964763882500}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4205380089549147}
+  m_RootOrder: 0
+--- !u!114 &114387873655359139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1015964763882500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73bfe458354039a6c788e9e370ba57d2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  TrailData:
+    TrailMaterials:
+    - {fileID: 2100000, guid: 0ecc1530228d586489c6dec2c79fdade, type: 2}
+    Lifetime: 0.3
+    UsingSimpleSize: 0
+    SimpleSizeOverLifeStart: 1
+    SimpleSizeOverLifeEnd: 0
+    SizeOverLife:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -0.0071077454
+        outSlope: -0.0071077454
+        tangentMode: 0
+      - time: 1
+        value: 0
+        inSlope: -1.4240607
+        outSlope: -1.4240607
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UsingSimpleColor: 0
+    SimpleColorOverLifeStart: {r: 1, g: 1, b: 1, a: 1}
+    SimpleColorOverLifeEnd: {r: 1, g: 1, b: 1, a: 0}
+    ColorOverLife:
+      key0:
+        serializedVersion: 2
+        rgba: 16777215
+      key1:
+        serializedVersion: 2
+        rgba: 3372220415
+      key2:
+        serializedVersion: 2
+        rgba: 3355443200
+      key3:
+        serializedVersion: 2
+        rgba: 0
+      key4:
+        serializedVersion: 2
+        rgba: 0
+      key5:
+        serializedVersion: 2
+        rgba: 0
+      key6:
+        serializedVersion: 2
+        rgba: 0
+      key7:
+        serializedVersion: 2
+        rgba: 0
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 5012
+      atime2: 31997
+      atime3: 65535
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 4
+    StretchSizeToFit: 0
+    StretchColorToFit: 0
+    MaterialTileLength: 0
+    UseForwardOverride: 1
+    ForwardOverride: {x: 0.25, y: -0.9330127, z: -0.2588191}
+    ForwardOverrideRelative: 1
+  Emit: 0
+  StretchUpRatio: 1
+  StretchDownRatio: 1
+  clockSize: 1
+  MinControlPointDistance: 0.1
+  MaxControlPoints: 15
+  PointsBetweenControlPoints: 4
+--- !u!4 &4872715244222049
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1577585366492312}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3, y: 1.4, z: -0.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4205380089549147}
+  m_RootOrder: 1
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1103258090344228}
+  m_IsPrefabParent: 1

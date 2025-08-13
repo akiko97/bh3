@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39be913946f1474910d3714660135329, type: 3}
+  m_Name: EffectPattern_Robot
+  m_EditorClassIdentifier:
+  _objectReferences: []
+  _serializedStateKeys:
+  - patterns
+  _serializedStateValues:
+  - '[{"name":"RO_BeHit","randomOneFromSubs":false,"subEffects":[{"prefabPath":"Hit/Hit_Blood_03_RO","predicate":null,"onCreate":null}]},{"name":"RO_BeHit_Mid","randomOneFromSubs":false,"subEffects":[{"prefabPath":"Hit/Hit_Blood_03_RO_Mid","predicate":null,"onCreate":null}]},{"name":"RO_BeHit_Big","randomOneFromSubs":false,"subEffects":[{"prefabPath":"Hit/Hit_Blood_03_RO_Big","predicate":null,"onCreate":null}]},{"name":"RO_010_Die","randomOneFromSubs":false,"subEffects":[{"prefabPath":"Monster/RO_010/RO_010_Die_2","predicate":"RO_Normal","onCreate":{"$type":"MoleMole.Config.RelativeToRootNode"}},{"prefabPath":"Monster/RO_010/RO_010_Die","predicate":"RO_ChangeSkin","onCreate":{"$type":"MoleMole.Config.RelativeToRootNode"}}]},{"name":"RO_010_Die_Fast","randomOneFromSubs":false,"subEffects":[{"prefabPath":"Monster/RO_010/RO_010_Die_Fast_2","predicate":"RO_Normal","onCreate":{"$type":"MoleMole.Config.RelativeToRootNode"}},{"prefabPath":"Monster/RO_010/RO_010_Die_Fast","predicate":"RO_ChangeSkin","onCreate":{"$type":"MoleMole.Config.RelativeToRootNode"}}]}]'
+  groupName: Robot_Common_Effects

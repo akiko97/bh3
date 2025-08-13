@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb471d59ec41c371e82293700ed2d1d, type: 3}
+  m_Name: AvatarAutoMoveBehavior
+  m_EditorClassIdentifier:
+  mBehaviorSource:
+    behaviorName: Behavior
+    behaviorDescription:
+    mTaskData:
+      types:
+      - BehaviorDesigner.Runtime.Tasks.EntryTask
+      - BehaviorDesigner.Runtime.Tasks.Sequence
+      - MoleMole.MoveToSpawnPoint
+      - MoleMole.Wait
+      parentIndex: ffffffff000000000100000001000000
+      startIndex: 0c000000160000002100000044000000
+      variableStartIndex: 000000000400000008000000
+      JSONSerialization:
+      fieldSerializationData:
+        typeName:
+        - StringType
+        - StringName
+        - BooleanIsShared
+        - SinglemValue
+        - StringType
+        - StringName
+        - BooleanIsShared
+        - SinglemValue
+        - StringType
+        - StringName
+        - BooleanIsShared
+        - Vector3mValue
+        - Int32ID
+        - StringFriendlyName
+        - BooleanIsInstant
+        - Vector2NodeDataOffset
+        - StringNodeDataComment
+        - BooleanNodeDataIsBreakpoint
+        - BooleanNodeDataDisabled
+        - BooleanNodeDataCollapsed
+        - Int32NodeDataColorIndex
+        - List`1NodeDataWatchedFields
+        - Int32ID
+        - StringFriendlyName
+        - BooleanIsInstant
+        - Vector2NodeDataOffset
+        - StringNodeDataComment
+        - BooleanNodeDataIsBreakpoint
+        - BooleanNodeDataDisabled
+        - BooleanNodeDataCollapsed
+        - Int32NodeDataColorIndex
+        - List`1NodeDataWatchedFields
+        - AbortTypeabortType
+        - Int32ID
+        - StringFriendlyName
+        - BooleanIsInstant
+        - Vector2NodeDataOffset
+        - StringNodeDataComment
+        - BooleanNodeDataIsBreakpoint
+        - BooleanNodeDataDisabled
+        - BooleanNodeDataCollapsed
+        - Int32NodeDataColorIndex
+        - List`1NodeDataWatchedFields
+        - SharedVector3TargetPosition
+        - StringSharedVector3TargetPositionType
+        - StringSharedVector3TargetPositionName
+        - Vector3SharedVector3TargetPositionmValue
+        - StringSpawnPointName
+        - Singledistance
+        - BooleanuseFixedDir
+        - SinglefixDirRatio
+        - BooleanuseGetPath
+        - LayerMaskCollisionLayerMask
+        - SharedLayerMaskCollidedLayerMask
+        - StringSharedLayerMaskCollidedLayerMaskType
+        - StringSharedLayerMaskCollidedLayerMaskName
+        - LayerMaskSharedLayerMaskCollidedLayerMaskmValue
+        - SharedVector3CollidedAwayForward
+        - StringSharedVector3CollidedAwayForwardType
+        - StringSharedVector3CollidedAwayForwardName
+        - Vector3SharedVector3CollidedAwayForwardmValue
+        - BooleanstopOnSucceed
+        - BooleanupdateDistance
+        - SharedFloatsharedDistance
+        - StringSharedFloatsharedDistanceType
+        - StringSharedFloatsharedDistanceName
+        - SingleSharedFloatsharedDistancemValue
+        - SinglefailMoveTime
+        - Int32ID
+        - StringFriendlyName
+        - BooleanIsInstant
+        - Vector2NodeDataOffset
+        - StringNodeDataComment
+        - BooleanNodeDataIsBreakpoint
+        - BooleanNodeDataDisabled
+        - BooleanNodeDataCollapsed
+        - Int32NodeDataColorIndex
+        - List`1NodeDataWatchedFields
+        - SinglewaitTime
+        - SinglerandomAddRange
+        startIndex: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002b0000002c0000002d0000002e0000002f0000003000000031000000320000003300000034000000340000003500000036000000370000003700000038000000390000003a0000003b0000003c0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b000000
+        dataPosition: 00000000240000002c0000002d00000031000000550000006300000064000000680000008e0000009c0000009d000000a9000000ad000000b2000000b3000000bb000000bb000000bc000000bd000000be000000c2000000c6000000ca000000d2000000d3000000db000000db000000dc000000dd000000de000000e2000000e6000000ea000000ee00000001010000020100000a0100000a0100000b0100000c0100000d01000011010000150100003b0100003b010000470100004e010000520100005301000057010000580100005c0100007401000074010000780100009e0100009e010000aa010000ab010000ac010000d0010000d0010000d4010000d8010000dc010000e0010000e1010000e9010000e9010000ea010000eb010000ec010000f0010000f4010000f8010000
+        unityObjects: []
+        byteData: 4265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f617441747461636b434401000000004265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f617441747461636b44697374616e636501412000004265686176696f7244657369676e65722e52756e74696d652e536861726564566563746f7233546172676574506f736974696f6e0100000000000000000000000000000000456e74727901000000000000000000000000000000000000000000000153657175656e636501000040c00000ee42000000000000000000000000000000000000024d6f766520546f20537061776e20506f696e7401000001c30080864300000000000000000000004265686176696f7244657369676e65722e52756e74696d652e536861726564566563746f7233000000000000000000000000537061776e30363f800000003f80000001000000004d6f6c654d6f6c652e5368617265644c617965724d61736b000000004265686176696f7244657369676e65722e52756e74696d652e536861726564566563746f723300000000000000000000000001004265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f61740000000000000000000000035761697401008017430000884300000000000000000000003f00000000000000
+        byteDataArray:

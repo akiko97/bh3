@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1456146643918388
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4455707708135468}
+  - 114: {fileID: 114323676725283185}
+  - 114: {fileID: 114682510487907961}
+  m_Layer: 0
+  m_Name: RealShadowPaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1664029973972219
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4242177260189299}
+  - 20: {fileID: 20018155426820664}
+  - 114: {fileID: 114546488017300459}
+  m_Layer: 0
+  m_Name: InnerCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4455707708135468
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1456146643918388}
+  m_LocalRotation: {x: 0.07486659, y: 0.81214416, z: -0.5686695, w: 0.106920555}
+  m_LocalPosition: {x: -0.19, y: 3.08, z: 0.71}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4242177260189299}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114323676725283185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1456146643918388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef4ceda05835e28d496c2d8e7fc8e17b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  PitchAngle: 70
+  Size: 1.2
+  ProjectorDistance: 0
+  CameraDistance: 2
+  Shader: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  size: 64
+  format: 4
+  ProjectorShader: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  FallOffTex: {fileID: 2800000, guid: 0728d43976d0c724dae75b4bbf4973c8, type: 3}
+--- !u!114 &114682510487907961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1456146643918388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea0a1f45fc69ebba7549a74c404085b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  AspectRatio: 1
+  Size: 1
+  FalloffStartDistance: 1
+  FalloffEndDistance: 3
+  Material: {fileID: 0}
+  LayerMask: 131072
+--- !u!4 &4242177260189299
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1664029973972219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4455707708135468}
+  m_RootOrder: 0
+--- !u!20 &20018155426820664
+Camera:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1664029973972219}
+  m_Enabled: 0
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.001
+  far clip plane: 3
+  field of view: 60
+  orthographic: 1
+  orthographic size: 1
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 8388608
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!114 &114546488017300459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1664029973972219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aa50cde0b26374044ab6c2a1bbdf019, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  MultipleGaussPassFilterShader: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  MultipleGaussPassFilterShaderHQ: {fileID: 0}
+  DrawShadowShader: {fileID: 0}
+  CullingLayer: 256
+  ReplacementLayer: 23
+  useBlur: 1
+  HighQuality: 0
+  blurLevel: 4
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1456146643918388}
+  m_IsPrefabParent: 1

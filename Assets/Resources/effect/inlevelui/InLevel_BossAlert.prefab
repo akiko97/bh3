@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1557707504161420
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4160147753850733}
+  - 114: {fileID: 114926171486318574}
+  - 114: {fileID: 114317859068110005}
+  - 114: {fileID: 114053426280545273}
+  - 114: {fileID: 114536398208802414}
+  - 114: {fileID: 114291471280548088}
+  m_Layer: 0
+  m_Name: InLevel_BossAlert
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1352963343835709
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4001931251612638}
+  - 111: {fileID: 111719414354089993}
+  - 114: {fileID: 114183101696762797}
+  m_Layer: 0
+  m_Name: Relative
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1697269571544092
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4101652348712073}
+  - 33: {fileID: 33850393195656243}
+  - 23: {fileID: 23675157720003473}
+  m_Layer: 12
+  m_Name: Warning
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4160147753850733
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1557707504161420}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4001931251612638}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114926171486318574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1557707504161420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f7fbafc4371703ac17b495f722b2df1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  OffsetVec3: {x: 0, y: 0, z: 0}
+  RotateX: 0
+  dontDestroyWhenOwnerEvade: 0
+  IgnoreTimescale: 0
+--- !u!114 &114317859068110005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1557707504161420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caaa8ebc2a19c03b216d871ef7f79cff, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  FollowRotation: 0
+--- !u!114 &114053426280545273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1557707504161420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bb390a6ec8981320dfa3a11b1c65051, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  EffectTime: 3.3
+  KillImmediately: 1
+--- !u!114 &114536398208802414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1557707504161420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53247d14f71197bc5a304e3a8ea73532, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  enterPatternName:
+  - eventName: Avatar_InLevel_BossAlert
+    delayTime: 0
+  exitPatternName: []
+--- !u!114 &114291471280548088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1557707504161420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6eea660e5bd50f2c99a0a36fca8372b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  tintEntries:
+  - RenderDataName: Effect_BossAlert
+    Duration: 0.3
+    TransitDuration: 0.3
+    Delay: 0
+  - RenderDataName: Effect_BossAlert
+    Duration: 0.3
+    TransitDuration: 0.3
+    Delay: 0.6
+  - RenderDataName: Effect_BossAlert
+    Duration: 0.3
+    TransitDuration: 0.3
+    Delay: 1.2
+  - RenderDataName: Effect_BossAlert
+    Duration: 0.3
+    TransitDuration: 0.3
+    Delay: 1.8
+--- !u!4 &4001931251612638
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1352963343835709}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.04, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_Children:
+  - {fileID: 4101652348712073}
+  m_Father: {fileID: 4160147753850733}
+  m_RootOrder: 0
+--- !u!111 &111719414354089993
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1352963343835709}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: 177f0bec32956ea43a43b56e09271be4, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 177f0bec32956ea43a43b56e09271be4, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &114183101696762797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1352963343835709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72e0977260a73ea14ae09370b9895f7c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  targetRenderers:
+  - {fileID: 23675157720003473}
+  vectorPropertyKey:
+  keyedVector: {x: 0, y: 0, z: 0, w: 0}
+  vectorPropertyKey2:
+  keyedVector2: {x: 0, y: 0, z: 0, w: 0}
+  floatPropertyKey: _Opaqueness
+  keyedFloat: 1
+  floatPropertyKey2:
+  keyedFloat2: 0
+  floatPropertyKey3:
+  keyedFloat3: 0
+  colorPropertyKey: _MainColor
+  keyedColor: {r: 1, g: 0.21568629, b: 0, a: 1}
+--- !u!4 &4101652348712073
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1697269571544092}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.01, z: 0}
+  m_LocalScale: {x: 1.5, y: 3.34, z: 1.41}
+  m_Children: []
+  m_Father: {fileID: 4001931251612638}
+  m_RootOrder: 0
+--- !u!33 &33850393195656243
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1697269571544092}
+  m_Mesh: {fileID: 4300000, guid: 293cf10207167944ea42870c251c7f9e, type: 2}
+--- !u!23 &23675157720003473
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1697269571544092}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a128dec5fa140154a866501c216917db, type: 2}
+  m_SubsetIndices:
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1557707504161420}
+  m_IsPrefabParent: 1

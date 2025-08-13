@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb471d59ec41c371e82293700ed2d1d, type: 3}
+  m_Name: AvatarAutoBattleBehavior_Attack_Test
+  m_EditorClassIdentifier:
+  mBehaviorSource:
+    behaviorName: Behavior
+    behaviorDescription:
+    mTaskData:
+      types:
+      - BehaviorDesigner.Runtime.Tasks.EntryTask
+      - BehaviorDesigner.Runtime.Tasks.Sequence
+      - BehaviorDesigner.Runtime.Tasks.Basic.SharedVariables.CompareSharedBool
+      - MoleMole.TriggerAnim
+      - MoleMole.Wait
+      parentIndex: ffffffff00000000010000000100000001000000
+      startIndex: 0c00000016000000210000003400000043000000
+      variableStartIndex: 000000000400000008000000
+      JSONSerialization:
+      fieldSerializationData:
+        typeName:
+        - StringType
+        - StringName
+        - BooleanIsShared
+        - SinglemValue
+        - StringType
+        - StringName
+        - BooleanIsShared
+        - SinglemValue
+        - StringType
+        - StringName
+        - BooleanIsShared
+        - BooleanmValue
+        - Int32ID
+        - StringFriendlyName
+        - BooleanIsInstant
+        - Vector2NodeDataOffset
+        - StringNodeDataComment
+        - BooleanNodeDataIsBreakpoint
+        - BooleanNodeDataDisabled
+        - BooleanNodeDataCollapsed
+        - Int32NodeDataColorIndex
+        - List`1NodeDataWatchedFields
+        - Int32ID
+        - StringFriendlyName
+        - BooleanIsInstant
+        - Vector2NodeDataOffset
+        - StringNodeDataComment
+        - BooleanNodeDataIsBreakpoint
+        - BooleanNodeDataDisabled
+        - BooleanNodeDataCollapsed
+        - Int32NodeDataColorIndex
+        - List`1NodeDataWatchedFields
+        - AbortTypeabortType
+        - Int32ID
+        - StringFriendlyName
+        - BooleanIsInstant
+        - Vector2NodeDataOffset
+        - StringNodeDataComment
+        - BooleanNodeDataIsBreakpoint
+        - BooleanNodeDataDisabled
+        - BooleanNodeDataCollapsed
+        - Int32NodeDataColorIndex
+        - List`1NodeDataWatchedFields
+        - SharedBoolvariable
+        - StringSharedBoolvariableType
+        - StringSharedBoolvariableName
+        - BooleanSharedBoolvariableIsShared
+        - BooleanSharedBoolvariablemValue
+        - SharedBoolcompareTo
+        - StringSharedBoolcompareToType
+        - StringSharedBoolcompareToName
+        - BooleanSharedBoolcompareTomValue
+        - Int32ID
+        - StringFriendlyName
+        - BooleanIsInstant
+        - Vector2NodeDataOffset
+        - StringNodeDataComment
+        - BooleanNodeDataIsBreakpoint
+        - BooleanNodeDataDisabled
+        - BooleanNodeDataCollapsed
+        - Int32NodeDataColorIndex
+        - List`1NodeDataWatchedFields
+        - StringtriggerName
+        - Booleancompletely
+        - BooleanonlyTriggerInSkill
+        - StringskillName
+        - EntityTypeentityType
+        - Int32ID
+        - StringFriendlyName
+        - BooleanIsInstant
+        - Vector2NodeDataOffset
+        - StringNodeDataComment
+        - BooleanNodeDataIsBreakpoint
+        - BooleanNodeDataDisabled
+        - BooleanNodeDataCollapsed
+        - Int32NodeDataColorIndex
+        - List`1NodeDataWatchedFields
+        - SinglewaitTime
+        - SinglerandomAddRange
+        startIndex: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002b0000002c0000002d0000002e0000002f0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c000000
+        dataPosition: 00000000240000002c0000002d00000031000000550000006300000064000000680000008b000000930000009400000095000000990000009e0000009f000000a7000000a7000000a8000000a9000000aa000000ae000000b2000000b6000000be000000bf000000c7000000c7000000c8000000c9000000ca000000ce000000d2000000d6000000da000000ed000000ee000000f6000000f6000000f7000000f8000000f9000000fd00000001010000240100002c0100002d0100002e0100005101000051010000520100005601000062010000630100006b0100006b0100006c0100006d0100006e010000720100007601000083010000840100008501000085010000890100008d01000091010000920100009a0100009a0100009b0100009c0100009d010000a1010000a5010000a9010000
+        unityObjects: []
+        byteData: 4265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f617441747461636b434401000000004265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f617441747461636b44697374616e636501412000004265686176696f7244657369676e65722e52756e74696d652e536861726564426f6f6c446f41747461636b010000000000456e74727901000000000000000000000000000000000000000000000153657175656e6365010000003f0000244300000000000000000000000000000000000002436f6d706172652053686172656420426f6f6c0138bd49c35ac89f4300000000000000000000004265686176696f7244657369676e65722e52756e74696d652e536861726564426f6f6c446f41747461636b01004265686176696f7244657369676e65722e52756e74696d652e536861726564426f6f6c01000000035472696767657220416e696d01000000000c599a4300000000000000000000005472696767657241747461636b01000000000200000004576169740138bd3543bee9944300000000000000000000003f00000000000000
+        byteDataArray: 4265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f617441747461636b434401000000004265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f617441747461636b44697374616e636501000020414265686176696f7244657369676e65722e52756e74696d652e536861726564426f6f6c446f41747461636b010000000000456e74727901000000000000000000000000000000000000000100000053657175656e6365010000003f0000244300000000000000000000000000000002000000436f6d706172652053686172656420426f6f6c0138bd49c35ac89f4300000000000000000000004265686176696f7244657369676e65722e52756e74696d652e536861726564426f6f6c446f41747461636b01004265686176696f7244657369676e65722e52756e74696d652e536861726564426f6f6c01030000005472696767657220416e696d01000000000c599a4300000000000000000000005472696767657241747461636b01000200000004000000576169740138bd3543bee9944300000000000000000000000000003f00000000

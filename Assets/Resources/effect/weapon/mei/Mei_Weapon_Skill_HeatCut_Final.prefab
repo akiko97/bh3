@@ -1,0 +1,297 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1978668822561506
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4855846386264662}
+  - 114: {fileID: 114141963958871593}
+  - 114: {fileID: 114176871884030881}
+  - 114: {fileID: 114842461947983282}
+  m_Layer: 11
+  m_Name: Mei_Weapon_Skill_HeatCut_Final
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1406953236643805
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4540150581806122}
+  - 114: {fileID: 114632246399875895}
+  m_Layer: 10
+  m_Name: TrailRenderer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1933167448624325
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4059322624856252}
+  m_Layer: 11
+  m_Name: TrailAnchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4855846386264662
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1978668822561506}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4540150581806122}
+  - {fileID: 4059322624856252}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114141963958871593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1978668822561506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f7fbafc4371703ac17b495f722b2df1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  OffsetVec3: {x: 0, y: 0, z: 0}
+  RotateX: 0
+  dontDestroyWhenOwnerEvade: 0
+  IgnoreTimescale: 0
+--- !u!114 &114176871884030881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1978668822561506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb70080075f5f2d5506c0850d974f02, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  TrailRendererTransform: {fileID: 4540150581806122}
+  AniAnchorTransform: {fileID: 4059322624856252}
+  FramePosList:
+  - {x: -0.18768683, y: 1, z: 1.7910075}
+  - {x: 0.44495848, y: 0.99473685, z: 1.7488577}
+  - {x: 1.0269722, y: 0.9894737, z: 1.5077062}
+  - {x: 1.4921268, y: 0.98421055, z: 1.0949932}
+  - {x: 1.7874932, y: 0.97894734, z: 0.55768126}
+  - {x: 1.8794612, y: 0.9736842, z: -0.043088976}
+  - {x: 1.7575661, y: 0.96842104, z: -0.6389558}
+  - {x: 1.4356781, y: 0.9631579, z: -1.1621166}
+  - {x: 0.95042497, y: 0.95789474, z: -1.5530401}
+  - {x: 0.35702285, y: 0.9526316, z: -1.7672442}
+  - {x: -0.2770043, y: 0.94736844, z: -1.7803539}
+  - {x: -0.8795113, y: 0.94210523, z: -1.5908779}
+  - {x: -1.3819389, y: 0.9368421, z: -1.2203765}
+  - {x: -1.7271166, y: 0.93157893, z: -0.7110086}
+  - {x: -1.875766, y: 0.9263158, z: -0.12073569}
+  - {x: -1.8109726, y: 0.92105263, z: 0.48327655}
+  - {x: -1.5401099, y: 0.9157895, z: 1.0322953}
+  - {x: -1.0939983, y: 0.91052634, z: 1.4638506}
+  - {x: -0.5234003, y: 0.9052631, z: 1.7288351}
+  - {x: 0.10675445, y: 0.9, z: 1.7970955}
+  generateDefaultDuration: 1
+  appearDuration: 0.1
+  appearCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  vanishDuration: 0.1
+  vanishCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MaterialOverrideKey: Mei_Blade_Trail
+  EffectOverlayKey:
+  TimeScale: 1.5
+--- !u!114 &114842461947983282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1978668822561506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04e3251a3d85f79169915e0b4657dbc0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  FollowTargetPath:
+  IsNotAttachPoint: 0
+  FollowRotation: 0
+  FollowYRotation: 0
+  NoFollowDestory: 0
+  OnlyFirstFrame: 0
+  FollowByInitPos: 0
+  ActivateOnStart: {fileID: 0}
+--- !u!4 &4540150581806122
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1406953236643805}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4855846386264662}
+  m_RootOrder: 0
+--- !u!114 &114632246399875895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1406953236643805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 767613d52081a609c100d3b5509e9b21, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  TrailData:
+    TrailMaterials:
+    - {fileID: 2100000, guid: 9c674084150f59d4398ea390eb0bd63e, type: 2}
+    Lifetime: 0.2
+    UsingSimpleSize: 0
+    SimpleSizeOverLifeStart: 1
+    SimpleSizeOverLifeEnd: 0
+    SizeOverLife:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0.7
+        inSlope: -0.0071077454
+        outSlope: -0.0071077454
+        tangentMode: 0
+      - time: 1
+        value: 0
+        inSlope: -1.4240607
+        outSlope: -1.4240607
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UsingSimpleColor: 0
+    SimpleColorOverLifeStart: {r: 1, g: 1, b: 1, a: 1}
+    SimpleColorOverLifeEnd: {r: 1, g: 1, b: 1, a: 0}
+    ColorOverLife:
+      key0:
+        serializedVersion: 2
+        rgba: 16777215
+      key1:
+        serializedVersion: 2
+        rgba: 855638015
+      key2:
+        serializedVersion: 2
+        rgba: 503316480
+      key3:
+        serializedVersion: 2
+        rgba: 0
+      key4:
+        serializedVersion: 2
+        rgba: 0
+      key5:
+        serializedVersion: 2
+        rgba: 0
+      key6:
+        serializedVersion: 2
+        rgba: 0
+      key7:
+        serializedVersion: 2
+        rgba: 0
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 7710
+      atime2: 32768
+      atime3: 65535
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 4
+    StretchSizeToFit: 0
+    StretchColorToFit: 0
+    MaterialTileLength: 0
+    UseForwardOverride: 1
+    ForwardOverride: {x: 0, y: -1, z: 0}
+    ForwardOverrideRelative: 1
+  Emit: 0
+  StretchUpRatio: 1
+  StretchDownRatio: 1
+  clockSize: 0
+  PointsBetweenControlPoints: 4
+--- !u!4 &4059322624856252
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1933167448624325}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4855846386264662}
+  m_RootOrder: 1
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1978668822561506}
+  m_IsPrefabParent: 1

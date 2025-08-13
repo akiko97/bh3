@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1129970350632894
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4851885080595884}
+  - 111: {fileID: 111980799084667265}
+  - 114: {fileID: 114540545553787490}
+  m_Layer: 0
+  m_Name: See_DG_020
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4851885080595884
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1129970350632894}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!111 &111980799084667265
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1129970350632894}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: b4968055c624e0949b276b6b7bed3df7, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: b4968055c624e0949b276b6b7bed3df7, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &114540545553787490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1129970350632894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf15482ae4c3cc87b22db582e3b46c2a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  useKeyedRotation: 1
+  keyedRotation: {x: 0, y: 0, z: 0}
+  useAnimRotation: 0
+  useKeyedRadialBlur: 0
+  radialBlurCenter: {x: 0, y: 0}
+  radialBlurStrenth: 0
+  radialBlurScatterScale: 0
+  realAnimGameObject: {fileID: 0}
+  useFixedParentAnchor: 0
+  useKeyedFOV: 0
+  keyedFOV: 0
+  useKeyedDirectionalLightRotation: 0
+  keyedDirectionalLightRotation: {x: 0, y: 0, z: 0}
+  hasPushedLevelTimeScale: 0
+  initFOV: -1
+  initClipZNear: -1
+  timeScaleMode: 0
+  graphics: []
+  UseSpecificCircleTrack: 0
+  circleTrack:
+    radius: 0
+    angularSpeed: 0
+    startAngle: 0
+    elevation: 0
+    isAntiClockwise: 0
+    centerPos: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1129970350632894}
+  m_IsPrefabParent: 1

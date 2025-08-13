@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b8e670097883039af3c4ead91381b5, type: 3}
+  m_Name: GachaSky
+  m_EditorClassIdentifier:
+  Common:
+    PlaybackSpeed: 4
+    TransitionTime: 2
+    SceneList:
+    - Name: gachaSky
+      ChooseRate: 2
+    Tex: {fileID: 2800000, guid: dceff20bad3b058488d79c309aa22055, type: 3}
+    SecondTex: {fileID: 2800000, guid: 9c8b60c29c6ea4f4db34db6f7e0697f7, type: 3}
+  ConfigList:
+  - Name: 12
+    FrameTime: 12
+    CloudStyle:
+      BrightColor: {r: 1, g: 1, b: 1, a: 1}
+      DarkColor: {r: 1, g: 1, b: 1, a: 1}
+      SecondDarkColor: {r: 0.85294116, g: 0.93306285, b: 1, a: 1}
+      RimColor: {r: 0.14738324, g: 0.42045656, b: 0.6911765, a: 0.2901961}
+      FlashColor: {r: 0.99543613, g: 0.6691177, b: 1, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0.8602941, g: 0.9401261, b: 1, a: 1}
+      GColor: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
+      BColor: {r: 0.5808823, g: 0.5780545, b: 0.5552552, a: 1}
+      GradTopColor: {r: 0.2700584, g: 0.540933, b: 0.8161765, a: 1}
+      GradBottomColor: {r: 0.1102941, g: 0.41095343, b: 1, a: 1}
+      XLocation: 0.007
+      YLocation: 0.53
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.344
+      SecTexHigh: 0.218
+      SecTexEmission: 0
+      GradLocation: -0.965
+      GradHigh: 0.02
+      BloomFactor: 0.6
+    Indoor:
+      TintColor: {r: 1, g: 1, b: 1, a: 0}
+  - Name: 18
+    FrameTime: 18
+    CloudStyle:
+      BrightColor: {r: 0.6102941, g: 0.64523315, b: 1, a: 1}
+      DarkColor: {r: 0.68771625, g: 0.74543613, b: 0.88235295, a: 1}
+      SecondDarkColor: {r: 0.9852941, g: 0.9933063, b: 1, a: 1}
+      RimColor: {r: 0.43144464, g: 0.5438044, b: 0.6985294, a: 0.2901961}
+      FlashColor: {r: 0.13754325, g: 0.25489798, b: 0.35294116, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0, g: 0, b: 0, a: 1}
+      GColor: {r: 0, g: 0, b: 0, a: 1}
+      BColor: {r: 0, g: 0, b: 0, a: 1}
+      GradTopColor: {r: 0.2163711, g: 0.26128885, b: 0.42647058, a: 1}
+      GradBottomColor: {r: 0.1659513, g: 0.15603372, b: 0.28676468, a: 1}
+      XLocation: 0.163
+      YLocation: 0.53
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.524
+      SecTexHigh: 0.257
+      SecTexEmission: 5.71
+      GradLocation: -0.469
+      GradHigh: 0.77
+      BloomFactor: 1.1
+    Indoor:
+      TintColor: {r: 1, g: 0.98012173, b: 0.89705884, a: 0}

@@ -1,0 +1,3906 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d39741d17267b3562c915acc33f46a8c, type: 3}
+  m_Name: Bronya
+  m_EditorClassIdentifier:
+  _objectReferences: []
+  _serializedStateKeys:
+  - items
+  _serializedStateValues:
+  - '[{"name":"Bro_1_1","length":51,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":5,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_15_11"},{"frameLength":1,"frameKey":"Bro_L_15_12"},{"frameLength":1,"frameKey":"Bro_L_15_13"},{"frameLength":1,"frameKey":"Bro_L_15_13"},{"frameLength":1,"frameKey":"Bro_L_15_13"},{"frameLength":1,"frameKey":"Bro_L_15_13"},{"frameLength":1,"frameKey":"Bro_L_15_13"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_03"},{"frameLength":3,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_12_11"},{"frameLength":1,"frameKey":"Bro_L_12_12"},{"frameLength":7,"frameKey":"Bro_L_12_13"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_03"},{"frameLength":6,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"origin"}],"rightEyeBlocks":[{"frameLength":5,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_15_11"},{"frameLength":1,"frameKey":"Bro_R_15_12"},{"frameLength":1,"frameKey":"Bro_R_15_13"},{"frameLength":1,"frameKey":"Bro_R_15_13"},{"frameLength":1,"frameKey":"Bro_R_15_13"},{"frameLength":1,"frameKey":"Bro_R_15_13"},{"frameLength":1,"frameKey":"Bro_R_15_13"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_03"},{"frameLength":3,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_12_11"},{"frameLength":1,"frameKey":"Bro_R_12_12"},{"frameLength":7,"frameKey":"Bro_R_12_13"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_03"},{"frameLength":6,"frameKey":"Bro_R_01_00"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":3,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"}],"attachmentBlocks":[]},{"name":"Bro_1_2","length":51,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":4,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":8,"frameKey":"Bro_L_16_11"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_12_11"},{"frameLength":1,"frameKey":"Bro_L_12_12"},{"frameLength":5,"frameKey":"Bro_L_12_13"},{"frameLength":1,"frameKey":"Bro_L_12_12"},{"frameLength":1,"frameKey":"Bro_L_12_11"},{"frameLength":6,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_15_11"},{"frameLength":1,"frameKey":"Bro_L_15_12"},{"frameLength":9,"frameKey":"Bro_L_15_13"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":4,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":8,"frameKey":"Bro_R_16_11"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_12_11"},{"frameLength":1,"frameKey":"Bro_R_12_12"},{"frameLength":5,"frameKey":"Bro_R_12_13"},{"frameLength":1,"frameKey":"Bro_R_12_12"},{"frameLength":1,"frameKey":"Bro_R_12_11"},{"frameLength":6,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_15_11"},{"frameLength":1,"frameKey":"Bro_R_15_12"},{"frameLength":9,"frameKey":"Bro_R_15_13"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":4,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":10,"frameKey":"Bro_M_01_01"}],"attachmentBlocks":[]},{"name":"Bro_1_3","length":72,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":6,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_17_11"},{"frameLength":10,"frameKey":"Bro_L_17_12"},{"frameLength":1,"frameKey":"Bro_L_17_13"},{"frameLength":9,"frameKey":"Bro_L_17_14"},{"frameLength":1,"frameKey":"Bro_L_05_10"},{"frameLength":1,"frameKey":"Bro_L_05_11"},{"frameLength":1,"frameKey":"Bro_L_05_12"},{"frameLength":7,"frameKey":"Bro_L_05_02"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":6,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_17_11"},{"frameLength":10,"frameKey":"Bro_R_17_12"},{"frameLength":1,"frameKey":"Bro_R_17_13"},{"frameLength":9,"frameKey":"Bro_R_17_14"},{"frameLength":1,"frameKey":"Bro_R_05_10"},{"frameLength":1,"frameKey":"Bro_R_05_11"},{"frameLength":1,"frameKey":"Bro_R_05_12"},{"frameLength":7,"frameKey":"Bro_R_05_02"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":11,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":5,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"}],"attachmentBlocks":[]},{"name":"Bro_1_4_6","length":39,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":4,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":12,"frameKey":"Bro_L_08_01"},{"frameLength":12,"frameKey":"Bro_L_05_02"},{"frameLength":1,"frameKey":"Bro_L_05_10"},{"frameLength":1,"frameKey":"Bro_L_05_21"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":4,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":12,"frameKey":"Bro_R_08_01"},{"frameLength":12,"frameKey":"Bro_R_05_02"},{"frameLength":1,"frameKey":"Bro_R_05_10"},{"frameLength":1,"frameKey":"Bro_R_05_21"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":7,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_05"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"}],"attachmentBlocks":[]},{"name":"Bro_1_5","length":51,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":7,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_05_10"},{"frameLength":1,"frameKey":"Bro_L_05_11"},{"frameLength":1,"frameKey":"Bro_L_05_12"},{"frameLength":34,"frameKey":"Bro_L_05_02"},{"frameLength":1,"frameKey":"Bro_L_05_10"},{"frameLength":1,"frameKey":"Bro_L_05_21"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":7,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_05_10"},{"frameLength":1,"frameKey":"Bro_R_05_11"},{"frameLength":1,"frameKey":"Bro_R_05_12"},{"frameLength":34,"frameKey":"Bro_R_05_02"},{"frameLength":1,"frameKey":"Bro_R_05_10"},{"frameLength":1,"frameKey":"Bro_R_05_21"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":7,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":5,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_02"}],"attachmentBlocks":[]},{"name":"Bro_1_7","length":50,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":7,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_05_01"},{"frameLength":11,"frameKey":"Bro_L_05_02"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_15_21"},{"frameLength":1,"frameKey":"Bro_L_15_22"},{"frameLength":5,"frameKey":"Bro_L_15_23"},{"frameLength":1,"frameKey":"Bro_L_15_22"},{"frameLength":1,"frameKey":"Bro_L_15_21"},{"frameLength":1,"frameKey":"Bro_L_15_21"},{"frameLength":1,"frameKey":"Bro_L_12_21"},{"frameLength":1,"frameKey":"Bro_L_12_22"},{"frameLength":7,"frameKey":"Bro_L_12_23"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":7,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_05_01"},{"frameLength":11,"frameKey":"Bro_R_05_02"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_15_21"},{"frameLength":1,"frameKey":"Bro_R_15_22"},{"frameLength":5,"frameKey":"Bro_R_15_23"},{"frameLength":1,"frameKey":"Bro_R_15_22"},{"frameLength":1,"frameKey":"Bro_R_15_21"},{"frameLength":1,"frameKey":"Bro_R_15_21"},{"frameLength":1,"frameKey":"Bro_R_12_21"},{"frameLength":1,"frameKey":"Bro_R_12_22"},{"frameLength":7,"frameKey":"Bro_R_12_23"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":7,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_06_01"},{"frameLength":12,"frameKey":"Bro_M_06_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"}],"attachmentBlocks":[]},{"name":"Bro_1_8","length":56,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":1,"frameKey":"origin"},{"frameLength":1,"frameKey":"Bro_L_08_01"},{"frameLength":7,"frameKey":"Bro_L_08_02"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":4,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_14_11"},{"frameLength":1,"frameKey":"Bro_L_14_12"},{"frameLength":1,"frameKey":"Bro_L_14_13"},{"frameLength":1,"frameKey":"Bro_L_14_13"},{"frameLength":1,"frameKey":"Bro_L_14_13"},{"frameLength":1,"frameKey":"Bro_L_14_12"},{"frameLength":4,"frameKey":"Bro_L_14_11"},{"frameLength":1,"frameKey":"Bro_L_11_11"},{"frameLength":1,"frameKey":"Bro_L_11_12"},{"frameLength":7,"frameKey":"Bro_L_11_13"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":1,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_08_01"},{"frameLength":7,"frameKey":"Bro_R_08_02"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":4,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_14_11"},{"frameLength":1,"frameKey":"Bro_R_14_12"},{"frameLength":1,"frameKey":"Bro_R_14_13"},{"frameLength":1,"frameKey":"Bro_R_14_13"},{"frameLength":1,"frameKey":"Bro_R_14_13"},{"frameLength":1,"frameKey":"Bro_R_14_12"},{"frameLength":4,"frameKey":"Bro_R_14_11"},{"frameLength":1,"frameKey":"Bro_R_11_11"},{"frameLength":1,"frameKey":"Bro_R_11_12"},{"frameLength":7,"frameKey":"Bro_R_11_13"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_05"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":5,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"}],"attachmentBlocks":[]},{"name":"Bro_1_9","length":38,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":1,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_05_01"},{"frameLength":30,"frameKey":"Bro_L_05_02"},{"frameLength":1,"frameKey":"Bro_L_05_10"},{"frameLength":1,"frameKey":"Bro_L_05_21"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":1,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_05_01"},{"frameLength":30,"frameKey":"Bro_R_05_02"},{"frameLength":1,"frameKey":"Bro_R_05_10"},{"frameLength":1,"frameKey":"Bro_R_05_21"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_06_01"},{"frameLength":6,"frameKey":"Bro_M_06_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"}],"attachmentBlocks":[]},{"name":"Bro_2_1","length":42,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":1,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_03_01"},{"frameLength":36,"frameKey":"Bro_L_03_02"},{"frameLength":1,"frameKey":"Bro_L_03_10"},{"frameLength":1,"frameKey":"Bro_L_03_21"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":1,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_03_01"},{"frameLength":36,"frameKey":"Bro_R_03_02"},{"frameLength":1,"frameKey":"Bro_R_03_10"},{"frameLength":1,"frameKey":"Bro_R_03_21"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":5,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_04"}],"attachmentBlocks":[]},{"name":"Bro_2_2","length":52,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":3,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_09_01"},{"frameLength":1,"frameKey":"Bro_L_09_02"},{"frameLength":13,"frameKey":"Bro_L_09_03"},{"frameLength":1,"frameKey":"Bro_L_05_10"},{"frameLength":1,"frameKey":"Bro_L_05_11"},{"frameLength":1,"frameKey":"Bro_L_05_12"},{"frameLength":25,"frameKey":"Bro_L_05_02"},{"frameLength":1,"frameKey":"Bro_L_05_20"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":3,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_09_01"},{"frameLength":1,"frameKey":"Bro_R_09_02"},{"frameLength":13,"frameKey":"Bro_R_09_03"},{"frameLength":1,"frameKey":"Bro_R_05_10"},{"frameLength":1,"frameKey":"Bro_R_05_11"},{"frameLength":1,"frameKey":"Bro_R_05_12"},{"frameLength":25,"frameKey":"Bro_R_05_02"},{"frameLength":1,"frameKey":"Bro_R_05_20"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":11,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"}],"attachmentBlocks":[]},{"name":"Bro_2_3_5","length":72,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":4,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_02_03"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":34,"frameKey":"Bro_L_02_00"},{"frameLength":0,"frameKey":"Bro_L_02_01"},{"frameLength":0,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":4,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_02_03"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":34,"frameKey":"Bro_R_02_00"},{"frameLength":0,"frameKey":"Bro_R_02_01"},{"frameLength":0,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":6,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":5,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"}],"attachmentBlocks":[]},{"name":"Bro_2_4_6","length":78,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":9,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_02_03"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":2,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_11_11"},{"frameLength":1,"frameKey":"Bro_L_11_12"},{"frameLength":17,"frameKey":"Bro_L_11_13"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_03_11"},{"frameLength":1,"frameKey":"Bro_L_03_12"},{"frameLength":28,"frameKey":"Bro_L_03_02"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":9,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_02_03"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":2,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_11_11"},{"frameLength":1,"frameKey":"Bro_R_11_12"},{"frameLength":17,"frameKey":"Bro_R_11_13"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_03_11"},{"frameLength":1,"frameKey":"Bro_R_03_12"},{"frameLength":28,"frameKey":"Bro_R_03_02"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":10,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_06_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_06_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":11,"frameKey":"Bro_M_06_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"}],"attachmentBlocks":[]},{"name":"Bro_2_7","length":52,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":3,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_03_11"},{"frameLength":1,"frameKey":"Bro_L_03_12"},{"frameLength":37,"frameKey":"Bro_L_03_02"},{"frameLength":1,"frameKey":"Bro_L_03_11"},{"frameLength":1,"frameKey":"Bro_L_03_10"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":3,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_03_11"},{"frameLength":1,"frameKey":"Bro_R_03_12"},{"frameLength":37,"frameKey":"Bro_R_03_02"},{"frameLength":1,"frameKey":"Bro_R_03_11"},{"frameLength":1,"frameKey":"Bro_R_03_10"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_03"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_03"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"}],"attachmentBlocks":[]},{"name":"Bro_2_8","length":74,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":2,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_03_01"},{"frameLength":10,"frameKey":"Bro_L_03_02"},{"frameLength":1,"frameKey":"Bro_L_03_10"},{"frameLength":1,"frameKey":"Bro_L_03_11"},{"frameLength":1,"frameKey":"Bro_L_03_12"},{"frameLength":39,"frameKey":"Bro_L_03_02"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":2,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_03_01"},{"frameLength":10,"frameKey":"Bro_R_03_02"},{"frameLength":1,"frameKey":"Bro_R_03_10"},{"frameLength":1,"frameKey":"Bro_R_03_11"},{"frameLength":1,"frameKey":"Bro_R_03_12"},{"frameLength":39,"frameKey":"Bro_R_03_02"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":5,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"}],"attachmentBlocks":[]},{"name":"Bro_2_9","length":46,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":1,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_02_03"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":37,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":1,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_02_03"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":37,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"}],"attachmentBlocks":[]},{"name":"Bro_3_1","length":90,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":9,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_02_03"},{"frameLength":1,"frameKey":"Bro_L_06_22"},{"frameLength":62,"frameKey":"Bro_L_06_10"},{"frameLength":1,"frameKey":"Bro_L_06_11"},{"frameLength":1,"frameKey":"Bro_L_06_12"},{"frameLength":7,"frameKey":"Bro_L_06_02"},{"frameLength":2,"frameKey":"Bro_L_06_10"},{"frameLength":1,"frameKey":"Bro_L_06_22"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":9,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_02_03"},{"frameLength":1,"frameKey":"Bro_R_06_22"},{"frameLength":62,"frameKey":"Bro_R_06_10"},{"frameLength":1,"frameKey":"Bro_R_06_11"},{"frameLength":1,"frameKey":"Bro_R_06_12"},{"frameLength":7,"frameKey":"Bro_R_06_02"},{"frameLength":2,"frameKey":"Bro_R_06_10"},{"frameLength":1,"frameKey":"Bro_R_06_22"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":7,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":14,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"origin"}],"attachmentBlocks":[]},{"name":"Bro_3_2","length":125,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":9,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_02_03"},{"frameLength":26,"frameKey":"Bro_L_06_22"},{"frameLength":1,"frameKey":"Bro_L_06_20"},{"frameLength":1,"frameKey":"Bro_L_06_22"},{"frameLength":1,"frameKey":"Bro_L_06_20"},{"frameLength":1,"frameKey":"Bro_L_06_21"},{"frameLength":40,"frameKey":"Bro_L_06_22"},{"frameLength":1,"frameKey":"Bro_L_06_20"},{"frameLength":1,"frameKey":"Bro_L_13_73"},{"frameLength":7,"frameKey":"Bro_L_14_73"},{"frameLength":2,"frameKey":"Bro_L_14_72"},{"frameLength":2,"frameKey":"Bro_L_14_71"},{"frameLength":27,"frameKey":"Bro_L_06_22"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"origin"}],"rightEyeBlocks":[{"frameLength":9,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_02_03"},{"frameLength":26,"frameKey":"Bro_R_06_22"},{"frameLength":1,"frameKey":"Bro_R_06_20"},{"frameLength":1,"frameKey":"Bro_R_06_22"},{"frameLength":1,"frameKey":"Bro_R_06_20"},{"frameLength":1,"frameKey":"Bro_R_06_21"},{"frameLength":40,"frameKey":"Bro_R_06_22"},{"frameLength":1,"frameKey":"Bro_R_06_20"},{"frameLength":1,"frameKey":"Bro_R_13_73"},{"frameLength":7,"frameKey":"Bro_R_14_73"},{"frameLength":2,"frameKey":"Bro_R_14_72"},{"frameLength":2,"frameKey":"Bro_R_14_71"},{"frameLength":27,"frameKey":"Bro_R_06_22"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":6,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":6,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":4,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":3,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":2,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":10,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":12,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"origin"}],"attachmentBlocks":[]},{"name":"Bro_3_3_5","length":50,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":1,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_02_03"},{"frameLength":14,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_13_12"},{"frameLength":5,"frameKey":"Bro_L_14_13"},{"frameLength":2,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":19,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":1,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_02_03"},{"frameLength":14,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_13_12"},{"frameLength":5,"frameKey":"Bro_R_14_13"},{"frameLength":2,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":19,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":5,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":12,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"origin"}],"attachmentBlocks":[]},{"name":"Bro_3_4_6","length":56,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":1,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_06_01"},{"frameLength":18,"frameKey":"Bro_L_06_02"},{"frameLength":2,"frameKey":"Bro_L_06_10"},{"frameLength":1,"frameKey":"Bro_L_06_21"},{"frameLength":2,"frameKey":"Bro_L_06_22"},{"frameLength":2,"frameKey":"Bro_L_06_20"},{"frameLength":1,"frameKey":"Bro_L_06_21"},{"frameLength":25,"frameKey":"Bro_L_06_22"},{"frameLength":1,"frameKey":"Bro_L_06_01"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":1,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_06_01"},{"frameLength":18,"frameKey":"Bro_R_06_02"},{"frameLength":2,"frameKey":"Bro_R_06_10"},{"frameLength":1,"frameKey":"Bro_R_06_21"},{"frameLength":2,"frameKey":"Bro_R_06_22"},{"frameLength":2,"frameKey":"Bro_R_06_20"},{"frameLength":1,"frameKey":"Bro_R_06_21"},{"frameLength":25,"frameKey":"Bro_R_06_22"},{"frameLength":1,"frameKey":"Bro_R_06_01"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_03"},{"frameLength":6,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_03"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_03"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_03"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":15,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"origin"}],"attachmentBlocks":[]},{"name":"Bro_3_7_9","length":75,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":3,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_17_11"},{"frameLength":4,"frameKey":"Bro_L_17_12"},{"frameLength":1,"frameKey":"Bro_L_17_13"},{"frameLength":9,"frameKey":"Bro_L_17_14"},{"frameLength":1,"frameKey":"Bro_L_17_15"},{"frameLength":2,"frameKey":"Bro_L_01_00"},{"frameLength":2,"frameKey":"Bro_L_03_10"},{"frameLength":1,"frameKey":"Bro_L_03_11"},{"frameLength":1,"frameKey":"Bro_L_03_12"},{"frameLength":45,"frameKey":"Bro_L_03_02"},{"frameLength":1,"frameKey":"Bro_L_03_01"}],"rightEyeBlocks":[{"frameLength":3,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_17_11"},{"frameLength":4,"frameKey":"Bro_R_17_12"},{"frameLength":1,"frameKey":"Bro_R_17_13"},{"frameLength":9,"frameKey":"Bro_R_17_14"},{"frameLength":1,"frameKey":"Bro_R_17_15"},{"frameLength":2,"frameKey":"Bro_R_01_00"},{"frameLength":2,"frameKey":"Bro_R_03_10"},{"frameLength":1,"frameKey":"Bro_R_03_11"},{"frameLength":1,"frameKey":"Bro_R_03_12"},{"frameLength":45,"frameKey":"Bro_R_03_02"},{"frameLength":1,"frameKey":"Bro_R_03_01"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":2,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":4,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":5,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_02"}],"attachmentBlocks":[]},{"name":"Bro_3_8","length":70,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":1,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_02_03"},{"frameLength":28,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":1,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_02_03"},{"frameLength":28,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_03"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_03"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_03"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_03"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_03"},{"frameLength":4,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_03"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_03"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_03"}],"attachmentBlocks":[]},{"name":"Bro_4_1","length":80,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":2,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_02_03"},{"frameLength":12,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":2,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":2,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_14_11"},{"frameLength":1,"frameKey":"Bro_L_14_12"},{"frameLength":13,"frameKey":"Bro_L_14_13"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_13_13"},{"frameLength":1,"frameKey":"Bro_L_14_13"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_13_13"},{"frameLength":13,"frameKey":"Bro_L_14_13"},{"frameLength":9,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":2,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_02_03"},{"frameLength":12,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":2,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":2,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_14_11"},{"frameLength":1,"frameKey":"Bro_R_14_12"},{"frameLength":13,"frameKey":"Bro_R_14_13"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_13_13"},{"frameLength":1,"frameKey":"Bro_R_14_13"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_13_13"},{"frameLength":13,"frameKey":"Bro_R_14_13"},{"frameLength":9,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":5,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":20,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"origin"}],"attachmentBlocks":[]},{"name":"Bro_4_2","length":75,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":1,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_02_03"},{"frameLength":12,"frameKey":"Bro_L_06_22"},{"frameLength":1,"frameKey":"Bro_L_06_21"},{"frameLength":33,"frameKey":"Bro_L_06_20"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":1,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_02_03"},{"frameLength":12,"frameKey":"Bro_R_06_22"},{"frameLength":1,"frameKey":"Bro_R_06_21"},{"frameLength":33,"frameKey":"Bro_R_06_20"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":6,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":3,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":7,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"origin"}],"attachmentBlocks":[]},{"name":"Bro_4_3_5","length":70,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":1,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_03_01"},{"frameLength":32,"frameKey":"Bro_L_03_02"},{"frameLength":1,"frameKey":"Bro_L_03_11"},{"frameLength":2,"frameKey":"Bro_L_03_10"},{"frameLength":1,"frameKey":"Bro_L_06_21"},{"frameLength":1,"frameKey":"Bro_L_06_12"},{"frameLength":21,"frameKey":"Bro_L_06_02"},{"frameLength":1,"frameKey":"Bro_L_06_20"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":1,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_03_01"},{"frameLength":32,"frameKey":"Bro_R_03_02"},{"frameLength":1,"frameKey":"Bro_R_03_11"},{"frameLength":2,"frameKey":"Bro_R_03_10"},{"frameLength":1,"frameKey":"Bro_R_06_21"},{"frameLength":1,"frameKey":"Bro_R_06_12"},{"frameLength":21,"frameKey":"Bro_R_06_02"},{"frameLength":1,"frameKey":"Bro_R_06_20"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_03"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":5,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_03"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":14,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"origin"}],"attachmentBlocks":[]},{"name":"Bro_4_4_6","length":110,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":1,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_02_03"},{"frameLength":14,"frameKey":"Bro_L_06_22"},{"frameLength":1,"frameKey":"Bro_L_06_21"},{"frameLength":77,"frameKey":"Bro_L_06_10"},{"frameLength":1,"frameKey":"Bro_L_06_21"},{"frameLength":1,"frameKey":"Bro_L_06_22"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":1,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_02_03"},{"frameLength":14,"frameKey":"Bro_R_06_22"},{"frameLength":1,"frameKey":"Bro_R_06_21"},{"frameLength":77,"frameKey":"Bro_R_06_10"},{"frameLength":1,"frameKey":"Bro_R_06_21"},{"frameLength":1,"frameKey":"Bro_R_06_22"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":4,"frameKey":"Bro_M_07_04"},{"frameLength":1,"frameKey":"Bro_M_07_03"},{"frameLength":1,"frameKey":"Bro_M_07_02"},{"frameLength":1,"frameKey":"Bro_M_07_01"},{"frameLength":4,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":9,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":4,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":20,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"origin"}],"attachmentBlocks":[]},{"name":"Bro_4_7","length":70,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":1,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_02_03"},{"frameLength":1,"frameKey":"Bro_L_11_11"},{"frameLength":1,"frameKey":"Bro_L_11_12"},{"frameLength":7,"frameKey":"Bro_L_11_13"},{"frameLength":0,"frameKey":"Bro_L_02_00"},{"frameLength":0,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_11_13"},{"frameLength":1,"frameKey":"Bro_L_11_12"},{"frameLength":1,"frameKey":"Bro_L_11_11"},{"frameLength":8,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_14_11"},{"frameLength":1,"frameKey":"Bro_L_14_12"},{"frameLength":4,"frameKey":"Bro_L_14_13"},{"frameLength":1,"frameKey":"Bro_L_14_12"},{"frameLength":1,"frameKey":"Bro_L_14_11"},{"frameLength":6,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":15,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":1,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_02_03"},{"frameLength":1,"frameKey":"Bro_R_11_11"},{"frameLength":1,"frameKey":"Bro_R_11_12"},{"frameLength":7,"frameKey":"Bro_R_11_13"},{"frameLength":0,"frameKey":"Bro_R_02_00"},{"frameLength":0,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_11_13"},{"frameLength":1,"frameKey":"Bro_R_11_12"},{"frameLength":1,"frameKey":"Bro_R_11_11"},{"frameLength":8,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_14_11"},{"frameLength":1,"frameKey":"Bro_R_14_12"},{"frameLength":4,"frameKey":"Bro_R_14_13"},{"frameLength":1,"frameKey":"Bro_R_14_12"},{"frameLength":1,"frameKey":"Bro_R_14_11"},{"frameLength":6,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":15,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_05_04"},{"frameLength":1,"frameKey":"Bro_M_05_03"},{"frameLength":1,"frameKey":"Bro_M_05_01"},{"frameLength":1,"frameKey":"Bro_M_05_04"},{"frameLength":1,"frameKey":"Bro_M_05_03"},{"frameLength":1,"frameKey":"Bro_M_05_01"},{"frameLength":1,"frameKey":"Bro_M_05_04"},{"frameLength":1,"frameKey":"Bro_M_05_02"},{"frameLength":1,"frameKey":"Bro_M_04_02"},{"frameLength":1,"frameKey":"Bro_M_05_04"},{"frameLength":1,"frameKey":"Bro_M_05_02"},{"frameLength":1,"frameKey":"Bro_M_05_01"},{"frameLength":1,"frameKey":"Bro_M_05_04"},{"frameLength":1,"frameKey":"Bro_M_05_03"},{"frameLength":1,"frameKey":"Bro_M_05_01"},{"frameLength":1,"frameKey":"Bro_M_05_03"},{"frameLength":1,"frameKey":"Bro_M_04_02"},{"frameLength":1,"frameKey":"Bro_M_05_02"},{"frameLength":1,"frameKey":"Bro_M_05_04"},{"frameLength":1,"frameKey":"Bro_M_05_02"},{"frameLength":1,"frameKey":"Bro_M_05_01"},{"frameLength":1,"frameKey":"Bro_M_05_03"},{"frameLength":1,"frameKey":"Bro_M_05_01"},{"frameLength":1,"frameKey":"Bro_M_05_04"},{"frameLength":1,"frameKey":"Bro_M_05_02"},{"frameLength":1,"frameKey":"Bro_M_04_02"},{"frameLength":1,"frameKey":"Bro_M_05_04"},{"frameLength":1,"frameKey":"Bro_M_05_02"},{"frameLength":1,"frameKey":"Bro_M_05_01"},{"frameLength":1,"frameKey":"Bro_M_05_04"},{"frameLength":1,"frameKey":"Bro_M_05_03"},{"frameLength":1,"frameKey":"Bro_M_05_01"},{"frameLength":1,"frameKey":"Bro_M_05_04"},{"frameLength":1,"frameKey":"Bro_M_05_02"},{"frameLength":1,"frameKey":"Bro_M_05_03"},{"frameLength":1,"frameKey":"Bro_M_05_02"},{"frameLength":16,"frameKey":"Bro_M_04_02"},{"frameLength":1,"frameKey":"Bro_M_04_01"}],"attachmentBlocks":[]},{"name":"Bro_4_8","length":80,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":15,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_03"},{"frameLength":14,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_12_12"},{"frameLength":14,"frameKey":"Bro_L_12_13"},{"frameLength":1,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":15,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_03"},{"frameLength":14,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_12_12"},{"frameLength":14,"frameKey":"Bro_R_12_13"},{"frameLength":1,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":4,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":2,"frameKey":"Bro_M_05_01"},{"frameLength":1,"frameKey":"Bro_M_05_04"},{"frameLength":1,"frameKey":"Bro_M_05_02"},{"frameLength":1,"frameKey":"Bro_M_04_02"},{"frameLength":1,"frameKey":"Bro_M_05_02"},{"frameLength":1,"frameKey":"Bro_M_05_04"},{"frameLength":1,"frameKey":"Bro_M_05_03"},{"frameLength":1,"frameKey":"Bro_M_05_01"},{"frameLength":1,"frameKey":"Bro_M_05_03"},{"frameLength":1,"frameKey":"Bro_M_05_02"},{"frameLength":12,"frameKey":"Bro_M_04_02"},{"frameLength":1,"frameKey":"Bro_M_04_01"}],"attachmentBlocks":[]},{"name":"Bro_4_9","length":70,"timePerFrame":0.0833333358168602,"leftEyeBlocks":[{"frameLength":1,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_02_03"},{"frameLength":25,"frameKey":"Bro_L_02_02"},{"frameLength":2,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":25,"frameKey":"Bro_L_02_02"},{"frameLength":2,"frameKey":"Bro_L_02_00"},{"frameLength":1,"frameKey":"Bro_L_02_01"},{"frameLength":1,"frameKey":"Bro_L_02_02"},{"frameLength":1,"frameKey":"Bro_L_02_03"}],"rightEyeBlocks":[{"frameLength":1,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_02_03"},{"frameLength":25,"frameKey":"Bro_R_02_02"},{"frameLength":2,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":25,"frameKey":"Bro_R_02_02"},{"frameLength":2,"frameKey":"Bro_R_02_00"},{"frameLength":1,"frameKey":"Bro_R_02_01"},{"frameLength":1,"frameKey":"Bro_R_02_02"},{"frameLength":1,"frameKey":"Bro_R_02_03"}],"mouthBlocks":[{"frameLength":1,"frameKey":"Bro_M_01_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":5,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_03"},{"frameLength":1,"frameKey":"Bro_M_03_01"},{"frameLength":1,"frameKey":"Bro_M_03_04"},{"frameLength":1,"frameKey":"Bro_M_03_02"},{"frameLength":11,"frameKey":"Bro_M_02_01"},{"frameLength":1,"frameKey":"origin"}],"attachmentBlocks":[]},{"name":"Bro_Winning","length":130,"timePerFrame":0.0416666679084301,"leftEyeBlocks":[{"frameLength":10,"frameKey":"Bro_L_01_00"},{"frameLength":1,"frameKey":"Bro_L_18_02"},{"frameLength":1,"frameKey":"Bro_L_18_03"},{"frameLength":1,"frameKey":"Bro_L_18_04"},{"frameLength":1,"frameKey":"Bro_L_18_05"},{"frameLength":24,"frameKey":"Bro_L_18_06"},{"frameLength":1,"frameKey":"Bro_L_19_01"},{"frameLength":1,"frameKey":"Bro_L_19_02"},{"frameLength":10,"frameKey":"Bro_L_19_03"},{"frameLength":1,"frameKey":"Bro_L_19_04"},{"frameLength":1,"frameKey":"Bro_L_19_05"},{"frameLength":1,"frameKey":"Bro_L_19_06"},{"frameLength":1,"frameKey":"Bro_L_19_07"},{"frameLength":80,"frameKey":"Bro_L_19_08"}],"rightEyeBlocks":[{"frameLength":10,"frameKey":"Bro_R_01_00"},{"frameLength":1,"frameKey":"Bro_R_18_02"},{"frameLength":1,"frameKey":"Bro_R_18_03"},{"frameLength":1,"frameKey":"Bro_R_18_04"},{"frameLength":1,"frameKey":"Bro_R_18_05"},{"frameLength":24,"frameKey":"Bro_R_18_06"},{"frameLength":1,"frameKey":"Bro_R_19_01"},{"frameLength":1,"frameKey":"Bro_R_19_02"},{"frameLength":10,"frameKey":"Bro_R_19_03"},{"frameLength":1,"frameKey":"Bro_R_19_04"},{"frameLength":1,"frameKey":"Bro_R_19_05"},{"frameLength":1,"frameKey":"Bro_R_19_06"},{"frameLength":1,"frameKey":"Bro_R_19_07"},{"frameLength":80,"frameKey":"Bro_R_19_08"}],"mouthBlocks":[],"attachmentBlocks":null}]'
+  items:
+  - name: Bro_1_1
+    length: 51
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 5
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_15_11
+    - frameLength: 1
+      frameKey: Bro_L_15_12
+    - frameLength: 1
+      frameKey: Bro_L_15_13
+    - frameLength: 1
+      frameKey: Bro_L_15_13
+    - frameLength: 1
+      frameKey: Bro_L_15_13
+    - frameLength: 1
+      frameKey: Bro_L_15_13
+    - frameLength: 1
+      frameKey: Bro_L_15_13
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    - frameLength: 3
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_12_11
+    - frameLength: 1
+      frameKey: Bro_L_12_12
+    - frameLength: 7
+      frameKey: Bro_L_12_13
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    - frameLength: 6
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: origin
+    rightEyeBlocks:
+    - frameLength: 5
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_15_11
+    - frameLength: 1
+      frameKey: Bro_R_15_12
+    - frameLength: 1
+      frameKey: Bro_R_15_13
+    - frameLength: 1
+      frameKey: Bro_R_15_13
+    - frameLength: 1
+      frameKey: Bro_R_15_13
+    - frameLength: 1
+      frameKey: Bro_R_15_13
+    - frameLength: 1
+      frameKey: Bro_R_15_13
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    - frameLength: 3
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_12_11
+    - frameLength: 1
+      frameKey: Bro_R_12_12
+    - frameLength: 7
+      frameKey: Bro_R_12_13
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    - frameLength: 6
+      frameKey: Bro_R_01_00
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 3
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    attachmentBlocks: []
+  - name: Bro_1_2
+    length: 51
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 4
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 8
+      frameKey: Bro_L_16_11
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_12_11
+    - frameLength: 1
+      frameKey: Bro_L_12_12
+    - frameLength: 5
+      frameKey: Bro_L_12_13
+    - frameLength: 1
+      frameKey: Bro_L_12_12
+    - frameLength: 1
+      frameKey: Bro_L_12_11
+    - frameLength: 6
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_15_11
+    - frameLength: 1
+      frameKey: Bro_L_15_12
+    - frameLength: 9
+      frameKey: Bro_L_15_13
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 4
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 8
+      frameKey: Bro_R_16_11
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_12_11
+    - frameLength: 1
+      frameKey: Bro_R_12_12
+    - frameLength: 5
+      frameKey: Bro_R_12_13
+    - frameLength: 1
+      frameKey: Bro_R_12_12
+    - frameLength: 1
+      frameKey: Bro_R_12_11
+    - frameLength: 6
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_15_11
+    - frameLength: 1
+      frameKey: Bro_R_15_12
+    - frameLength: 9
+      frameKey: Bro_R_15_13
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 4
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 10
+      frameKey: Bro_M_01_01
+    attachmentBlocks: []
+  - name: Bro_1_3
+    length: 72
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 6
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_17_11
+    - frameLength: 10
+      frameKey: Bro_L_17_12
+    - frameLength: 1
+      frameKey: Bro_L_17_13
+    - frameLength: 9
+      frameKey: Bro_L_17_14
+    - frameLength: 1
+      frameKey: Bro_L_05_10
+    - frameLength: 1
+      frameKey: Bro_L_05_11
+    - frameLength: 1
+      frameKey: Bro_L_05_12
+    - frameLength: 7
+      frameKey: Bro_L_05_02
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 6
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_17_11
+    - frameLength: 10
+      frameKey: Bro_R_17_12
+    - frameLength: 1
+      frameKey: Bro_R_17_13
+    - frameLength: 9
+      frameKey: Bro_R_17_14
+    - frameLength: 1
+      frameKey: Bro_R_05_10
+    - frameLength: 1
+      frameKey: Bro_R_05_11
+    - frameLength: 1
+      frameKey: Bro_R_05_12
+    - frameLength: 7
+      frameKey: Bro_R_05_02
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 11
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 5
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    attachmentBlocks: []
+  - name: Bro_1_4_6
+    length: 39
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 4
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 12
+      frameKey: Bro_L_08_01
+    - frameLength: 12
+      frameKey: Bro_L_05_02
+    - frameLength: 1
+      frameKey: Bro_L_05_10
+    - frameLength: 1
+      frameKey: Bro_L_05_21
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 4
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 12
+      frameKey: Bro_R_08_01
+    - frameLength: 12
+      frameKey: Bro_R_05_02
+    - frameLength: 1
+      frameKey: Bro_R_05_10
+    - frameLength: 1
+      frameKey: Bro_R_05_21
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 7
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_05
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    attachmentBlocks: []
+  - name: Bro_1_5
+    length: 51
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 7
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_05_10
+    - frameLength: 1
+      frameKey: Bro_L_05_11
+    - frameLength: 1
+      frameKey: Bro_L_05_12
+    - frameLength: 34
+      frameKey: Bro_L_05_02
+    - frameLength: 1
+      frameKey: Bro_L_05_10
+    - frameLength: 1
+      frameKey: Bro_L_05_21
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 7
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_05_10
+    - frameLength: 1
+      frameKey: Bro_R_05_11
+    - frameLength: 1
+      frameKey: Bro_R_05_12
+    - frameLength: 34
+      frameKey: Bro_R_05_02
+    - frameLength: 1
+      frameKey: Bro_R_05_10
+    - frameLength: 1
+      frameKey: Bro_R_05_21
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 7
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 5
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    attachmentBlocks: []
+  - name: Bro_1_7
+    length: 50
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 7
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_05_01
+    - frameLength: 11
+      frameKey: Bro_L_05_02
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_15_21
+    - frameLength: 1
+      frameKey: Bro_L_15_22
+    - frameLength: 5
+      frameKey: Bro_L_15_23
+    - frameLength: 1
+      frameKey: Bro_L_15_22
+    - frameLength: 1
+      frameKey: Bro_L_15_21
+    - frameLength: 1
+      frameKey: Bro_L_15_21
+    - frameLength: 1
+      frameKey: Bro_L_12_21
+    - frameLength: 1
+      frameKey: Bro_L_12_22
+    - frameLength: 7
+      frameKey: Bro_L_12_23
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 7
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_05_01
+    - frameLength: 11
+      frameKey: Bro_R_05_02
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_15_21
+    - frameLength: 1
+      frameKey: Bro_R_15_22
+    - frameLength: 5
+      frameKey: Bro_R_15_23
+    - frameLength: 1
+      frameKey: Bro_R_15_22
+    - frameLength: 1
+      frameKey: Bro_R_15_21
+    - frameLength: 1
+      frameKey: Bro_R_15_21
+    - frameLength: 1
+      frameKey: Bro_R_12_21
+    - frameLength: 1
+      frameKey: Bro_R_12_22
+    - frameLength: 7
+      frameKey: Bro_R_12_23
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 7
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_06_01
+    - frameLength: 12
+      frameKey: Bro_M_06_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    attachmentBlocks: []
+  - name: Bro_1_8
+    length: 56
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 1
+      frameKey: origin
+    - frameLength: 1
+      frameKey: Bro_L_08_01
+    - frameLength: 7
+      frameKey: Bro_L_08_02
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 4
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_14_11
+    - frameLength: 1
+      frameKey: Bro_L_14_12
+    - frameLength: 1
+      frameKey: Bro_L_14_13
+    - frameLength: 1
+      frameKey: Bro_L_14_13
+    - frameLength: 1
+      frameKey: Bro_L_14_13
+    - frameLength: 1
+      frameKey: Bro_L_14_12
+    - frameLength: 4
+      frameKey: Bro_L_14_11
+    - frameLength: 1
+      frameKey: Bro_L_11_11
+    - frameLength: 1
+      frameKey: Bro_L_11_12
+    - frameLength: 7
+      frameKey: Bro_L_11_13
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 1
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_08_01
+    - frameLength: 7
+      frameKey: Bro_R_08_02
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 4
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_14_11
+    - frameLength: 1
+      frameKey: Bro_R_14_12
+    - frameLength: 1
+      frameKey: Bro_R_14_13
+    - frameLength: 1
+      frameKey: Bro_R_14_13
+    - frameLength: 1
+      frameKey: Bro_R_14_13
+    - frameLength: 1
+      frameKey: Bro_R_14_12
+    - frameLength: 4
+      frameKey: Bro_R_14_11
+    - frameLength: 1
+      frameKey: Bro_R_11_11
+    - frameLength: 1
+      frameKey: Bro_R_11_12
+    - frameLength: 7
+      frameKey: Bro_R_11_13
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_05
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 5
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    attachmentBlocks: []
+  - name: Bro_1_9
+    length: 38
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 1
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_05_01
+    - frameLength: 30
+      frameKey: Bro_L_05_02
+    - frameLength: 1
+      frameKey: Bro_L_05_10
+    - frameLength: 1
+      frameKey: Bro_L_05_21
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 1
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_05_01
+    - frameLength: 30
+      frameKey: Bro_R_05_02
+    - frameLength: 1
+      frameKey: Bro_R_05_10
+    - frameLength: 1
+      frameKey: Bro_R_05_21
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_06_01
+    - frameLength: 6
+      frameKey: Bro_M_06_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    attachmentBlocks: []
+  - name: Bro_2_1
+    length: 42
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 1
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_03_01
+    - frameLength: 36
+      frameKey: Bro_L_03_02
+    - frameLength: 1
+      frameKey: Bro_L_03_10
+    - frameLength: 1
+      frameKey: Bro_L_03_21
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 1
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_03_01
+    - frameLength: 36
+      frameKey: Bro_R_03_02
+    - frameLength: 1
+      frameKey: Bro_R_03_10
+    - frameLength: 1
+      frameKey: Bro_R_03_21
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 5
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    attachmentBlocks: []
+  - name: Bro_2_2
+    length: 52
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 3
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_09_01
+    - frameLength: 1
+      frameKey: Bro_L_09_02
+    - frameLength: 13
+      frameKey: Bro_L_09_03
+    - frameLength: 1
+      frameKey: Bro_L_05_10
+    - frameLength: 1
+      frameKey: Bro_L_05_11
+    - frameLength: 1
+      frameKey: Bro_L_05_12
+    - frameLength: 25
+      frameKey: Bro_L_05_02
+    - frameLength: 1
+      frameKey: Bro_L_05_20
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 3
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_09_01
+    - frameLength: 1
+      frameKey: Bro_R_09_02
+    - frameLength: 13
+      frameKey: Bro_R_09_03
+    - frameLength: 1
+      frameKey: Bro_R_05_10
+    - frameLength: 1
+      frameKey: Bro_R_05_11
+    - frameLength: 1
+      frameKey: Bro_R_05_12
+    - frameLength: 25
+      frameKey: Bro_R_05_02
+    - frameLength: 1
+      frameKey: Bro_R_05_20
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 11
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    attachmentBlocks: []
+  - name: Bro_2_3_5
+    length: 72
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 4
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 34
+      frameKey: Bro_L_02_00
+    - frameLength: 0
+      frameKey: Bro_L_02_01
+    - frameLength: 0
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 4
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 34
+      frameKey: Bro_R_02_00
+    - frameLength: 0
+      frameKey: Bro_R_02_01
+    - frameLength: 0
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 6
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 5
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    attachmentBlocks: []
+  - name: Bro_2_4_6
+    length: 78
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 9
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 2
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_11_11
+    - frameLength: 1
+      frameKey: Bro_L_11_12
+    - frameLength: 17
+      frameKey: Bro_L_11_13
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_03_11
+    - frameLength: 1
+      frameKey: Bro_L_03_12
+    - frameLength: 28
+      frameKey: Bro_L_03_02
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 9
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 2
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_11_11
+    - frameLength: 1
+      frameKey: Bro_R_11_12
+    - frameLength: 17
+      frameKey: Bro_R_11_13
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_03_11
+    - frameLength: 1
+      frameKey: Bro_R_03_12
+    - frameLength: 28
+      frameKey: Bro_R_03_02
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 10
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_06_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_06_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 11
+      frameKey: Bro_M_06_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    attachmentBlocks: []
+  - name: Bro_2_7
+    length: 52
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 3
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_03_11
+    - frameLength: 1
+      frameKey: Bro_L_03_12
+    - frameLength: 37
+      frameKey: Bro_L_03_02
+    - frameLength: 1
+      frameKey: Bro_L_03_11
+    - frameLength: 1
+      frameKey: Bro_L_03_10
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 3
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_03_11
+    - frameLength: 1
+      frameKey: Bro_R_03_12
+    - frameLength: 37
+      frameKey: Bro_R_03_02
+    - frameLength: 1
+      frameKey: Bro_R_03_11
+    - frameLength: 1
+      frameKey: Bro_R_03_10
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_03
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_03
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    attachmentBlocks: []
+  - name: Bro_2_8
+    length: 74
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 2
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_03_01
+    - frameLength: 10
+      frameKey: Bro_L_03_02
+    - frameLength: 1
+      frameKey: Bro_L_03_10
+    - frameLength: 1
+      frameKey: Bro_L_03_11
+    - frameLength: 1
+      frameKey: Bro_L_03_12
+    - frameLength: 39
+      frameKey: Bro_L_03_02
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 2
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_03_01
+    - frameLength: 10
+      frameKey: Bro_R_03_02
+    - frameLength: 1
+      frameKey: Bro_R_03_10
+    - frameLength: 1
+      frameKey: Bro_R_03_11
+    - frameLength: 1
+      frameKey: Bro_R_03_12
+    - frameLength: 39
+      frameKey: Bro_R_03_02
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 5
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    attachmentBlocks: []
+  - name: Bro_2_9
+    length: 46
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 1
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 37
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 1
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 37
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    attachmentBlocks: []
+  - name: Bro_3_1
+    length: 90
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 9
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    - frameLength: 1
+      frameKey: Bro_L_06_22
+    - frameLength: 62
+      frameKey: Bro_L_06_10
+    - frameLength: 1
+      frameKey: Bro_L_06_11
+    - frameLength: 1
+      frameKey: Bro_L_06_12
+    - frameLength: 7
+      frameKey: Bro_L_06_02
+    - frameLength: 2
+      frameKey: Bro_L_06_10
+    - frameLength: 1
+      frameKey: Bro_L_06_22
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 9
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    - frameLength: 1
+      frameKey: Bro_R_06_22
+    - frameLength: 62
+      frameKey: Bro_R_06_10
+    - frameLength: 1
+      frameKey: Bro_R_06_11
+    - frameLength: 1
+      frameKey: Bro_R_06_12
+    - frameLength: 7
+      frameKey: Bro_R_06_02
+    - frameLength: 2
+      frameKey: Bro_R_06_10
+    - frameLength: 1
+      frameKey: Bro_R_06_22
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 7
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 14
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: origin
+    attachmentBlocks: []
+  - name: Bro_3_2
+    length: 125
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 9
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    - frameLength: 26
+      frameKey: Bro_L_06_22
+    - frameLength: 1
+      frameKey: Bro_L_06_20
+    - frameLength: 1
+      frameKey: Bro_L_06_22
+    - frameLength: 1
+      frameKey: Bro_L_06_20
+    - frameLength: 1
+      frameKey: Bro_L_06_21
+    - frameLength: 40
+      frameKey: Bro_L_06_22
+    - frameLength: 1
+      frameKey: Bro_L_06_20
+    - frameLength: 1
+      frameKey: Bro_L_13_73
+    - frameLength: 7
+      frameKey: Bro_L_14_73
+    - frameLength: 2
+      frameKey: Bro_L_14_72
+    - frameLength: 2
+      frameKey: Bro_L_14_71
+    - frameLength: 27
+      frameKey: Bro_L_06_22
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: origin
+    rightEyeBlocks:
+    - frameLength: 9
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    - frameLength: 26
+      frameKey: Bro_R_06_22
+    - frameLength: 1
+      frameKey: Bro_R_06_20
+    - frameLength: 1
+      frameKey: Bro_R_06_22
+    - frameLength: 1
+      frameKey: Bro_R_06_20
+    - frameLength: 1
+      frameKey: Bro_R_06_21
+    - frameLength: 40
+      frameKey: Bro_R_06_22
+    - frameLength: 1
+      frameKey: Bro_R_06_20
+    - frameLength: 1
+      frameKey: Bro_R_13_73
+    - frameLength: 7
+      frameKey: Bro_R_14_73
+    - frameLength: 2
+      frameKey: Bro_R_14_72
+    - frameLength: 2
+      frameKey: Bro_R_14_71
+    - frameLength: 27
+      frameKey: Bro_R_06_22
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 6
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 6
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 4
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 3
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 2
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 10
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 12
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: origin
+    attachmentBlocks: []
+  - name: Bro_3_3_5
+    length: 50
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 1
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    - frameLength: 14
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_13_12
+    - frameLength: 5
+      frameKey: Bro_L_14_13
+    - frameLength: 2
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 19
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 1
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    - frameLength: 14
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_13_12
+    - frameLength: 5
+      frameKey: Bro_R_14_13
+    - frameLength: 2
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 19
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 5
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 12
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: origin
+    attachmentBlocks: []
+  - name: Bro_3_4_6
+    length: 56
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 1
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_06_01
+    - frameLength: 18
+      frameKey: Bro_L_06_02
+    - frameLength: 2
+      frameKey: Bro_L_06_10
+    - frameLength: 1
+      frameKey: Bro_L_06_21
+    - frameLength: 2
+      frameKey: Bro_L_06_22
+    - frameLength: 2
+      frameKey: Bro_L_06_20
+    - frameLength: 1
+      frameKey: Bro_L_06_21
+    - frameLength: 25
+      frameKey: Bro_L_06_22
+    - frameLength: 1
+      frameKey: Bro_L_06_01
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 1
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_06_01
+    - frameLength: 18
+      frameKey: Bro_R_06_02
+    - frameLength: 2
+      frameKey: Bro_R_06_10
+    - frameLength: 1
+      frameKey: Bro_R_06_21
+    - frameLength: 2
+      frameKey: Bro_R_06_22
+    - frameLength: 2
+      frameKey: Bro_R_06_20
+    - frameLength: 1
+      frameKey: Bro_R_06_21
+    - frameLength: 25
+      frameKey: Bro_R_06_22
+    - frameLength: 1
+      frameKey: Bro_R_06_01
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_03
+    - frameLength: 6
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_03
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_03
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_03
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 15
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: origin
+    attachmentBlocks: []
+  - name: Bro_3_7_9
+    length: 75
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 3
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_17_11
+    - frameLength: 4
+      frameKey: Bro_L_17_12
+    - frameLength: 1
+      frameKey: Bro_L_17_13
+    - frameLength: 9
+      frameKey: Bro_L_17_14
+    - frameLength: 1
+      frameKey: Bro_L_17_15
+    - frameLength: 2
+      frameKey: Bro_L_01_00
+    - frameLength: 2
+      frameKey: Bro_L_03_10
+    - frameLength: 1
+      frameKey: Bro_L_03_11
+    - frameLength: 1
+      frameKey: Bro_L_03_12
+    - frameLength: 45
+      frameKey: Bro_L_03_02
+    - frameLength: 1
+      frameKey: Bro_L_03_01
+    rightEyeBlocks:
+    - frameLength: 3
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_17_11
+    - frameLength: 4
+      frameKey: Bro_R_17_12
+    - frameLength: 1
+      frameKey: Bro_R_17_13
+    - frameLength: 9
+      frameKey: Bro_R_17_14
+    - frameLength: 1
+      frameKey: Bro_R_17_15
+    - frameLength: 2
+      frameKey: Bro_R_01_00
+    - frameLength: 2
+      frameKey: Bro_R_03_10
+    - frameLength: 1
+      frameKey: Bro_R_03_11
+    - frameLength: 1
+      frameKey: Bro_R_03_12
+    - frameLength: 45
+      frameKey: Bro_R_03_02
+    - frameLength: 1
+      frameKey: Bro_R_03_01
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 2
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 4
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 5
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    attachmentBlocks: []
+  - name: Bro_3_8
+    length: 70
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 1
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    - frameLength: 28
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 1
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    - frameLength: 28
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_03
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_03
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_03
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_03
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_03
+    - frameLength: 4
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_03
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_03
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_03
+    attachmentBlocks: []
+  - name: Bro_4_1
+    length: 80
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 2
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    - frameLength: 12
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 2
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 2
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_14_11
+    - frameLength: 1
+      frameKey: Bro_L_14_12
+    - frameLength: 13
+      frameKey: Bro_L_14_13
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_13_13
+    - frameLength: 1
+      frameKey: Bro_L_14_13
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_13_13
+    - frameLength: 13
+      frameKey: Bro_L_14_13
+    - frameLength: 9
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 2
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    - frameLength: 12
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 2
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 2
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_14_11
+    - frameLength: 1
+      frameKey: Bro_R_14_12
+    - frameLength: 13
+      frameKey: Bro_R_14_13
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_13_13
+    - frameLength: 1
+      frameKey: Bro_R_14_13
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_13_13
+    - frameLength: 13
+      frameKey: Bro_R_14_13
+    - frameLength: 9
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 5
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 20
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: origin
+    attachmentBlocks: []
+  - name: Bro_4_2
+    length: 75
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 1
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    - frameLength: 12
+      frameKey: Bro_L_06_22
+    - frameLength: 1
+      frameKey: Bro_L_06_21
+    - frameLength: 33
+      frameKey: Bro_L_06_20
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 1
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    - frameLength: 12
+      frameKey: Bro_R_06_22
+    - frameLength: 1
+      frameKey: Bro_R_06_21
+    - frameLength: 33
+      frameKey: Bro_R_06_20
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 6
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 3
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 7
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: origin
+    attachmentBlocks: []
+  - name: Bro_4_3_5
+    length: 70
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 1
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_03_01
+    - frameLength: 32
+      frameKey: Bro_L_03_02
+    - frameLength: 1
+      frameKey: Bro_L_03_11
+    - frameLength: 2
+      frameKey: Bro_L_03_10
+    - frameLength: 1
+      frameKey: Bro_L_06_21
+    - frameLength: 1
+      frameKey: Bro_L_06_12
+    - frameLength: 21
+      frameKey: Bro_L_06_02
+    - frameLength: 1
+      frameKey: Bro_L_06_20
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 1
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_03_01
+    - frameLength: 32
+      frameKey: Bro_R_03_02
+    - frameLength: 1
+      frameKey: Bro_R_03_11
+    - frameLength: 2
+      frameKey: Bro_R_03_10
+    - frameLength: 1
+      frameKey: Bro_R_06_21
+    - frameLength: 1
+      frameKey: Bro_R_06_12
+    - frameLength: 21
+      frameKey: Bro_R_06_02
+    - frameLength: 1
+      frameKey: Bro_R_06_20
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_03
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 5
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_03
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 14
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: origin
+    attachmentBlocks: []
+  - name: Bro_4_4_6
+    length: 110
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 1
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    - frameLength: 14
+      frameKey: Bro_L_06_22
+    - frameLength: 1
+      frameKey: Bro_L_06_21
+    - frameLength: 77
+      frameKey: Bro_L_06_10
+    - frameLength: 1
+      frameKey: Bro_L_06_21
+    - frameLength: 1
+      frameKey: Bro_L_06_22
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 1
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    - frameLength: 14
+      frameKey: Bro_R_06_22
+    - frameLength: 1
+      frameKey: Bro_R_06_21
+    - frameLength: 77
+      frameKey: Bro_R_06_10
+    - frameLength: 1
+      frameKey: Bro_R_06_21
+    - frameLength: 1
+      frameKey: Bro_R_06_22
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 4
+      frameKey: Bro_M_07_04
+    - frameLength: 1
+      frameKey: Bro_M_07_03
+    - frameLength: 1
+      frameKey: Bro_M_07_02
+    - frameLength: 1
+      frameKey: Bro_M_07_01
+    - frameLength: 4
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 9
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 4
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 20
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: origin
+    attachmentBlocks: []
+  - name: Bro_4_7
+    length: 70
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 1
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    - frameLength: 1
+      frameKey: Bro_L_11_11
+    - frameLength: 1
+      frameKey: Bro_L_11_12
+    - frameLength: 7
+      frameKey: Bro_L_11_13
+    - frameLength: 0
+      frameKey: Bro_L_02_00
+    - frameLength: 0
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_11_13
+    - frameLength: 1
+      frameKey: Bro_L_11_12
+    - frameLength: 1
+      frameKey: Bro_L_11_11
+    - frameLength: 8
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_14_11
+    - frameLength: 1
+      frameKey: Bro_L_14_12
+    - frameLength: 4
+      frameKey: Bro_L_14_13
+    - frameLength: 1
+      frameKey: Bro_L_14_12
+    - frameLength: 1
+      frameKey: Bro_L_14_11
+    - frameLength: 6
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 15
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 1
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    - frameLength: 1
+      frameKey: Bro_R_11_11
+    - frameLength: 1
+      frameKey: Bro_R_11_12
+    - frameLength: 7
+      frameKey: Bro_R_11_13
+    - frameLength: 0
+      frameKey: Bro_R_02_00
+    - frameLength: 0
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_11_13
+    - frameLength: 1
+      frameKey: Bro_R_11_12
+    - frameLength: 1
+      frameKey: Bro_R_11_11
+    - frameLength: 8
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_14_11
+    - frameLength: 1
+      frameKey: Bro_R_14_12
+    - frameLength: 4
+      frameKey: Bro_R_14_13
+    - frameLength: 1
+      frameKey: Bro_R_14_12
+    - frameLength: 1
+      frameKey: Bro_R_14_11
+    - frameLength: 6
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 15
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_05_04
+    - frameLength: 1
+      frameKey: Bro_M_05_03
+    - frameLength: 1
+      frameKey: Bro_M_05_01
+    - frameLength: 1
+      frameKey: Bro_M_05_04
+    - frameLength: 1
+      frameKey: Bro_M_05_03
+    - frameLength: 1
+      frameKey: Bro_M_05_01
+    - frameLength: 1
+      frameKey: Bro_M_05_04
+    - frameLength: 1
+      frameKey: Bro_M_05_02
+    - frameLength: 1
+      frameKey: Bro_M_04_02
+    - frameLength: 1
+      frameKey: Bro_M_05_04
+    - frameLength: 1
+      frameKey: Bro_M_05_02
+    - frameLength: 1
+      frameKey: Bro_M_05_01
+    - frameLength: 1
+      frameKey: Bro_M_05_04
+    - frameLength: 1
+      frameKey: Bro_M_05_03
+    - frameLength: 1
+      frameKey: Bro_M_05_01
+    - frameLength: 1
+      frameKey: Bro_M_05_03
+    - frameLength: 1
+      frameKey: Bro_M_04_02
+    - frameLength: 1
+      frameKey: Bro_M_05_02
+    - frameLength: 1
+      frameKey: Bro_M_05_04
+    - frameLength: 1
+      frameKey: Bro_M_05_02
+    - frameLength: 1
+      frameKey: Bro_M_05_01
+    - frameLength: 1
+      frameKey: Bro_M_05_03
+    - frameLength: 1
+      frameKey: Bro_M_05_01
+    - frameLength: 1
+      frameKey: Bro_M_05_04
+    - frameLength: 1
+      frameKey: Bro_M_05_02
+    - frameLength: 1
+      frameKey: Bro_M_04_02
+    - frameLength: 1
+      frameKey: Bro_M_05_04
+    - frameLength: 1
+      frameKey: Bro_M_05_02
+    - frameLength: 1
+      frameKey: Bro_M_05_01
+    - frameLength: 1
+      frameKey: Bro_M_05_04
+    - frameLength: 1
+      frameKey: Bro_M_05_03
+    - frameLength: 1
+      frameKey: Bro_M_05_01
+    - frameLength: 1
+      frameKey: Bro_M_05_04
+    - frameLength: 1
+      frameKey: Bro_M_05_02
+    - frameLength: 1
+      frameKey: Bro_M_05_03
+    - frameLength: 1
+      frameKey: Bro_M_05_02
+    - frameLength: 16
+      frameKey: Bro_M_04_02
+    - frameLength: 1
+      frameKey: Bro_M_04_01
+    attachmentBlocks: []
+  - name: Bro_4_8
+    length: 80
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 15
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    - frameLength: 14
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_12_12
+    - frameLength: 14
+      frameKey: Bro_L_12_13
+    - frameLength: 1
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 15
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    - frameLength: 14
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_12_12
+    - frameLength: 14
+      frameKey: Bro_R_12_13
+    - frameLength: 1
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 4
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 2
+      frameKey: Bro_M_05_01
+    - frameLength: 1
+      frameKey: Bro_M_05_04
+    - frameLength: 1
+      frameKey: Bro_M_05_02
+    - frameLength: 1
+      frameKey: Bro_M_04_02
+    - frameLength: 1
+      frameKey: Bro_M_05_02
+    - frameLength: 1
+      frameKey: Bro_M_05_04
+    - frameLength: 1
+      frameKey: Bro_M_05_03
+    - frameLength: 1
+      frameKey: Bro_M_05_01
+    - frameLength: 1
+      frameKey: Bro_M_05_03
+    - frameLength: 1
+      frameKey: Bro_M_05_02
+    - frameLength: 12
+      frameKey: Bro_M_04_02
+    - frameLength: 1
+      frameKey: Bro_M_04_01
+    attachmentBlocks: []
+  - name: Bro_4_9
+    length: 70
+    timePerFrame: 0.083333336
+    leftEyeBlocks:
+    - frameLength: 1
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    - frameLength: 25
+      frameKey: Bro_L_02_02
+    - frameLength: 2
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 25
+      frameKey: Bro_L_02_02
+    - frameLength: 2
+      frameKey: Bro_L_02_00
+    - frameLength: 1
+      frameKey: Bro_L_02_01
+    - frameLength: 1
+      frameKey: Bro_L_02_02
+    - frameLength: 1
+      frameKey: Bro_L_02_03
+    rightEyeBlocks:
+    - frameLength: 1
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    - frameLength: 25
+      frameKey: Bro_R_02_02
+    - frameLength: 2
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 25
+      frameKey: Bro_R_02_02
+    - frameLength: 2
+      frameKey: Bro_R_02_00
+    - frameLength: 1
+      frameKey: Bro_R_02_01
+    - frameLength: 1
+      frameKey: Bro_R_02_02
+    - frameLength: 1
+      frameKey: Bro_R_02_03
+    mouthBlocks:
+    - frameLength: 1
+      frameKey: Bro_M_01_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 5
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_03
+    - frameLength: 1
+      frameKey: Bro_M_03_01
+    - frameLength: 1
+      frameKey: Bro_M_03_04
+    - frameLength: 1
+      frameKey: Bro_M_03_02
+    - frameLength: 11
+      frameKey: Bro_M_02_01
+    - frameLength: 1
+      frameKey: origin
+    attachmentBlocks: []
+  - name: Bro_Winning
+    length: 130
+    timePerFrame: 0.041666668
+    leftEyeBlocks:
+    - frameLength: 10
+      frameKey: Bro_L_01_00
+    - frameLength: 1
+      frameKey: Bro_L_18_02
+    - frameLength: 1
+      frameKey: Bro_L_18_03
+    - frameLength: 1
+      frameKey: Bro_L_18_04
+    - frameLength: 1
+      frameKey: Bro_L_18_05
+    - frameLength: 24
+      frameKey: Bro_L_18_06
+    - frameLength: 1
+      frameKey: Bro_L_19_01
+    - frameLength: 1
+      frameKey: Bro_L_19_02
+    - frameLength: 10
+      frameKey: Bro_L_19_03
+    - frameLength: 1
+      frameKey: Bro_L_19_04
+    - frameLength: 1
+      frameKey: Bro_L_19_05
+    - frameLength: 1
+      frameKey: Bro_L_19_06
+    - frameLength: 1
+      frameKey: Bro_L_19_07
+    - frameLength: 80
+      frameKey: Bro_L_19_08
+    rightEyeBlocks:
+    - frameLength: 10
+      frameKey: Bro_R_01_00
+    - frameLength: 1
+      frameKey: Bro_R_18_02
+    - frameLength: 1
+      frameKey: Bro_R_18_03
+    - frameLength: 1
+      frameKey: Bro_R_18_04
+    - frameLength: 1
+      frameKey: Bro_R_18_05
+    - frameLength: 24
+      frameKey: Bro_R_18_06
+    - frameLength: 1
+      frameKey: Bro_R_19_01
+    - frameLength: 1
+      frameKey: Bro_R_19_02
+    - frameLength: 10
+      frameKey: Bro_R_19_03
+    - frameLength: 1
+      frameKey: Bro_R_19_04
+    - frameLength: 1
+      frameKey: Bro_R_19_05
+    - frameLength: 1
+      frameKey: Bro_R_19_06
+    - frameLength: 1
+      frameKey: Bro_R_19_07
+    - frameLength: 80
+      frameKey: Bro_R_19_08
+    mouthBlocks: []
+    attachmentBlocks: []

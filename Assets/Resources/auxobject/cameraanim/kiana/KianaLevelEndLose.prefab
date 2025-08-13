@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1615695824504404
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4908892813130582}
+  - 111: {fileID: 111553261033240751}
+  - 114: {fileID: 114395768686500572}
+  m_Layer: 0
+  m_Name: KianaLevelEndLose
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1979813132008803
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4138541629703149}
+  m_Layer: 0
+  m_Name: CircleCenter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4908892813130582
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1615695824504404}
+  m_LocalRotation: {x: -0.4229844, y: 0, z: 0, w: 0.906137}
+  m_LocalPosition: {x: 0, y: 0.21347362, z: 5.42113}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4138541629703149}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!111 &111553261033240751
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1615695824504404}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: 8394ada9b55f342459de7e2795f8e6a6, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 8394ada9b55f342459de7e2795f8e6a6, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &114395768686500572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1615695824504404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf15482ae4c3cc87b22db582e3b46c2a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  useKeyedRotation: 0
+  keyedRotation: {x: 0, y: 0, z: 0}
+  useAnimRotation: 0
+  useKeyedRadialBlur: 0
+  radialBlurCenter: {x: 0, y: 0}
+  radialBlurStrenth: 0
+  radialBlurScatterScale: 0
+  realAnimGameObject: {fileID: 1979813132008803}
+  useFixedParentAnchor: 0
+  useKeyedFOV: 0
+  keyedFOV: 0
+  useKeyedDirectionalLightRotation: 0
+  keyedDirectionalLightRotation: {x: 0, y: 0, z: 0}
+  hasPushedLevelTimeScale: 0
+  initFOV: -1
+  initClipZNear: -1
+  timeScaleMode: 0
+  graphics: []
+  UseSpecificCircleTrack: 1
+  circleTrack:
+    radius: 5
+    angularSpeed: 20
+    startAngle: 0
+    elevation: -6.16
+    isAntiClockwise: 0
+    centerPos: {fileID: 1979813132008803}
+--- !u!4 &4138541629703149
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1979813132008803}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.75, z: 0.45}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4908892813130582}
+  m_RootOrder: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1615695824504404}
+  m_IsPrefabParent: 1

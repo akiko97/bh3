@@ -1,0 +1,512 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73ebf22b11e7da3f1f421609a8f18bb5, type: 3}
+  m_Name: Atlas
+  m_EditorClassIdentifier:
+  _objectReferences: []
+  _serializedStateKeys:
+  - items
+  _serializedStateValues:
+  - '[{"name":"Mei_R_01_01","textureName":"1","rect":{"x":0.0,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_L_01_01","textureName":"1","rect":{"x":0.25,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_R_01_02","textureName":"1","rect":{"x":0.5,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_L_01_02","textureName":"1","rect":{"x":0.75,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_R_01_03","textureName":"1","rect":{"x":0.0,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_L_01_03","textureName":"1","rect":{"x":0.0,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_R_01_04","textureName":"1","rect":{"x":0.0,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_L_01_04","textureName":"1","rect":{"x":0.25,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_R_02_01","textureName":"1","rect":{"x":0.5,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_L_02_01","textureName":"1","rect":{"x":0.75,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_R_02_02","textureName":"1","rect":{"x":0.25,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_L_02_02","textureName":"1","rect":{"x":0.25,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_R_02_03","textureName":"1","rect":{"x":0.5,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_L_02_03","textureName":"1","rect":{"x":0.75,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_R_02_04","textureName":"1","rect":{"x":0.5,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_L_02_04","textureName":"1","rect":{"x":0.75,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_R_02_05","textureName":"2","rect":{"x":0.0,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_L_02_05","textureName":"2","rect":{"x":0.25,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_R_02_06","textureName":"2","rect":{"x":0.5,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_L_02_06","textureName":"2","rect":{"x":0.75,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_R_02_07","textureName":"2","rect":{"x":0.0,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_L_02_07","textureName":"2","rect":{"x":0.0,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_R_03_01","textureName":"2","rect":{"x":0.0,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_L_03_01","textureName":"2","rect":{"x":0.25,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_R_03_02","textureName":"2","rect":{"x":0.5,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_L_03_02","textureName":"2","rect":{"x":0.75,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_R_04_01","textureName":"2","rect":{"x":0.25,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_L_04_01","textureName":"2","rect":{"x":0.25,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_R_04_02","textureName":"2","rect":{"x":0.5,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_L_04_02","textureName":"2","rect":{"x":0.75,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_R_04_03","textureName":"2","rect":{"x":0.5,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_L_04_03","textureName":"2","rect":{"x":0.75,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_R_04_04","textureName":"3","rect":{"x":0.0,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_L_04_04","textureName":"3","rect":{"x":0.25,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_R_05_01","textureName":"3","rect":{"x":0.5,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_L_05_01","textureName":"3","rect":{"x":0.75,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_R_05_02","textureName":"3","rect":{"x":0.0,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_L_05_02","textureName":"3","rect":{"x":0.0,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_R_05_03","textureName":"3","rect":{"x":0.0,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_L_05_03","textureName":"3","rect":{"x":0.25,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_R_05_04","textureName":"3","rect":{"x":0.5,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_L_05_04","textureName":"3","rect":{"x":0.75,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_R_06_01","textureName":"3","rect":{"x":0.25,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_L_06_01","textureName":"3","rect":{"x":0.25,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_R_06_02","textureName":"3","rect":{"x":0.5,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_L_06_02","textureName":"3","rect":{"x":0.75,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_R_06_03","textureName":"3","rect":{"x":0.5,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_L_06_03","textureName":"3","rect":{"x":0.75,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_R_06_04","textureName":"4","rect":{"x":0.0,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_L_06_04","textureName":"4","rect":{"x":0.25,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_R_07_01","textureName":"4","rect":{"x":0.5,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_L_07_01","textureName":"4","rect":{"x":0.75,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_R_07_02","textureName":"4","rect":{"x":0.0,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_L_07_02","textureName":"4","rect":{"x":0.0,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_R_07_03","textureName":"4","rect":{"x":0.0,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_L_07_03","textureName":"4","rect":{"x":0.25,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_R_07_04","textureName":"4","rect":{"x":0.5,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_L_07_04","textureName":"4","rect":{"x":0.75,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_R_08_01","textureName":"4","rect":{"x":0.25,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_L_08_01","textureName":"4","rect":{"x":0.25,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_R_08_02","textureName":"4","rect":{"x":0.5,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_L_08_02","textureName":"4","rect":{"x":0.75,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_R_08_03","textureName":"4","rect":{"x":0.5,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_L_08_03","textureName":"4","rect":{"x":0.75,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_R_09_01","textureName":"5","rect":{"x":0.0,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_L_09_01","textureName":"5","rect":{"x":0.25,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_R_09_02","textureName":"5","rect":{"x":0.5,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_L_09_02","textureName":"5","rect":{"x":0.75,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_R_09_03","textureName":"5","rect":{"x":0.0,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_L_09_03","textureName":"5","rect":{"x":0.0,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_R_10_01","textureName":"5","rect":{"x":0.0,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_L_10_01","textureName":"5","rect":{"x":0.25,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_R_10_02","textureName":"5","rect":{"x":0.5,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_L_10_02","textureName":"5","rect":{"x":0.75,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_R_10_03","textureName":"5","rect":{"x":0.25,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_L_10_03","textureName":"5","rect":{"x":0.25,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_R_11_01","textureName":"5","rect":{"x":0.5,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_L_11_01","textureName":"5","rect":{"x":0.75,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_R_11_02","textureName":"5","rect":{"x":0.5,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_L_11_02","textureName":"5","rect":{"x":0.75,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_R_11_03","textureName":"6","rect":{"x":0.0,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_L_11_03","textureName":"6","rect":{"x":0.25,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_R_12_01","textureName":"6","rect":{"x":0.5,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_L_12_01","textureName":"6","rect":{"x":0.75,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_R_13_01","textureName":"6","rect":{"x":0.0,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_L_13_01","textureName":"6","rect":{"x":0.0,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_R_13_02","textureName":"6","rect":{"x":0.0,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_L_13_02","textureName":"6","rect":{"x":0.25,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_R_13_03","textureName":"6","rect":{"x":0.5,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_L_13_03","textureName":"6","rect":{"x":0.75,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_R_14_01","textureName":"6","rect":{"x":0.25,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_L_14_01","textureName":"6","rect":{"x":0.25,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_R_14_02","textureName":"6","rect":{"x":0.5,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_L_14_02","textureName":"6","rect":{"x":0.75,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_R_14_03","textureName":"6","rect":{"x":0.5,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_L_14_03","textureName":"6","rect":{"x":0.75,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_R_15_01","textureName":"7","rect":{"x":0.0,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_L_15_01","textureName":"7","rect":{"x":0.25,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_R_15_02","textureName":"7","rect":{"x":0.5,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_L_15_02","textureName":"7","rect":{"x":0.75,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_R_15_03","textureName":"7","rect":{"x":0.0,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_L_15_03","textureName":"7","rect":{"x":0.0,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_R_16_01","textureName":"7","rect":{"x":0.0,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_L_16_01","textureName":"7","rect":{"x":0.25,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_R_16_02","textureName":"7","rect":{"x":0.5,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_L_16_02","textureName":"7","rect":{"x":0.75,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_R_16_03","textureName":"7","rect":{"x":0.25,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_L_16_03","textureName":"7","rect":{"x":0.25,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_R_16_04","textureName":"7","rect":{"x":0.5,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_L_16_04","textureName":"7","rect":{"x":0.75,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_R_17_01","textureName":"7","rect":{"x":0.5,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_L_17_01","textureName":"7","rect":{"x":0.75,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_R_17_02","textureName":"8","rect":{"x":0.0,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_L_17_02","textureName":"8","rect":{"x":0.25,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_R_17_03","textureName":"8","rect":{"x":0.5,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_L_17_03","textureName":"8","rect":{"x":0.75,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_R_18_01","textureName":"8","rect":{"x":0.0,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_L_18_01","textureName":"8","rect":{"x":0.0,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_R_18_02","textureName":"8","rect":{"x":0.0,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_L_18_02","textureName":"8","rect":{"x":0.25,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_R_18_03","textureName":"8","rect":{"x":0.5,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_L_18_03","textureName":"8","rect":{"x":0.75,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_R_19_01","textureName":"8","rect":{"x":0.25,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_L_19_01","textureName":"8","rect":{"x":0.25,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_R_19_02","textureName":"8","rect":{"x":0.5,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_L_19_02","textureName":"8","rect":{"x":0.75,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_R_19_03","textureName":"8","rect":{"x":0.5,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_L_19_03","textureName":"8","rect":{"x":0.75,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_R_20_01","textureName":"9","rect":{"x":0.0,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_L_20_01","textureName":"9","rect":{"x":0.25,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_R_20_02","textureName":"9","rect":{"x":0.5,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_L_20_02","textureName":"9","rect":{"x":0.75,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_R_21_01","textureName":"9","rect":{"x":0.0,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_L_21_01","textureName":"9","rect":{"x":0.0,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_R_21_02","textureName":"9","rect":{"x":0.0,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_L_21_02","textureName":"9","rect":{"x":0.25,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_R_21_03","textureName":"9","rect":{"x":0.5,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_L_21_03","textureName":"9","rect":{"x":0.75,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_R_21_04","textureName":"9","rect":{"x":0.25,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_L_21_04","textureName":"9","rect":{"x":0.25,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_R_21_05","textureName":"9","rect":{"x":0.5,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_L_21_05","textureName":"9","rect":{"x":0.75,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_R_21_06","textureName":"9","rect":{"x":0.5,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_L_21_06","textureName":"9","rect":{"x":0.75,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_R_21_07","textureName":"10","rect":{"x":0.0,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_L_21_07","textureName":"10","rect":{"x":0.25,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_R_21_08","textureName":"10","rect":{"x":0.5,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_L_21_08","textureName":"10","rect":{"x":0.75,"y":0.0,"z":0.25,"w":0.25}},{"name":"Mei_R_21_09","textureName":"10","rect":{"x":0.0,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_L_21_09","textureName":"10","rect":{"x":0.0,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_R_21_10","textureName":"10","rect":{"x":0.0,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_L_21_10","textureName":"10","rect":{"x":0.25,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_R_21_11","textureName":"10","rect":{"x":0.5,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_L_21_11","textureName":"10","rect":{"x":0.75,"y":0.25,"z":0.25,"w":0.25}},{"name":"Mei_R_22_01","textureName":"10","rect":{"x":0.25,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_L_22_01","textureName":"10","rect":{"x":0.25,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_R_22_02","textureName":"10","rect":{"x":0.5,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_L_22_02","textureName":"10","rect":{"x":0.75,"y":0.5,"z":0.25,"w":0.25}},{"name":"Mei_R_22_03","textureName":"10","rect":{"x":0.5,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_L_22_03","textureName":"10","rect":{"x":0.75,"y":0.75,"z":0.25,"w":0.25}},{"name":"Mei_R_22_04","textureName":"11","rect":{"x":0.0,"y":0.0,"z":0.5,"w":0.5}},{"name":"Mei_L_22_04","textureName":"11","rect":{"x":0.5,"y":0.0,"z":0.5,"w":0.5}},{"name":"Mei_R_22_05","textureName":"11","rect":{"x":0.0,"y":0.5,"z":0.5,"w":0.5}},{"name":"Mei_L_22_05","textureName":"11","rect":{"x":0.5,"y":0.5,"z":0.5,"w":0.5}}]'
+  basePath: FaceAtlas/Mei/Eye
+  items:
+  - name: Mei_R_01_01
+    textureName: 1
+    rect: {x: 0, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_L_01_01
+    textureName: 1
+    rect: {x: 0.25, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_R_01_02
+    textureName: 1
+    rect: {x: 0.5, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_L_01_02
+    textureName: 1
+    rect: {x: 0.75, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_R_01_03
+    textureName: 1
+    rect: {x: 0, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_L_01_03
+    textureName: 1
+    rect: {x: 0, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_R_01_04
+    textureName: 1
+    rect: {x: 0, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_L_01_04
+    textureName: 1
+    rect: {x: 0.25, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_R_02_01
+    textureName: 1
+    rect: {x: 0.5, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_L_02_01
+    textureName: 1
+    rect: {x: 0.75, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_R_02_02
+    textureName: 1
+    rect: {x: 0.25, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_L_02_02
+    textureName: 1
+    rect: {x: 0.25, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_R_02_03
+    textureName: 1
+    rect: {x: 0.5, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_L_02_03
+    textureName: 1
+    rect: {x: 0.75, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_R_02_04
+    textureName: 1
+    rect: {x: 0.5, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_L_02_04
+    textureName: 1
+    rect: {x: 0.75, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_R_02_05
+    textureName: 2
+    rect: {x: 0, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_L_02_05
+    textureName: 2
+    rect: {x: 0.25, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_R_02_06
+    textureName: 2
+    rect: {x: 0.5, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_L_02_06
+    textureName: 2
+    rect: {x: 0.75, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_R_02_07
+    textureName: 2
+    rect: {x: 0, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_L_02_07
+    textureName: 2
+    rect: {x: 0, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_R_03_01
+    textureName: 2
+    rect: {x: 0, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_L_03_01
+    textureName: 2
+    rect: {x: 0.25, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_R_03_02
+    textureName: 2
+    rect: {x: 0.5, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_L_03_02
+    textureName: 2
+    rect: {x: 0.75, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_R_04_01
+    textureName: 2
+    rect: {x: 0.25, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_L_04_01
+    textureName: 2
+    rect: {x: 0.25, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_R_04_02
+    textureName: 2
+    rect: {x: 0.5, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_L_04_02
+    textureName: 2
+    rect: {x: 0.75, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_R_04_03
+    textureName: 2
+    rect: {x: 0.5, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_L_04_03
+    textureName: 2
+    rect: {x: 0.75, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_R_04_04
+    textureName: 3
+    rect: {x: 0, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_L_04_04
+    textureName: 3
+    rect: {x: 0.25, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_R_05_01
+    textureName: 3
+    rect: {x: 0.5, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_L_05_01
+    textureName: 3
+    rect: {x: 0.75, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_R_05_02
+    textureName: 3
+    rect: {x: 0, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_L_05_02
+    textureName: 3
+    rect: {x: 0, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_R_05_03
+    textureName: 3
+    rect: {x: 0, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_L_05_03
+    textureName: 3
+    rect: {x: 0.25, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_R_05_04
+    textureName: 3
+    rect: {x: 0.5, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_L_05_04
+    textureName: 3
+    rect: {x: 0.75, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_R_06_01
+    textureName: 3
+    rect: {x: 0.25, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_L_06_01
+    textureName: 3
+    rect: {x: 0.25, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_R_06_02
+    textureName: 3
+    rect: {x: 0.5, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_L_06_02
+    textureName: 3
+    rect: {x: 0.75, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_R_06_03
+    textureName: 3
+    rect: {x: 0.5, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_L_06_03
+    textureName: 3
+    rect: {x: 0.75, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_R_06_04
+    textureName: 4
+    rect: {x: 0, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_L_06_04
+    textureName: 4
+    rect: {x: 0.25, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_R_07_01
+    textureName: 4
+    rect: {x: 0.5, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_L_07_01
+    textureName: 4
+    rect: {x: 0.75, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_R_07_02
+    textureName: 4
+    rect: {x: 0, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_L_07_02
+    textureName: 4
+    rect: {x: 0, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_R_07_03
+    textureName: 4
+    rect: {x: 0, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_L_07_03
+    textureName: 4
+    rect: {x: 0.25, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_R_07_04
+    textureName: 4
+    rect: {x: 0.5, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_L_07_04
+    textureName: 4
+    rect: {x: 0.75, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_R_08_01
+    textureName: 4
+    rect: {x: 0.25, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_L_08_01
+    textureName: 4
+    rect: {x: 0.25, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_R_08_02
+    textureName: 4
+    rect: {x: 0.5, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_L_08_02
+    textureName: 4
+    rect: {x: 0.75, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_R_08_03
+    textureName: 4
+    rect: {x: 0.5, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_L_08_03
+    textureName: 4
+    rect: {x: 0.75, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_R_09_01
+    textureName: 5
+    rect: {x: 0, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_L_09_01
+    textureName: 5
+    rect: {x: 0.25, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_R_09_02
+    textureName: 5
+    rect: {x: 0.5, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_L_09_02
+    textureName: 5
+    rect: {x: 0.75, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_R_09_03
+    textureName: 5
+    rect: {x: 0, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_L_09_03
+    textureName: 5
+    rect: {x: 0, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_R_10_01
+    textureName: 5
+    rect: {x: 0, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_L_10_01
+    textureName: 5
+    rect: {x: 0.25, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_R_10_02
+    textureName: 5
+    rect: {x: 0.5, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_L_10_02
+    textureName: 5
+    rect: {x: 0.75, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_R_10_03
+    textureName: 5
+    rect: {x: 0.25, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_L_10_03
+    textureName: 5
+    rect: {x: 0.25, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_R_11_01
+    textureName: 5
+    rect: {x: 0.5, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_L_11_01
+    textureName: 5
+    rect: {x: 0.75, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_R_11_02
+    textureName: 5
+    rect: {x: 0.5, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_L_11_02
+    textureName: 5
+    rect: {x: 0.75, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_R_11_03
+    textureName: 6
+    rect: {x: 0, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_L_11_03
+    textureName: 6
+    rect: {x: 0.25, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_R_12_01
+    textureName: 6
+    rect: {x: 0.5, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_L_12_01
+    textureName: 6
+    rect: {x: 0.75, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_R_13_01
+    textureName: 6
+    rect: {x: 0, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_L_13_01
+    textureName: 6
+    rect: {x: 0, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_R_13_02
+    textureName: 6
+    rect: {x: 0, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_L_13_02
+    textureName: 6
+    rect: {x: 0.25, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_R_13_03
+    textureName: 6
+    rect: {x: 0.5, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_L_13_03
+    textureName: 6
+    rect: {x: 0.75, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_R_14_01
+    textureName: 6
+    rect: {x: 0.25, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_L_14_01
+    textureName: 6
+    rect: {x: 0.25, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_R_14_02
+    textureName: 6
+    rect: {x: 0.5, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_L_14_02
+    textureName: 6
+    rect: {x: 0.75, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_R_14_03
+    textureName: 6
+    rect: {x: 0.5, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_L_14_03
+    textureName: 6
+    rect: {x: 0.75, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_R_15_01
+    textureName: 7
+    rect: {x: 0, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_L_15_01
+    textureName: 7
+    rect: {x: 0.25, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_R_15_02
+    textureName: 7
+    rect: {x: 0.5, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_L_15_02
+    textureName: 7
+    rect: {x: 0.75, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_R_15_03
+    textureName: 7
+    rect: {x: 0, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_L_15_03
+    textureName: 7
+    rect: {x: 0, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_R_16_01
+    textureName: 7
+    rect: {x: 0, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_L_16_01
+    textureName: 7
+    rect: {x: 0.25, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_R_16_02
+    textureName: 7
+    rect: {x: 0.5, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_L_16_02
+    textureName: 7
+    rect: {x: 0.75, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_R_16_03
+    textureName: 7
+    rect: {x: 0.25, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_L_16_03
+    textureName: 7
+    rect: {x: 0.25, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_R_16_04
+    textureName: 7
+    rect: {x: 0.5, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_L_16_04
+    textureName: 7
+    rect: {x: 0.75, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_R_17_01
+    textureName: 7
+    rect: {x: 0.5, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_L_17_01
+    textureName: 7
+    rect: {x: 0.75, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_R_17_02
+    textureName: 8
+    rect: {x: 0, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_L_17_02
+    textureName: 8
+    rect: {x: 0.25, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_R_17_03
+    textureName: 8
+    rect: {x: 0.5, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_L_17_03
+    textureName: 8
+    rect: {x: 0.75, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_R_18_01
+    textureName: 8
+    rect: {x: 0, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_L_18_01
+    textureName: 8
+    rect: {x: 0, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_R_18_02
+    textureName: 8
+    rect: {x: 0, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_L_18_02
+    textureName: 8
+    rect: {x: 0.25, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_R_18_03
+    textureName: 8
+    rect: {x: 0.5, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_L_18_03
+    textureName: 8
+    rect: {x: 0.75, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_R_19_01
+    textureName: 8
+    rect: {x: 0.25, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_L_19_01
+    textureName: 8
+    rect: {x: 0.25, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_R_19_02
+    textureName: 8
+    rect: {x: 0.5, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_L_19_02
+    textureName: 8
+    rect: {x: 0.75, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_R_19_03
+    textureName: 8
+    rect: {x: 0.5, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_L_19_03
+    textureName: 8
+    rect: {x: 0.75, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_R_20_01
+    textureName: 9
+    rect: {x: 0, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_L_20_01
+    textureName: 9
+    rect: {x: 0.25, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_R_20_02
+    textureName: 9
+    rect: {x: 0.5, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_L_20_02
+    textureName: 9
+    rect: {x: 0.75, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_R_21_01
+    textureName: 9
+    rect: {x: 0, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_L_21_01
+    textureName: 9
+    rect: {x: 0, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_R_21_02
+    textureName: 9
+    rect: {x: 0, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_L_21_02
+    textureName: 9
+    rect: {x: 0.25, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_R_21_03
+    textureName: 9
+    rect: {x: 0.5, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_L_21_03
+    textureName: 9
+    rect: {x: 0.75, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_R_21_04
+    textureName: 9
+    rect: {x: 0.25, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_L_21_04
+    textureName: 9
+    rect: {x: 0.25, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_R_21_05
+    textureName: 9
+    rect: {x: 0.5, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_L_21_05
+    textureName: 9
+    rect: {x: 0.75, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_R_21_06
+    textureName: 9
+    rect: {x: 0.5, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_L_21_06
+    textureName: 9
+    rect: {x: 0.75, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_R_21_07
+    textureName: 10
+    rect: {x: 0, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_L_21_07
+    textureName: 10
+    rect: {x: 0.25, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_R_21_08
+    textureName: 10
+    rect: {x: 0.5, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_L_21_08
+    textureName: 10
+    rect: {x: 0.75, y: 0, z: 0.25, w: 0.25}
+  - name: Mei_R_21_09
+    textureName: 10
+    rect: {x: 0, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_L_21_09
+    textureName: 10
+    rect: {x: 0, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_R_21_10
+    textureName: 10
+    rect: {x: 0, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_L_21_10
+    textureName: 10
+    rect: {x: 0.25, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_R_21_11
+    textureName: 10
+    rect: {x: 0.5, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_L_21_11
+    textureName: 10
+    rect: {x: 0.75, y: 0.25, z: 0.25, w: 0.25}
+  - name: Mei_R_22_01
+    textureName: 10
+    rect: {x: 0.25, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_L_22_01
+    textureName: 10
+    rect: {x: 0.25, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_R_22_02
+    textureName: 10
+    rect: {x: 0.5, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_L_22_02
+    textureName: 10
+    rect: {x: 0.75, y: 0.5, z: 0.25, w: 0.25}
+  - name: Mei_R_22_03
+    textureName: 10
+    rect: {x: 0.5, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_L_22_03
+    textureName: 10
+    rect: {x: 0.75, y: 0.75, z: 0.25, w: 0.25}
+  - name: Mei_R_22_04
+    textureName: 11
+    rect: {x: 0, y: 0, z: 0.5, w: 0.5}
+  - name: Mei_L_22_04
+    textureName: 11
+    rect: {x: 0.5, y: 0, z: 0.5, w: 0.5}
+  - name: Mei_R_22_05
+    textureName: 11
+    rect: {x: 0, y: 0.5, z: 0.5, w: 0.5}
+  - name: Mei_L_22_05
+    textureName: 11
+    rect: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}

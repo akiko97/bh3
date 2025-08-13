@@ -1,0 +1,42 @@
+namespace MoleMole.Config
+{
+	[GeneratePartialHash(CombineGeneratedFile = true)]
+	public class AttachOpacity : ConfigAbilityAction, IHashable
+	{
+		public DynamicFloat Opacity = DynamicFloat.ONE;
+
+		public void ObjectContentHashOnto(ref int lastHash)
+		{
+			if (Opacity != null)
+			{
+				HashUtils.ContentHashOnto(Opacity.isDynamic, ref lastHash);
+				HashUtils.ContentHashOnto(Opacity.fixedValue, ref lastHash);
+				HashUtils.ContentHashOnto(Opacity.dynamicKey, ref lastHash);
+			}
+			HashUtils.ContentHashOnto((int)Target, ref lastHash);
+			if (TargetOption != null && TargetOption.Range != null)
+			{
+				HashUtils.ContentHashOnto(TargetOption.Range.isDynamic, ref lastHash);
+				HashUtils.ContentHashOnto(TargetOption.Range.fixedValue, ref lastHash);
+				HashUtils.ContentHashOnto(TargetOption.Range.dynamicKey, ref lastHash);
+			}
+			if (Predicates == null)
+			{
+				return;
+			}
+			ConfigAbilityPredicate[] predicates = Predicates;
+			foreach (ConfigAbilityPredicate configAbilityPredicate in predicates)
+			{
+				if (configAbilityPredicate is IHashable)
+				{
+					HashUtils.ContentHashOnto((IHashable)configAbilityPredicate, ref lastHash);
+				}
+			}
+		}
+
+		public override void Call(ActorAbilityPlugin abilityPlugin, ConfigAbilityAction actionConfig, ActorAbility instancedAbility, ActorModifier instancedModifier, BaseAbilityActor target, BaseEvent evt)
+		{
+			abilityPlugin.AttachOpacityHandler(actionConfig, instancedAbility, instancedModifier, target, evt);
+		}
+	}
+}

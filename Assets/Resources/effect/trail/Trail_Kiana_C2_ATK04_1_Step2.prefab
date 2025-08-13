@@ -1,0 +1,287 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1819779736190859
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4810105790622061}
+  - 114: {fileID: 114217745832570238}
+  - 114: {fileID: 114722128113565432}
+  m_Layer: 11
+  m_Name: Trail_Kiana_C2_ATK04_1_Step2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1590979490366516
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4339574051489865}
+  - 114: {fileID: 114389064665352514}
+  m_Layer: 10
+  m_Name: KianaAttackTrail_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1866336420287683
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4021737657267680}
+  m_Layer: 11
+  m_Name: KianaAttackTrail_ATK04_Anchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4810105790622061
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1819779736190859}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4339574051489865}
+  - {fileID: 4021737657267680}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114217745832570238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1819779736190859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f7fbafc4371703ac17b495f722b2df1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  OffsetVec3: {x: 0, y: 0, z: 0}
+  RotateX: 0
+  dontDestroyWhenOwnerEvade: 0
+  IgnoreTimescale: 0
+--- !u!114 &114722128113565432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1819779736190859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb70080075f5f2d5506c0850d974f02, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  TrailRendererTransform: {fileID: 4339574051489865}
+  AniAnchorTransform: {fileID: 4021737657267680}
+  FramePosList:
+  - {x: 4.44087E-08, y: 0.37677595, z: -0.5079763}
+  - {x: -0.6513858, y: 0.52372783, z: -0.37626183}
+  - {x: -1.0941302, y: 0.85583466, z: 0.01988136}
+  - {x: -1.1864207, y: 1.2784833, z: 0.5453316}
+  - {x: -0.8986959, y: 1.668059, z: 1.0235491}
+  - {x: -0.3231152, y: 1.9115416, z: 1.2931236}
+  - {x: 0.3559605, y: 1.942704, z: 1.2594736}
+  - {x: 0.92102045, y: 1.7633264, z: 0.92514163}
+  - {x: 1.1910741, y: 1.4426264, z: 0.3889799}
+  - {x: 1.0796224, y: 1.0950868, z: -0.18551251}
+  - {x: 0.6223629, y: 0.8437875, z: -0.6225596}
+  - {x: -0.034241363, y: 0.7809829, z: -0.79040843}
+  - {x: -0.6798785, y: 0.9385511, z: -0.64353245}
+  - {x: -1.1077474, y: 1.2777839, z: -0.23721218}
+  - {x: -1.1808008, y: 1.7017856, z: 0.29017055}
+  - {x: -0.87563956, y: 2.0865085, z: 0.76145726}
+  - {x: -0.2900071, y: 2.3204865, z: 1.0174581}
+  - {x: 0.38851583, y: 2.340537, z: 0.9679385}
+  - {x: 0.9425948, y: 2.1519995, z: 0.62052494}
+  - {x: 1.1947577, y: 1.827025, z: 0.07825844}
+  - {x: 1.0642347, y: 1.4814657, z: -0.49340594}
+  - {x: 0.59283376, y: 1.2377679, z: -0.9195968}
+  - {x: -0.068454884, y: 1.1857502, z: -1.0720406}
+  - {x: -0.70781714, y: 1.353836, z: -0.91014355}
+  - {x: -1.1204625, y: 1.6999489, z: -0.49399775}
+  - {x: -1.1742193, y: 2.1249883, z: 0.034866884}
+  - {x: -0.851869, y: 2.5045753, z: 0.49881896}
+  - {x: -0.25666144, y: 2.728888, z: 0.7410161}
+  - {x: 0.4207548, y: 2.73784, z: 0.67564625}
+  - {x: 0.9634026, y: 2.5403252, z: 0.31541157}
+  generateDefaultDuration: 1
+  appearDuration: 0.35000002
+  appearCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  vanishDuration: 0.35000002
+  vanishCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MaterialOverrideKey:
+  EffectOverlayKey:
+  TimeScale: 1.8
+--- !u!4 &4339574051489865
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1590979490366516}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4810105790622061}
+  m_RootOrder: 0
+--- !u!114 &114389064665352514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1590979490366516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 767613d52081a609c100d3b5509e9b21, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  TrailData:
+    TrailMaterials:
+    - {fileID: 2100000, guid: b04d2c399b93dd244999ea970122046f, type: 2}
+    Lifetime: 0.8
+    UsingSimpleSize: 0
+    SimpleSizeOverLifeStart: 1
+    SimpleSizeOverLifeEnd: 0
+    SizeOverLife:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0.6995389
+        inSlope: 0
+        outSlope: -1.3333333
+        tangentMode: 0
+      - time: 0.3
+        value: 0.29953888
+        inSlope: -1.3333333
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UsingSimpleColor: 0
+    SimpleColorOverLifeStart: {r: 1, g: 1, b: 1, a: 1}
+    SimpleColorOverLifeEnd: {r: 1, g: 1, b: 1, a: 0}
+    ColorOverLife:
+      key0:
+        serializedVersion: 2
+        rgba: 16777215
+      key1:
+        serializedVersion: 2
+        rgba: 3372220415
+      key2:
+        serializedVersion: 2
+        rgba: 3355443200
+      key3:
+        serializedVersion: 2
+        rgba: 0
+      key4:
+        serializedVersion: 2
+        rgba: 0
+      key5:
+        serializedVersion: 2
+        rgba: 0
+      key6:
+        serializedVersion: 2
+        rgba: 0
+      key7:
+        serializedVersion: 2
+        rgba: 0
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 8481
+      atime2: 25829
+      atime3: 65535
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 4
+    StretchSizeToFit: 0
+    StretchColorToFit: 0
+    MaterialTileLength: 0
+    UseForwardOverride: 0
+    ForwardOverride: {x: -5.014364E-08, y: -0.8191521, z: 0.5735764}
+    ForwardOverrideRelative: 0
+  Emit: 0
+  StretchUpRatio: 1
+  StretchDownRatio: 1
+  clockSize: 0
+  PointsBetweenControlPoints: 4
+--- !u!4 &4021737657267680
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1866336420287683}
+  m_LocalRotation: {x: -2.1648916E-17, y: 0.7071068, z: 2.1648916E-17, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4810105790622061}
+  m_RootOrder: 1
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1819779736190859}
+  m_IsPrefabParent: 1

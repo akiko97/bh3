@@ -1,0 +1,9 @@
+namespace MoleMole.Config
+{
+	public class ConfigLeaderToMinionAction
+	{
+		public string Name;
+
+		public float Probability = 2f;
+	}
+}

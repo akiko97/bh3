@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: water
+  m_Shader: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _CausticMap
+      second:
+        m_Texture: {fileID: 2800000, guid: a421819d855a60c40adceeb903d904e1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NormalMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 47166b78264200b438b849ef4d20fbf9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ReflectionTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _BloomFactor
+      second: 0.6
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _BumpScale0
+      second: -10.6
+    - first:
+        name: _BumpScale1
+      second: 25
+    - first:
+        name: _Caustic
+      second: 0.85
+    - first:
+        name: _CausticScale
+      second: 65
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _Delta1
+      second: 0.01
+    - first:
+        name: _Delta2
+      second: 0.01
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _Distortion
+      second: 0.4
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _FogColorIntensity
+      second: 0.0684
+    - first:
+        name: _FogEffectLimit
+      second: 0.11
+    - first:
+        name: _FogEffectStart
+      second: 0.034
+    - first:
+        name: _FogIntensity
+      second: 0.1115
+    - first:
+        name: _FogStartDistance
+      second: 4.82
+    - first:
+        name: _Frequency
+      second: 20
+    - first:
+        name: _Glossiness
+      second: 0.5
+    - first:
+        name: _LightMapIntensity
+      second: 1
+    - first:
+        name: _MainIntensity
+      second: 1
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _Speed
+      second: 0.5
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _WaterScale
+      second: 3
+    - first:
+        name: _ZWrite
+      second: 1
+    m_Colors:
+    - first:
+        name: _BumpVelocity0
+      second: {r: 0.03, g: 0, b: 0, a: 0}
+    - first:
+        name: _BumpVelocity1
+      second: {r: 0.03, g: 0, b: 0, a: 0}
+    - first:
+        name: _CausticVelocity
+      second: {r: 0.24, g: 0, b: 0, a: 0}
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Emission
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _FogColorFar
+      second: {r: 0.74264705, g: 0.8615619, b: 1, a: 1}
+    - first:
+        name: _FogColorNear
+      second: {r: 1, g: 0.6882353, b: 0.2205882, a: 1}
+    - first:
+        name: _FresnelFactors
+      second: {r: 8, g: 1, b: 0, a: 0}
+    - first:
+        name: _RefColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _RefractionColor
+      second: {r: 0, g: 0.6392157, b: 0.80392164, a: 1}
+    - first:
+        name: _WaterColor
+      second: {r: 0.37878463, g: 0.47543997, b: 0.8308824, a: 1}

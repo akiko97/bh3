@@ -1,0 +1,390 @@
+{
+	"Default":
+	{
+		"$type": "ConfigGraphicsRecommendSetting",
+		"RecommendResolutionX": 1280,
+		"RecommendResolutionY": 720,
+		"ResolutionPercentage":
+		{
+			"High": 100,
+			"Middle": 100,
+			"Low": 80,
+		},
+		"ResolutionQuality": "Middle",
+		"PostFxGradeBufferSize":
+		{
+			"High": 256,
+			"Low": 128,
+		},
+		"TargetFrameRate": 30,
+		"RecommendGrade": "Low",
+		"EnableGyroscope": true,
+	},
+	"EcoMode":
+	{
+		"RecommendGrade": "Off",
+		"TargetFrameRate": 30,
+		"ResolutionQuality": "Low",
+	},
+
+	"Gyroscope":
+	{
+		"ExcludeDeviceModels": ["Meizu m3", "Meizu M3s", "BBK vivo Xplay3S", "Meizu m2"],
+	},
+
+	// devices reference: http://www.mydrivers.com/zhuanti/tianti/01/
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	"Adreno High":
+	{
+		"RecommendGrade": "High",
+		"Requirements":
+		[
+			{
+				"Info": "GraphicsDeviceName",
+				"Values":
+				[
+					"Adreno* 530",
+					"Adreno* 510",
+					"Adreno* 430",
+				],
+			},
+		],
+	},
+	"Adreno Middle":
+	{
+		"RecommendGrade": "Middle",
+		"Requirements":
+		[
+			{
+				"Info": "GraphicsDeviceName",
+				"Values":
+				[
+					"Adreno* 506",
+					"Adreno* 505",
+					"Adreno* 420",
+					"Adreno* 418",
+					"Adreno* 330",
+				],
+			},
+		],
+	},
+	"Adreno Low":
+	{
+		//"RecommendResolutionX": 1024,
+		//"RecommendResolutionY": 576,
+		"RecommendGrade": "Low",
+		"Requirements":
+		[
+			{
+				"Info": "GraphicsDeviceName",
+				"Values":
+				[
+					"Adreno* 405",
+					"Adreno* 320",
+					"Adreno* 308",
+				],
+			},
+		],
+	},
+	"Adreno Off":
+	{
+		"RecommendResolutionX": 1024,
+		"RecommendResolutionY": 576,
+		"RecommendGrade": "Off",
+		"Requirements":
+		[
+			{
+				"Info": "GraphicsDeviceName",
+				"Values":
+				[
+					"Adreno* 306",
+					"Adreno* 305",
+					"Adreno* 304",
+					"Adreno* 302",
+					"Adreno* 225",
+					"Adreno* 220",
+					"Adreno* 205",
+					"Adreno* 203",
+					"Adreno* 200",
+				],
+			},
+		],
+	},
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	"PowerVR High":
+	{
+		"RecommendGrade": "High",
+		"Requirements":
+		[
+			{
+				"Info": "GraphicsDeviceName",
+				"Values":
+				[
+				],
+			},
+		],
+	},
+	"PowerVR Middle":
+	{
+		"RecommendGrade": "Middle",
+		"Requirements":
+		[
+			{
+				"Info": "GraphicsDeviceName",
+				"Values":
+				[
+				],
+			},
+		],
+	},
+	"PowerVR Low":
+	{
+		//"RecommendResolutionX": 1024,
+		//"RecommendResolutionY": 576,
+		"RecommendGrade": "Low",
+		"Requirements":
+		[
+			{
+				"Info": "GraphicsDeviceName",
+				"Values":
+				[
+					"PowerVR* G6430*",
+					"PowerVR* G6200*",
+					"PowerVR* 6200*",
+				],
+			},
+		],
+	},
+	"PowerVR Off":
+	{
+		"RecommendResolutionX": 1024,
+		"RecommendResolutionY": 576,
+		"RecommendGrade": "Off",
+		"Requirements":
+		[
+			{
+				"Info": "GraphicsDeviceName",
+				"Values":
+				[
+					"PowerVR* G6400*",
+					"PowerVR* SGX545*",
+					"PowerVR* SGX544*",
+					"PowerVR* SGX540*",
+					"PowerVR* SGX535*",
+					"PowerVR* SGX531*",
+					"PowerVR* SGX530*",
+					"PowerVR* MBX*",
+				],
+			},
+		],
+	},
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	"Mali High":
+	{
+		"RecommendGrade": "High",
+		"Requirements":
+		[
+			{
+				"Info": "GraphicsDeviceName",
+				"Values":
+				[
+					"Mali*T880*",
+					"Mali*T760*",
+				],
+			},
+		],
+	},
+	"Mali Middle":
+	{
+		"RecommendGrade": "Middle",
+		"Requirements":
+		[
+			{
+				"Info": "GraphicsDeviceName",
+				"Values":
+				[
+					"Mali*T830*",
+					"Mali*T720*",
+					"Mali*T628*",
+					"Mali*450*",
+				],
+			},
+		],
+	},
+	"Mali Low":
+	{
+		//"RecommendResolutionX": 1024,
+		//"RecommendResolutionY": 576,
+		"RecommendGrade": "Low",
+		"Requirements":
+		[
+			{
+				"Info": "GraphicsDeviceName",
+				"Values":
+				[
+					"Mali*T624*",
+				],
+			},
+		],
+	},
+	"Mali Off":
+	{
+		"RecommendResolutionX": 1024,
+		"RecommendResolutionY": 576,
+		"RecommendGrade": "Off",
+		"Requirements":
+		[
+			{
+				"Info": "GraphicsDeviceName",
+				"Values":
+				[
+					"Mali*T604*",
+					"Mali*400*",
+				],
+			},
+		],
+	},
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	"Intel High":
+	{
+		"RecommendGrade": "High",
+		"Requirements":
+		[
+			{
+				"Info": "GraphicsDeviceName",
+				"Values":
+				[
+					"*Atom*x5*",
+					"*Atom*x7*",
+				],
+			},
+		],
+	},
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	"High":
+	{
+		"RecommendGrade": "High",
+		"Requirements":
+		[
+			{
+				"Info": "ProcessorFrequency",
+				"Values":
+				[
+					"2000",
+				],
+			},
+			{
+				"Info": "SystemMemorySize",
+				"Values":
+				[
+					"1024",
+				],
+			},
+			{
+				"Info": "GraphicsMemorySize",
+				"Values":
+				[
+					"512",
+				],
+			},
+		],
+	},
+	"Middle":
+	{
+		"RecommendGrade": "Middle",
+		"Requirements":
+		[
+			{
+				"Info": "ProcessorFrequency",
+				"Values":
+				[
+					"1000",
+				],
+			},
+			{
+				"Info": "SystemMemorySize",
+				"Values":
+				[
+					"1024",
+				],
+			},
+			{
+				"Info": "GraphicsMemorySize",
+				"Values":
+				[
+					"256",
+				],
+			},
+		],
+	},
+	"Low":
+	{
+		//"RecommendResolutionX": 1024,
+		//"RecommendResolutionY": 576,
+		"RecommendGrade": "Low",
+		"Requirements":
+		[
+			{
+				"Info": "ProcessorFrequency",
+				"Values":
+				[
+					"500",
+				],
+			},
+			{
+				"Info": "SystemMemorySize",
+				"Values":
+				[
+					"512",
+				],
+			},
+			{
+				"Info": "GraphicsMemorySize",
+				"Values":
+				[
+					"256",
+				],
+			},
+		],
+	},
+	"Off":
+	{
+		"RecommendResolutionX": 1024,
+		"RecommendResolutionY": 576,
+		"RecommendGrade": "Off",
+		"Requirements":
+		[
+			{
+				"Info": "ProcessorFrequency",
+				"Values":
+				[
+					"0",
+				],
+			},
+			{
+				"Info": "SystemMemorySize",
+				"Values":
+				[
+					"0",
+				],
+			},
+			{
+				"Info": "GraphicsMemorySize",
+				"Values":
+				[
+					"0",
+				],
+			},
+		],
+	},
+}

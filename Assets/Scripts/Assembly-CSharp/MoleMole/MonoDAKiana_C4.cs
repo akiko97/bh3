@@ -1,0 +1,15 @@
+namespace MoleMole
+{
+	public class MonoDAKiana_C4 : MonoDAKiana
+	{
+		public override void Init(uint runtimeID)
+		{
+			base.Init(runtimeID);
+		}
+
+		protected override void Update()
+		{
+			base.Update();
+		}
+	}
+}

@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1364254276536719
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4749168529601603}
+  - 114: {fileID: 114338221712692759}
+  m_Layer: 0
+  m_Name: Endure
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1121984712527243
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4550883764169268}
+  - 114: {fileID: 114673598334909951}
+  m_Layer: 0
+  m_Name: from
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1304038540298978
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4727254724750701}
+  - 114: {fileID: 114141534766483264}
+  m_Layer: 0
+  m_Name: to
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4749168529601603
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1364254276536719}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.974, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4550883764169268}
+  - {fileID: 4727254724750701}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114338221712692759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1364254276536719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33a1d9942b3d60a5adf71a36e250f0b8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  FromProperty: {fileID: 114673598334909951}
+  ToProperty: {fileID: 114141534766483264}
+  EnableDuration: 0.5
+  DisableDuration: 0.5
+  Keyword: RIM_GLOW
+  LerpCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0.21347395
+      tangentMode: 0
+    - time: 0.96150565
+      value: 0.2052564
+      inSlope: 0.21347395
+      outSlope: 0.41933334
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 27.579817
+      outSlope: 27.579817
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  NewShaderName:
+  NewTexture: {fileID: 0}
+  TexturePropertyName:
+--- !u!4 &4550883764169268
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1121984712527243}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4749168529601603}
+  m_RootOrder: 0
+--- !u!114 &114673598334909951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1121984712527243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90e7c3e3879129152a271ee01777698b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _RGColor: {r: 1, g: 0, b: 0, a: 1}
+  _RGShininess: 0
+  _RGScale: 0
+  _RGBias: 0
+  _RGRatio: 0.1
+  _RGBloomFactor: 1
+--- !u!4 &4727254724750701
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1304038540298978}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4749168529601603}
+  m_RootOrder: 1
+--- !u!114 &114141534766483264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1304038540298978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90e7c3e3879129152a271ee01777698b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _RGColor: {r: 1, g: 0, b: 0, a: 1}
+  _RGShininess: 1
+  _RGScale: 10
+  _RGBias: 0
+  _RGRatio: 0.1
+  _RGBloomFactor: 2.75
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1364254276536719}
+  m_IsPrefabParent: 1

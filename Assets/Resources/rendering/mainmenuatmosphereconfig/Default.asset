@@ -1,0 +1,618 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b8e670097883039af3c4ead91381b5, type: 3}
+  m_Name: Default
+  m_EditorClassIdentifier:
+  Common:
+    PlaybackSpeed: 4
+    TransitionTime: 2
+    SceneList:
+    - Name: Plane
+      ChooseRate: 2
+    - Name: Relief
+      ChooseRate: 2
+    Tex: {fileID: 2800000, guid: dceff20bad3b058488d79c309aa22055, type: 3}
+    SecondTex: {fileID: 2800000, guid: 9c8b60c29c6ea4f4db34db6f7e0697f7, type: 3}
+  ConfigList:
+  - Name: 1
+    FrameTime: 1
+    CloudStyle:
+      BrightColor: {r: 0.075276, g: 0.28507647, b: 0.492, a: 1}
+      DarkColor: {r: 0.56163496, g: 0.6622629, b: 0.7794118, a: 0.941}
+      SecondDarkColor: {r: 0.543, g: 0.79198617, b: 1, a: 0.872}
+      RimColor: {r: 0.538, g: 0.77059317, b: 1, a: 0.309}
+      FlashColor: {r: 0.9952138, g: 0.653, b: 1, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0.01731299, g: 0.3604877, b: 0.597, a: 1}
+      GColor: {r: 0.6585441, g: 0.7008048, b: 0.759, a: 1}
+      BColor: {r: 0.06897793, g: 0.0865912, b: 0.43382353, a: 0.991}
+      GradTopColor: {r: 0, g: 0.008765515, b: 0.041, a: 1}
+      GradBottomColor: {r: 0, g: 0.06277249, b: 0.246, a: 1}
+      XLocation: 0
+      YLocation: 0.204
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.321
+      SecTexHigh: 0.257
+      SecTexEmission: 3
+      GradLocation: -0.346
+      GradHigh: 0.26
+      BloomFactor: 1.6
+    Indoor:
+      TintColor: {r: 0.79354095, g: 0.8556497, b: 0.9411765, a: 0}
+  - Name: 3
+    FrameTime: 3
+    CloudStyle:
+      BrightColor: {r: 0.12621698, g: 0.28705627, b: 0.511, a: 1}
+      DarkColor: {r: 0.56163496, g: 0.6622629, b: 0.7794118, a: 0.941}
+      SecondDarkColor: {r: 0.543, g: 0.73402596, b: 1, a: 0.872}
+      RimColor: {r: 0.538, g: 0.731116, b: 1, a: 0.309}
+      FlashColor: {r: 0.9952138, g: 0.653, b: 1, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0.07343105, g: 0.40201578, b: 0.597, a: 1}
+      GColor: {r: 0.6585441, g: 0.7008048, b: 0.759, a: 1}
+      BColor: {r: 0.06897793, g: 0.0865912, b: 0.43382353, a: 0.991}
+      GradTopColor: {r: 0, g: 0.008765515, b: 0.041, a: 1}
+      GradBottomColor: {r: 0.17641212, g: 0, b: 0.366, a: 1}
+      XLocation: 0
+      YLocation: 0.204
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.321
+      SecTexHigh: 0.257
+      SecTexEmission: 3
+      GradLocation: -0.346
+      GradHigh: 0.26
+      BloomFactor: 1.6
+    Indoor:
+      TintColor: {r: 0.84313726, g: 0.9091278, b: 1, a: 0}
+  - Name: 4
+    FrameTime: 4
+    CloudStyle:
+      BrightColor: {r: 0.338195, g: 0.44171536, b: 0.605, a: 1}
+      DarkColor: {r: 0.922, g: 0.84190685, b: 0.79845196, a: 1}
+      SecondDarkColor: {r: 0.673038, g: 0.7293943, b: 0.807, a: 1}
+      RimColor: {r: 1, g: 0.85899997, b: 0.85899997, a: 0.366}
+      FlashColor: {r: 0.9952138, g: 0.653, b: 1, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0.6153309, g: 0.6165838, b: 0.797, a: 1}
+      GColor: {r: 0.358614, g: 0.678537, b: 0.687, a: 1}
+      BColor: {r: 0.591, g: 0.21765105, b: 0.049643997, a: 1}
+      GradTopColor: {r: 0, g: 0.02331028, b: 0.26, a: 1}
+      GradBottomColor: {r: 0.30900002, g: 0.024102004, b: 0.024102004, a: 1}
+      XLocation: 0
+      YLocation: 0.204
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.321
+      SecTexHigh: 0.257
+      SecTexEmission: 3
+      GradLocation: -0.339
+      GradHigh: 0.26
+      BloomFactor: 1.1
+    Indoor:
+      TintColor: {r: 0.9264706, g: 0.93306285, b: 1, a: 0}
+  - Name: 5
+    FrameTime: 5
+    CloudStyle:
+      BrightColor: {r: 0.413952, g: 0.5545445, b: 0.672, a: 1}
+      DarkColor: {r: 0.81540895, g: 0.8413842, b: 0.903, a: 1}
+      SecondDarkColor: {r: 0.690202, g: 0.7351307, b: 0.797, a: 1}
+      RimColor: {r: 0.972, g: 0.87469274, b: 0.786348, a: 0.603}
+      FlashColor: {r: 0.9952138, g: 0.653, b: 1, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0.6422647, g: 0.7163428, b: 0.753, a: 1}
+      GColor: {r: 0.37608132, g: 0.59178716, b: 0.6911765, a: 1}
+      BColor: {r: 0.803, g: 0.3750951, b: 0.14293398, a: 1}
+      GradTopColor: {r: 0, g: 0.035144728, b: 0.392, a: 1}
+      GradBottomColor: {r: 0.659, g: 0.384856, b: 0.384856, a: 1}
+      XLocation: 0
+      YLocation: 0.204
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.321
+      SecTexHigh: 0.257
+      SecTexEmission: 2.5
+      GradLocation: -0.31
+      GradHigh: 0.26
+      BloomFactor: 1.4
+    Indoor:
+      TintColor: {r: 0.9338235, g: 0.96713996, b: 1, a: 0}
+  - Name: 6
+    FrameTime: 6
+    CloudStyle:
+      BrightColor: {r: 0.410326, g: 0.5987168, b: 0.742, a: 1}
+      DarkColor: {r: 0.963, g: 0.93565315, b: 0.82138234, a: 1}
+      SecondDarkColor: {r: 0.590744, g: 0.74566525, b: 0.959, a: 1}
+      RimColor: {r: 1, g: 1, b: 1, a: 0.409}
+      FlashColor: {r: 0.9952138, g: 0.653, b: 1, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0.947, g: 0.91094875, b: 0.816314, a: 1}
+      GColor: {r: 0.44171715, g: 0.55644464, b: 0.63235295, a: 1}
+      BColor: {r: 0.965, g: 0.4982329, b: 0.195895, a: 1}
+      GradTopColor: {r: 0, g: 0.28290004, b: 0.615, a: 1}
+      GradBottomColor: {r: 0.903, g: 0.7362565, b: 0.618555, a: 1}
+      XLocation: 0
+      YLocation: 0.204
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.321
+      SecTexHigh: 0.257
+      SecTexEmission: 1.41
+      GradLocation: -0.339
+      GradHigh: 0.22
+      BloomFactor: 1.2
+    Indoor:
+      TintColor: {r: 0.9485294, g: 0.98509127, b: 1, a: 0}
+  - Name: 7
+    FrameTime: 7
+    CloudStyle:
+      BrightColor: {r: 0.476452, g: 0.62701684, b: 0.766, a: 1}
+      DarkColor: {r: 0.966, g: 0.9053804, b: 0.775698, a: 1}
+      SecondDarkColor: {r: 0.57854396, g: 0.6734125, b: 0.816, a: 1}
+      RimColor: {r: 0.981, g: 0.981, b: 0.981, a: 0.33725}
+      FlashColor: {r: 0.9952138, g: 0.653, b: 1, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0.921, g: 0.90846235, b: 0.8678505, a: 1}
+      GColor: {r: 0.39848897, g: 0.66371083, b: 0.7040441, a: 1}
+      BColor: {r: 0.803, g: 0.36246866, b: 0.042558976, a: 1}
+      GradTopColor: {r: 0, g: 0.2315931, b: 0.538, a: 1}
+      GradBottomColor: {r: 0.43581, g: 0.5464149, b: 0.73, a: 1}
+      XLocation: 0
+      YLocation: 0.204
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.321
+      SecTexHigh: 0.257
+      SecTexEmission: 0.77
+      GradLocation: -0.34074998
+      GradHigh: 0.26
+      BloomFactor: 1.1
+    Indoor:
+      TintColor: {r: 0.9485294, g: 0.98509127, b: 1, a: 0}
+  - Name: 8
+    FrameTime: 8
+    CloudStyle:
+      BrightColor: {r: 0.8525647, g: 0.89490974, b: 0.95686275, a: 1}
+      DarkColor: {r: 0.77426475, g: 0.7878195, b: 0.81, a: 1}
+      SecondDarkColor: {r: 0.3083824, g: 0.44549474, b: 0.66176474, a: 1}
+      RimColor: {r: 0.51615196, g: 0.58774203, b: 0.728, a: 0.422}
+      FlashColor: {r: 0.9952138, g: 0.653, b: 1, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0.731798, g: 0.8323919, b: 0.997, a: 1}
+      GColor: {r: 0.9117647, g: 0.9117647, b: 0.9117647, a: 1}
+      BColor: {r: 0.503, g: 0.36779365, b: 0.19667296, a: 1}
+      GradTopColor: {r: 0, g: 0.110268176, b: 0.291, a: 1}
+      GradBottomColor: {r: 0.057485987, g: 0.5000377, b: 0.871, a: 1}
+      XLocation: 0
+      YLocation: 0.204
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.321
+      SecTexHigh: 0.257
+      SecTexEmission: 0
+      GradLocation: -0.34249997
+      GradHigh: 0.26
+      BloomFactor: 0.7
+    Indoor:
+      TintColor: {r: 0.9558824, g: 0.9872211, b: 1, a: 0}
+  - Name: 9
+    FrameTime: 9
+    CloudStyle:
+      BrightColor: {r: 0.878, g: 0.91451293, b: 1, a: 1}
+      DarkColor: {r: 0.704801, g: 0.7313418, b: 0.76455146, a: 1}
+      SecondDarkColor: {r: 0.37629798, g: 0.53399795, b: 0.706, a: 1}
+      RimColor: {r: 0.043889992, g: 0.25378242, b: 0.665, a: 0.19375001}
+      FlashColor: {r: 0.9952138, g: 0.653, b: 1, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0.755958, g: 0.83759993, b: 0.878, a: 1}
+      GColor: {r: 0.597021, g: 0.67024106, b: 0.8474264, a: 1}
+      BColor: {r: 0.634, g: 0.5289921, b: 0.433656, a: 1}
+      GradTopColor: {r: 0.040131006, g: 0.16218151, b: 0.44099998, a: 1}
+      GradBottomColor: {r: 0.12441602, g: 0.56827617, b: 0.972, a: 1}
+      XLocation: 0
+      YLocation: 0.204
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.32775003
+      SecTexHigh: 0.257
+      SecTexEmission: 0
+      GradLocation: -0.34424996
+      GradHigh: 0.26
+      BloomFactor: 0.6
+    Indoor:
+      TintColor: {r: 0.9632353, g: 0.97870183, b: 1, a: 0}
+  - Name: 10
+    FrameTime: 10
+    CloudStyle:
+      BrightColor: {r: 1, g: 1, b: 1, a: 1}
+      DarkColor: {r: 0.48872, g: 0.60713905, b: 0.745, a: 1}
+      SecondDarkColor: {r: 0.390403, g: 0.56441665, b: 0.767, a: 1}
+      RimColor: {r: 0.27776, g: 0.51226485, b: 0.896, a: 0.291}
+      FlashColor: {r: 0.9952138, g: 0.653, b: 1, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0.97058827, g: 0.987395, b: 1, a: 1}
+      GColor: {r: 0.6487889, g: 0.7219887, b: 0.9191176, a: 1}
+      BColor: {r: 0.5514706, g: 0.5514706, b: 0.5514706, a: 1}
+      GradTopColor: {r: 0.05367999, g: 0.13627252, b: 0.44, a: 1}
+      GradBottomColor: {r: 0, g: 0.53200006, b: 1, a: 1}
+      XLocation: 0
+      YLocation: 0.204
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.33
+      SecTexHigh: 0.257
+      SecTexEmission: 0
+      GradLocation: -0.346
+      GradHigh: 0.26
+      BloomFactor: 0.6
+    Indoor:
+      TintColor: {r: 0.9632353, g: 0.97870183, b: 1, a: 0}
+  - Name: 11
+    FrameTime: 11
+    CloudStyle:
+      BrightColor: {r: 0.99264705, g: 0.9963489, b: 1, a: 1}
+      DarkColor: {r: 0.33399263, g: 0.5296143, b: 0.75735295, a: 1}
+      SecondDarkColor: {r: 0.35894102, g: 0.5685369, b: 0.803, a: 1}
+      RimColor: {r: 0.26386, g: 0.5277661, b: 0.835, a: 0.291}
+      FlashColor: {r: 0.9952138, g: 0.653, b: 1, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0.90333503, g: 0.95114356, b: 0.987, a: 1}
+      GColor: {r: 0.7949827, g: 0.83158255, b: 0.93014705, a: 1}
+      BColor: {r: 0.5661764, g: 0.56476253, b: 0.55336285, a: 1}
+      GradTopColor: {r: 0.08299799, g: 0.17685357, b: 0.522, a: 1}
+      GradBottomColor: {r: 0.24033092, g: 0.6081307, b: 0.973, a: 1}
+      XLocation: 0
+      YLocation: 0.204
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.337
+      SecTexHigh: 0.2375
+      SecTexEmission: 0
+      GradLocation: -0.346
+      GradHigh: 0.26
+      BloomFactor: 0.6
+    Indoor:
+      TintColor: {r: 0.9705882, g: 0.9829615, b: 1, a: 0}
+  - Name: 12
+    FrameTime: 12
+    CloudStyle:
+      BrightColor: {r: 0.99264705, g: 0.9963489, b: 1, a: 1}
+      DarkColor: {r: 0.4475956, g: 0.5907249, b: 0.75735295, a: 1}
+      SecondDarkColor: {r: 0.33560097, g: 0.56737006, b: 0.761, a: 1}
+      RimColor: {r: 0.2982353, g: 0.53248, b: 0.7647059, a: 0.2901961}
+      FlashColor: {r: 0.9952138, g: 0.653, b: 1, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0.8602941, g: 0.9401261, b: 1, a: 1}
+      GColor: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
+      BColor: {r: 0.5808823, g: 0.5780545, b: 0.5552552, a: 1}
+      GradTopColor: {r: 0.0111980075, g: 0.2581078, b: 0.509, a: 1}
+      GradBottomColor: {r: 0.23288502, g: 0.58318645, b: 0.991, a: 1}
+      XLocation: 0
+      YLocation: 0.204
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.344
+      SecTexHigh: 0.218
+      SecTexEmission: 0
+      GradLocation: -0.346
+      GradHigh: 0.26
+      BloomFactor: 0.6
+    Indoor:
+      TintColor: {r: 1, g: 1, b: 1, a: 0}
+  - Name: 13
+    FrameTime: 13
+    CloudStyle:
+      BrightColor: {r: 0.99264705, g: 0.9963489, b: 1, a: 1}
+      DarkColor: {r: 0.4233603, g: 0.577688, b: 0.75735295, a: 1}
+      SecondDarkColor: {r: 0.34741, g: 0.54441416, b: 0.709, a: 1}
+      RimColor: {r: 0.28463402, g: 0.52043194, b: 0.753, a: 0.308}
+      FlashColor: {r: 0.9952138, g: 0.653, b: 1, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0.86246455, g: 0.94105625, b: 1, a: 1}
+      GColor: {r: 0.83547795, g: 0.84352505, b: 0.86519605, a: 1}
+      BColor: {r: 0.54263735, g: 0.5410363, b: 0.5052338, a: 1}
+      GradTopColor: {r: 0, g: 0.12635168, b: 0.591, a: 1}
+      GradBottomColor: {r: 0.304, g: 0.6112759, b: 0.969, a: 1}
+      XLocation: 0
+      YLocation: 0.204
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.344
+      SecTexHigh: 0.218
+      SecTexEmission: 0
+      GradLocation: -0.346
+      GradHigh: 0.26
+      BloomFactor: 0.6
+    Indoor:
+      TintColor: {r: 1, g: 1, b: 1, a: 0}
+  - Name: 14
+    FrameTime: 14
+    CloudStyle:
+      BrightColor: {r: 0.99264705, g: 0.9963489, b: 1, a: 1}
+      DarkColor: {r: 0.4990956, g: 0.61842835, b: 0.75735295, a: 1}
+      SecondDarkColor: {r: 0.38875902, g: 0.55996615, b: 0.703, a: 1}
+      RimColor: {r: 0.275869, g: 0.5248168, b: 0.809, a: 0.30588236}
+      FlashColor: {r: 0.9952138, g: 0.653, b: 1, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0.86469895, g: 0.9420138, b: 1, a: 1}
+      GColor: {r: 0.72977936, g: 0.7458736, b: 0.7892157, a: 1}
+      BColor: {r: 0.597, g: 0.5965594, b: 0.539091, a: 1}
+      GradTopColor: {r: 0, g: 0.13676466, b: 0.6397059, a: 1}
+      GradBottomColor: {r: 0.380723, g: 0.6479269, b: 0.959, a: 1}
+      XLocation: 0
+      YLocation: 0.204
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.344
+      SecTexHigh: 0.218
+      SecTexEmission: 0
+      GradLocation: -0.346
+      GradHigh: 0.26
+      BloomFactor: 0.6
+    Indoor:
+      TintColor: {r: 1, g: 1, b: 1, a: 0}
+  - Name: 15
+    FrameTime: 15
+    CloudStyle:
+      BrightColor: {r: 0.99264705, g: 0.9963489, b: 1, a: 1}
+      DarkColor: {r: 0.5043971, g: 0.62128013, b: 0.75735295, a: 1}
+      SecondDarkColor: {r: 0.40834802, g: 0.5585308, b: 0.684, a: 1}
+      RimColor: {r: 0.20795201, g: 0.40689692, b: 0.634, a: 0.25}
+      FlashColor: {r: 0.9952138, g: 0.653, b: 1, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0.867, g: 0.94299996, b: 1, a: 1}
+      GColor: {r: 0.62408084, g: 0.64822215, b: 0.71323526, a: 1}
+      BColor: {r: 0.545325, g: 0.547, b: 0.425566, a: 1}
+      GradTopColor: {r: 0, g: 0.29110196, b: 0.609, a: 1}
+      GradBottomColor: {r: 0.461616, g: 0.69915265, b: 0.978, a: 1}
+      XLocation: 0
+      YLocation: 0.204
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.344
+      SecTexHigh: 0.218
+      SecTexEmission: 0
+      GradLocation: -0.346
+      GradHigh: 0.26
+      BloomFactor: 0.6
+    Indoor:
+      TintColor: {r: 1, g: 1, b: 1, a: 0}
+  - Name: 16
+    FrameTime: 16
+    CloudStyle:
+      BrightColor: {r: 0.975144, g: 0.98509496, b: 0.991, a: 1}
+      DarkColor: {r: 0.7044226, g: 0.73996377, b: 0.74264705, a: 1}
+      SecondDarkColor: {r: 0.37684706, g: 0.52396524, b: 0.65882355, a: 1}
+      RimColor: {r: 0.35637298, g: 0.50094736, b: 0.603, a: 0.3768334}
+      FlashColor: {r: 0.9952138, g: 0.653, b: 1, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0.8802352, g: 0.909, b: 0.8976437, a: 1}
+      GColor: {r: 0.66091454, g: 0.6344487, b: 0.65941894, a: 1}
+      BColor: {r: 0.622, g: 0.6157714, b: 0.580948, a: 1}
+      GradTopColor: {r: 0.155498, g: 0.443655, b: 0.766, a: 1}
+      GradBottomColor: {r: 0.679959, g: 0.832073, b: 0.903, a: 1}
+      XLocation: 0
+      YLocation: 0.204
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.33865666
+      SecTexHigh: 0.232885
+      SecTexEmission: 0
+      GradLocation: -0.28
+      GradHigh: 0.2
+      BloomFactor: 0.6
+    Indoor:
+      TintColor: {r: 1, g: 0.99249655, b: 0.968, a: 0}
+  - Name: 17
+    FrameTime: 17
+    CloudStyle:
+      BrightColor: {r: 0.4417353, g: 0.540486, b: 0.6764706, a: 1}
+      DarkColor: {r: 0.85626924, g: 0.7254591, b: 0.66962993, a: 1}
+      SecondDarkColor: {r: 0.87183094, g: 0.8523449, b: 0.8126196, a: 1}
+      RimColor: {r: 1, g: 0.9720994, b: 0.85551465, a: 0.5036668}
+      FlashColor: {r: 0.9952138, g: 0.653, b: 1, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0.972, g: 0.95333445, b: 0.86865884, a: 1}
+      GColor: {r: 0.6977482, g: 0.62067527, b: 0.6056026, a: 1}
+      BColor: {r: 0.5979223, g: 0.7391509, b: 0.35936406, a: 1}
+      GradTopColor: {r: 0, g: 0.41230989, b: 0.65654415, a: 1}
+      GradBottomColor: {r: 0.91, g: 0.80223763, b: 0.69069004, a: 1}
+      XLocation: 0
+      YLocation: 0.204
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.33331335
+      SecTexHigh: 0.24777001
+      SecTexEmission: 0
+      GradLocation: -0.3124133
+      GradHigh: 0.26
+      BloomFactor: 0.9
+    Indoor:
+      TintColor: {r: 1, g: 0.9915586, b: 0.964, a: 0}
+  - Name: 18
+    FrameTime: 18
+    CloudStyle:
+      BrightColor: {r: 0.532481, g: 0.6090903, b: 0.647, a: 1}
+      DarkColor: {r: 1, g: 0.7348552, b: 0.59099996, a: 1}
+      SecondDarkColor: {r: 1, g: 0.89097935, b: 0.753, a: 1}
+      RimColor: {r: 1, g: 0.957131, b: 0.778, a: 0.803}
+      FlashColor: {r: 0.9952138, g: 0.653, b: 1, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0.928, g: 0.881664, b: 0.76003194, a: 1}
+      GColor: {r: 0.7205882, g: 0.6121346, b: 0.5722318, a: 1}
+      BColor: {r: 0.72640616, g: 0.959, b: 0.35674798, a: 1}
+      GradTopColor: {r: 0, g: 0.30578053, b: 0.66176474, a: 1}
+      GradBottomColor: {r: 1, g: 0.8117241, b: 0.61, a: 1}
+      XLocation: 0
+      YLocation: 0.204
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.33
+      SecTexHigh: 0.257
+      SecTexEmission: 0
+      GradLocation: -0.302
+      GradHigh: 0.26
+      BloomFactor: 1.1
+    Indoor:
+      TintColor: {r: 1, g: 0.98012173, b: 0.89705884, a: 0}
+  - Name: 19
+    FrameTime: 19
+    CloudStyle:
+      BrightColor: {r: 0.434928, g: 0.53324544, b: 0.624, a: 1}
+      DarkColor: {r: 0.828, g: 0.7202572, b: 0.680616, a: 1}
+      SecondDarkColor: {r: 0.984, g: 0.8849758, b: 0.759648, a: 1}
+      RimColor: {r: 1, g: 0.8773517, b: 0.76600003, a: 0.684}
+      FlashColor: {r: 0.9952138, g: 0.653, b: 1, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0.934, g: 0.8822796, b: 0.7897794, a: 1}
+      GColor: {r: 0.56920415, g: 0.6760351, b: 0.6911765, a: 1}
+      BColor: {r: 1, g: 0.68838626, b: 0.2940001, a: 1}
+      GradTopColor: {r: 0.142868, g: 0.35825312, b: 0.748, a: 1}
+      GradBottomColor: {r: 1, g: 0.4925793, b: 0.459, a: 1}
+      XLocation: 0
+      YLocation: 0.204
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.321
+      SecTexHigh: 0.257
+      SecTexEmission: 1
+      GradLocation: -0.302
+      GradHigh: 0.26
+      BloomFactor: 1.4
+    Indoor:
+      TintColor: {r: 1, g: 0.9659229, b: 0.9558824, a: 0}
+  - Name: 20
+    FrameTime: 20
+    CloudStyle:
+      BrightColor: {r: 0.5069777, g: 0.48692, b: 0.658, a: 1}
+      DarkColor: {r: 0.98, g: 0.7792419, b: 0.67032, a: 1}
+      SecondDarkColor: {r: 0.975, g: 0.87946355, b: 0.75855, a: 1}
+      RimColor: {r: 1, g: 0.953269, b: 0.758, a: 0.716}
+      FlashColor: {r: 0.9952138, g: 0.653, b: 1, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0.916, g: 0.87026316, b: 0.75020397, a: 1}
+      GColor: {r: 0.36004055, g: 0.2757353, b: 0.625, a: 1}
+      BColor: {r: 0.6387782, g: 0.8235294, b: 0.3451557, a: 1}
+      GradTopColor: {r: 0.3290488, g: 0, b: 0.672, a: 1}
+      GradBottomColor: {r: 1, g: 0.6979862, b: 0.60899997, a: 1}
+      XLocation: 0
+      YLocation: 0.204
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.321
+      SecTexHigh: 0.257
+      SecTexEmission: 2.61
+      GradLocation: -0.302
+      GradHigh: 0.26
+      BloomFactor: 1
+    Indoor:
+      TintColor: {r: 1, g: 0.9044118, b: 0.9617647, a: 0}
+  - Name: 21
+    FrameTime: 21
+    CloudStyle:
+      BrightColor: {r: 0.51068366, g: 0.49470398, b: 0.631, a: 1}
+      DarkColor: {r: 0.968, g: 0.7464816, b: 0.626296, a: 1}
+      SecondDarkColor: {r: 1, g: 0.89614606, b: 0.7647059, a: 1}
+      RimColor: {r: 1, g: 0.95346206, b: 0.759, a: 0.741}
+      FlashColor: {r: 0.9952138, g: 0.653, b: 1, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0.922, g: 0.87596357, b: 0.75511795, a: 1}
+      GColor: {r: 0.75, g: 0.6169625, b: 0.56801474, a: 1}
+      BColor: {r: 1, g: 0.8984, b: 0.365, a: 1}
+      GradTopColor: {r: 0.18432459, g: 0, b: 0.453, a: 1}
+      GradBottomColor: {r: 0.703, g: 0.27416998, b: 0.27416998, a: 1}
+      XLocation: 0
+      YLocation: 0.204
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.321
+      SecTexHigh: 0.257
+      SecTexEmission: 2.61
+      GradLocation: -0.302
+      GradHigh: 0.26
+      BloomFactor: 1.4
+    Indoor:
+      TintColor: {r: 1, g: 0.9044118, b: 0.9617647, a: 0}
+  - Name: 22
+    FrameTime: 22
+    CloudStyle:
+      BrightColor: {r: 0.314766, g: 0.36446124, b: 0.603, a: 1}
+      DarkColor: {r: 0.696348, g: 0.7153024, b: 0.841, a: 1}
+      SecondDarkColor: {r: 0.770523, g: 0.80408317, b: 0.859, a: 1}
+      RimColor: {r: 0.8253057, g: 0.779702, b: 0.854, a: 0.666}
+      FlashColor: {r: 0.9952138, g: 0.653, b: 1, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0.6414117, g: 0.71454114, b: 0.928, a: 1}
+      GColor: {r: 0.337552, g: 0.43870598, b: 0.578, a: 1}
+      BColor: {r: 0.659, g: 0.18182945, b: 0.15025198, a: 1}
+      GradTopColor: {r: 0.044399958, g: 0, b: 0.222, a: 1}
+      GradBottomColor: {r: 0.541, g: 0.130381, b: 0.42772594, a: 1}
+      XLocation: 0
+      YLocation: 0.204
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.321
+      SecTexHigh: 0.257
+      SecTexEmission: 2.61
+      GradLocation: -0.26
+      GradHigh: 0.26
+      BloomFactor: 1.5
+    Indoor:
+      TintColor: {r: 0.99290055, g: 0.9264706, b: 1, a: 0}
+  - Name: 23
+    FrameTime: 23
+    CloudStyle:
+      BrightColor: {r: 0.12621698, g: 0.3199367, b: 0.511, a: 1}
+      DarkColor: {r: 0.56163496, g: 0.6622629, b: 0.7794118, a: 0.941}
+      SecondDarkColor: {r: 0.543, g: 0.79198617, b: 1, a: 0.872}
+      RimColor: {r: 0.538, g: 0.77059317, b: 1, a: 0.309}
+      FlashColor: {r: 0.9952138, g: 0.653, b: 1, a: 1}
+      FlashAttenuationFactors: {x: 0.5, y: 0.5, z: 0.0001}
+    Background:
+      RColor: {r: 0.07343105, g: 0.40201578, b: 0.597, a: 1}
+      GColor: {r: 0.6585441, g: 0.7008048, b: 0.759, a: 1}
+      BColor: {r: 0.06897793, g: 0.0865912, b: 0.43382353, a: 0.991}
+      GradTopColor: {r: 0, g: 0.012613789, b: 0.059, a: 1}
+      GradBottomColor: {r: 0, g: 0.11865532, b: 0.465, a: 1}
+      XLocation: 0
+      YLocation: 0.204
+      High: 0.173
+      SecTexXLocation: 0
+      SecTexYLocation: 0.321
+      SecTexHigh: 0.257
+      SecTexEmission: 3
+      GradLocation: -0.346
+      GradHigh: 0.26
+      BloomFactor: 1.6
+    Indoor:
+      TintColor: {r: 0.84313726, g: 0.9091278, b: 1, a: 0}
