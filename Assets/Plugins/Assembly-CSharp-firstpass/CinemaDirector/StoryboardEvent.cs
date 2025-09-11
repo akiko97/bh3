@@ -11,7 +11,7 @@ namespace CinemaDirector
 
 		public override void Trigger()
 		{
-			Application.CaptureScreenshot(string.Format("Assets\\{0}{1}.png", base.gameObject.name, Count++));
+			ScreenCapture.CaptureScreenshot(string.Format("Assets\\{0}{1}.png", base.gameObject.name, Count++));
 		}
 	}
 }

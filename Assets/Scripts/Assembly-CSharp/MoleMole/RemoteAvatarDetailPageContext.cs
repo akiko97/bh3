@@ -188,14 +188,14 @@ namespace MoleMole
 			//IL_0068: Expected I4, but got Unknown
 			int target_uid = (int)rsp.target_uid;
 			string desc = string.Empty;
-			Retcode retcode = rsp.retcode;
+			int retcode = (int)rsp.retcode;
 			switch ((int)retcode)
 			{
 			case 0:
 			{
 				string text = Singleton<FriendModule>.Instance.TryGetPlayerNickName(target_uid);
 				AddFriendAction action = rsp.action;
-				switch (action - 1)
+				switch ((int)action - 1)
 				{
 				case 1:
 					desc = LocalizationGeneralLogic.GetText("Menu_Desc_AgreeFriend", text);

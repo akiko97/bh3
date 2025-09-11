@@ -485,7 +485,7 @@ namespace MoleMole
 			_redeemCode = base.view.transform.Find("AccountPanel/Award/InputField/Text").GetComponent<Text>().text;
 			if (_redeemCode.Length != 10)
 			{
-				string networkErrCodeOutput = LocalizationGeneralLogic.GetNetworkErrCodeOutput((object)(Retcode)2);
+				string networkErrCodeOutput = LocalizationGeneralLogic.GetNetworkErrCodeOutput((object)(GetRedeemCodeInfoRsp.Retcode)2);
 				Singleton<MainUIManager>.Instance.ShowDialog(new RedeemDialogContext(_redeemCode, RedeemDialogContext.RedeemStatus.Error, null, networkErrCodeOutput));
 			}
 			else

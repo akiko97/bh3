@@ -25,7 +25,7 @@ namespace MoleMole
 				ParticleSystem.EmissionModule emission = targetParticleSystems[i].emission;
 				ParticleSystem.MinMaxCurve rate = emission.rate;
 				_origRateMaxes[i] = rate.constantMax;
-				rate.curveScalar = 0f;
+				rate.curveMultiplier = 0f;
 				emission.rate = rate;
 			}
 		}

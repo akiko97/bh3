@@ -99,18 +99,18 @@ namespace MoleMole
 			{
 				Transform transform = volumeBtns[i];
 				transform.GetComponent<Image>().color = MiscData.GetColor("Blue");
-				transform.FindChild("Check").gameObject.SetActive(false);
-				transform.FindChild("Text").gameObject.SetActive(true);
+				transform.Find("Check").gameObject.SetActive(false);
+				transform.Find("Text").gameObject.SetActive(true);
 			}
 			volumeBtns[volume].GetComponent<Image>().color = MiscData.GetColor("Blue");
-			volumeBtns[volume].FindChild("Check").gameObject.SetActive(true);
-			volumeBtns[volume].FindChild("Text").gameObject.SetActive(false);
+			volumeBtns[volume].Find("Check").gameObject.SetActive(true);
+			volumeBtns[volume].Find("Text").gameObject.SetActive(false);
 			for (int j = volume + 1; j < volumeBtns.Length; j++)
 			{
 				Transform transform2 = volumeBtns[j];
 				transform2.GetComponent<Image>().color = MiscData.GetColor("TextGrey");
-				transform2.FindChild("Check").gameObject.SetActive(false);
-				transform2.FindChild("Text").gameObject.SetActive(true);
+				transform2.Find("Check").gameObject.SetActive(false);
+				transform2.Find("Text").gameObject.SetActive(true);
 			}
 		}
 
@@ -145,9 +145,9 @@ namespace MoleMole
 			int i = 0;
 			for (int num = cvLanguageGroups.Length; i < num && i < cvLanguageNames.Length; i++)
 			{
-				Transform transform = cvLanguageGroups[i].FindChild("Check");
-				Transform transform2 = cvLanguageGroups[i].FindChild("Blue");
-				Transform transform3 = cvLanguageGroups[i].FindChild("Grey");
+				Transform transform = cvLanguageGroups[i].Find("Check");
+				Transform transform2 = cvLanguageGroups[i].Find("Blue");
+				Transform transform3 = cvLanguageGroups[i].Find("Grey");
 				if (!(transform == null))
 				{
 					bool flag = cvLanguageNames[i] == _modifiedSettingConfig.CVLanguage;

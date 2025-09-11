@@ -6,7 +6,7 @@ namespace MoleMole
 	{
 		public void Process()
 		{
-			fiSettings.GetTypeNameSpaceFormat = "MoleMole.Config.{0},Assembly-CSharp";
+			//fiSettings.GetTypeNameSpaceFormat = "MoleMole.Config.{0},Assembly-CSharp";
 			fiSettings.EmitWarnings = true;
 			fiSettings.EnableAnimation = false;
 			fiSettings.AutomaticReferenceInstantation = false;

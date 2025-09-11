@@ -18,7 +18,7 @@ namespace CinemaDirector
 		private void Update()
 		{
 			string filename = string.Format("{0}/shot {1:D04}.png", Folder, Time.frameCount);
-			Application.CaptureScreenshot(filename);
+			ScreenCapture.CaptureScreenshot(filename);
 		}
 	}
 }

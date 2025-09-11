@@ -9,7 +9,7 @@ namespace CinemaDirector
 
 		public override void Trigger(GameObject actor)
 		{
-			NavMeshAgent component = actor.GetComponent<NavMeshAgent>();
+			UnityEngine.AI.NavMeshAgent component = actor.GetComponent<UnityEngine.AI.NavMeshAgent>();
 			if (component != null)
 			{
 				component.SetDestination(target);

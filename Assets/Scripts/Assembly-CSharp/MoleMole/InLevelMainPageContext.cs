@@ -1065,7 +1065,7 @@ namespace MoleMole
 			}
 			else if (tutorial.step == 1)
 			{
-				Transform highlightTrans = transform.FindChild("HPBar");
+				Transform highlightTrans = transform.Find("HPBar");
 				Singleton<MainUIManager>.Instance.ShowDialog(new NewbieDialogContext
 				{
 					disableHighlightEffect = true,
@@ -1084,7 +1084,7 @@ namespace MoleMole
 			}
 			else if (tutorial.step == 2)
 			{
-				Transform highlightTrans2 = transform.FindChild("SPBar");
+				Transform highlightTrans2 = transform.Find("SPBar");
 				Singleton<MainUIManager>.Instance.ShowDialog(new NewbieDialogContext
 				{
 					disableHighlightEffect = true,
@@ -1281,7 +1281,7 @@ namespace MoleMole
 			}
 			else if (tutorial.step == 7)
 			{
-				Transform highlightTrans4 = transform.FindChild("HPBar");
+				Transform highlightTrans4 = transform.Find("HPBar");
 				Singleton<MainUIManager>.Instance.ShowDialog(new NewbieDialogContext
 				{
 					disableHighlightEffect = true,
@@ -1300,7 +1300,7 @@ namespace MoleMole
 			}
 			else if (tutorial.step == 8)
 			{
-				Transform highlightTrans5 = transform.FindChild("SPBar");
+				Transform highlightTrans5 = transform.Find("SPBar");
 				Singleton<MainUIManager>.Instance.ShowDialog(new NewbieDialogContext
 				{
 					disableHighlightEffect = true,

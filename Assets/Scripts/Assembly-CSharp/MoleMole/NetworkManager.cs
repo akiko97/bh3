@@ -217,7 +217,7 @@ namespace MoleMole
 				return;
 			}
 			GetMainDataReq val = new GetMainDataReq();
-			val.type_list.Add((DataType)0);
+			val.type_list.Add((GetMainDataReq.DataType)0);
 			SendPacket<GetMainDataReq>(val);
 		}
 
@@ -231,7 +231,7 @@ namespace MoleMole
 				return;
 			}
 			GetMainDataReq val = new GetMainDataReq();
-			val.type_list.Add((DataType)7);
+			val.type_list.Add((GetMainDataReq.DataType)7);
 			SendPacket<GetMainDataReq>(val);
 		}
 
@@ -245,7 +245,7 @@ namespace MoleMole
 				return;
 			}
 			GetMainDataReq val = new GetMainDataReq();
-			val.type_list.Add((DataType)10);
+			val.type_list.Add((GetMainDataReq.DataType)10);
 			SendPacket<GetMainDataReq>(val);
 		}
 

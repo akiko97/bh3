@@ -12,25 +12,25 @@ namespace MoleMole
 
 		private void Awake()
 		{
-			CleanNotification();
+		//	CleanNotification();
 		}
 
 		private void OnApplicationPause(bool paused)
 		{
 			if (paused)
 			{
-				AddGameLocalNotifications();
+				//AddGameLocalNotifications();
 			}
 			else
 			{
-				CleanNotification();
+				//CleanNotification();
 			}
 		}
 
 		public void OnApplicationQuit()
 		{
-			CleanNotification();
-			AddGameLocalNotifications();
+			//CleanNotification();
+			//AddGameLocalNotifications();
 		}
 
 		private void AddGameLocalNotifications()
@@ -115,16 +115,16 @@ namespace MoleMole
 			{
 				int num = ++_notificationId;
 				_notificationIdList.Add(num);
-				LocalNotificationPlugin.SendNotification(num, time - DateTime.Now, title, text);
+				//LocalNotificationPlugin.SendNotification(num, time - DateTime.Now, title, text);
 			}
 		}
 
 		private void CleanNotification()
 		{
-			LocalNotificationPlugin.ClearNotifications();
+			//LocalNotificationPlugin.ClearNotifications();
 			foreach (int notificationId in _notificationIdList)
 			{
-				LocalNotificationPlugin.CancelNotification(notificationId);
+				//LocalNotificationPlugin.CancelNotification(notificationId);
 			}
 			_notificationIdList.Clear();
 		}

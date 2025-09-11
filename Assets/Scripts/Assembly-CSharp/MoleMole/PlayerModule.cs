@@ -179,7 +179,7 @@ namespace MoleMole
 			{
 				playerData.costAddByAvatarStar[(int)item.star] = (int)item.cost_plus;
 			}
-			foreach (GachaTicket item2 in rsp.gacha_ticket_list)
+			foreach (proto.GetConfigRsp.GachaTicket item2 in rsp.gacha_ticket_list)
 			{
 				playerData.gachaTicketPriceDict[(int)item2.material_id] = (int)item2.hcoin_cost;
 				playerData.gachaTicketPriceDict[(int)(item2.material_id * 10)] = (int)(item2.hcoin_cost * 10);

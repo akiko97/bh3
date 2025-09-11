@@ -494,7 +494,7 @@ namespace MoleMole
 
 		private void SetupMask()
 		{
-			Transform transform = base.view.transform.FindChild("Mask");
+			Transform transform = base.view.transform.Find("Mask");
 			transform.GetComponent<Image>().enabled = !disableMask;
 			if ((!disableMask && highlightTrans == null) || isMaskClickable || handIconPosType == HandIconPosType.None || handIconPosType == HandIconPosType.Arrow)
 			{
@@ -554,7 +554,7 @@ namespace MoleMole
 					item.gameObject.SetActive(false);
 				}
 			}
-			Transform transform3 = transform.FindChild(bubblePosType.ToString() + "/Head/Icon");
+			Transform transform3 = transform.Find(bubblePosType.ToString() + "/Head/Icon");
 			if (!(transform3 == null))
 			{
 				float num = UnityEngine.Random.Range(0f, 3f);
@@ -570,10 +570,10 @@ namespace MoleMole
 				{
 					transform3.GetComponent<Image>().sprite = Miscs.GetSpriteByPrefab("SpriteOutput/Newbie/CharaHeadAIMusume03");
 				}
-				Transform transform4 = transform.FindChild(bubblePosType.ToString() + "/Text");
+				Transform transform4 = transform.Find(bubblePosType.ToString() + "/Text");
 				if (!string.IsNullOrEmpty(guideDesc))
 				{
-					transform4.FindChild("Panel/Text").GetComponent<Text>().text = guideDesc;
+					transform4.Find("Panel/Text").GetComponent<Text>().text = guideDesc;
 				}
 			}
 		}
@@ -594,27 +594,27 @@ namespace MoleMole
 			{
 				return;
 			}
-			Transform transform = base.view.transform.FindChild("HandIcon");
+			Transform transform = base.view.transform.Find("HandIcon");
 			if (transform == null)
 			{
 				return;
 			}
 			if (handIconPosType == HandIconPosType.Downward)
 			{
-				base.view.transform.FindChild("HandIcon/Downward").gameObject.SetActive(true);
+				base.view.transform.Find("HandIcon/Downward").gameObject.SetActive(true);
 				return;
 			}
 			if (handIconPosType == HandIconPosType.Tips)
 			{
-				base.view.transform.FindChild("Tips").gameObject.SetActive(true);
+				base.view.transform.Find("Tips").gameObject.SetActive(true);
 				return;
 			}
 			if (handIconPosType == HandIconPosType.Arrow)
 			{
 				if (!(highlightTrans == null))
 				{
-					base.view.transform.FindChild("Arrow").gameObject.SetActive(true);
-					base.view.transform.FindChild("Arrow").position = highlightTrans.GetComponent<RectTransform>().position;
+					base.view.transform.Find("Arrow").gameObject.SetActive(true);
+					base.view.transform.Find("Arrow").position = highlightTrans.GetComponent<RectTransform>().position;
 				}
 				return;
 			}
@@ -637,7 +637,7 @@ namespace MoleMole
 					item.gameObject.SetActive(false);
 				}
 			}
-			Transform transform3 = base.view.transform.FindChild("HandIcon/" + handIconPosType);
+			Transform transform3 = base.view.transform.Find("HandIcon/" + handIconPosType);
 			if (!(transform3 == null))
 			{
 				RectTransform component2 = transform3.GetComponent<RectTransform>();
@@ -783,7 +783,7 @@ namespace MoleMole
 					Destroy();
 					return;
 				}
-				highlightTrans = sceneCanvas.transform.FindChild(highlightPath);
+				highlightTrans = sceneCanvas.transform.Find(highlightPath);
 				if (highlightTrans == null || highlightTrans.gameObject == null || !highlightTrans.gameObject.activeInHierarchy)
 				{
 					Destroy();

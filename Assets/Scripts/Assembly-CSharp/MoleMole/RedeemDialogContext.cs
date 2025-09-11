@@ -90,7 +90,7 @@ namespace MoleMole
 			}
 			else
 			{
-				_errorCode = LocalizationGeneralLogic.GetNetworkErrCodeOutput((object)(Retcode)1) + '\n';
+				_errorCode = LocalizationGeneralLogic.GetNetworkErrCodeOutput((object)(ExchangeRedeemCodeRsp.Retcode)1) + '\n';
 				_errorCode += LocalizationGeneralLogic.GetNetworkErrCodeOutput(rsp.retcode);
 				SetupErrorContext();
 			}
@@ -167,7 +167,7 @@ namespace MoleMole
 			{
 				return;
 			}
-			RewardData val = _redeemInfo.reward_list[0];
+			proto.RewardData val = _redeemInfo.reward_list[0];
 			if (val.exp != 0)
 			{
 				RewardUIData playerExpData = RewardUIData.GetPlayerExpData((int)val.exp);

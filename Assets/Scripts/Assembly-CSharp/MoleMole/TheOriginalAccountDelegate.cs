@@ -40,14 +40,14 @@ namespace MoleMole
 
 		public TheOriginalAccountDelegate()
 		{
-			if (_delegate == null)
+			/*if (_delegate == null)
 			{
 				_delegate = new AndroidJavaObject("com.miHoYo.originpaydelegate.AlipayDelegate", _activity);
 			}
 			if (_delegate_weixin == null)
 			{
 				_delegate_weixin = new AndroidJavaObject("com.miHoYo.originpaydelegate.WeixinPayDelegate", _activity, _handler, WEIXIN_PAY_APP_ID);
-			}
+			}*/
 		}
 
 		public override void pay(string productID, string productName, float productPrice, string tradeNo, string userID, string notifyUrl, string callbackClass, string callbackMethod, Function callback)
@@ -77,7 +77,7 @@ namespace MoleMole
 				}
 				else if (Singleton<ChannelPayModule>.Instance.GetPayMethodId() == ChannelPayModule.PayMethod.WEIXIN_PAY)
 				{
-					_delegate_weixin.Call("pay", WEIXIN_PAY_APP_ID, weixinPrepayOrderInfo.partnerID, weixinPrepayOrderInfo.prepayID, WEIXIN_PAY_PACKAGE_VALUE, weixinPrepayOrderInfo.nonceStr, weixinPrepayOrderInfo.timestamp, weixinPrepayOrderInfo.sign);
+					//_delegate_weixin.Call("pay", WEIXIN_PAY_APP_ID, weixinPrepayOrderInfo.partnerID, weixinPrepayOrderInfo.prepayID, WEIXIN_PAY_PACKAGE_VALUE, weixinPrepayOrderInfo.nonceStr, weixinPrepayOrderInfo.timestamp, weixinPrepayOrderInfo.sign);
 				}
 			}
 		}

@@ -15,9 +15,9 @@ namespace MoleMole
 
 		public void SetupView()
 		{
-			base.transform.FindChild("Content/RT/3dModel").GetComponent<MonoGammaSettingRenderImage>().SetupView();
+			base.transform.Find("Content/RT/3dModel").GetComponent<MonoGammaSettingRenderImage>().SetupView();
 			GraphicsSettingData.ApplyPersonalContrastDelta();
-			_contrastSlider = base.transform.FindChild("Content/Contrast/Slider").GetComponent<Slider>();
+			_contrastSlider = base.transform.Find("Content/Contrast/Slider").GetComponent<Slider>();
 			RecoverOriginState();
 		}
 
@@ -57,13 +57,13 @@ namespace MoleMole
 		{
 			if (showValue == _contrastShowMinValue)
 			{
-				_contrastSlider.transform.FindChild("Fill Area/Fill").GetComponent<Image>().enabled = false;
+				_contrastSlider.transform.Find("Fill Area/Fill").GetComponent<Image>().enabled = false;
 			}
 			else
 			{
-				_contrastSlider.transform.FindChild("Fill Area/Fill").GetComponent<Image>().enabled = true;
+				_contrastSlider.transform.Find("Fill Area/Fill").GetComponent<Image>().enabled = true;
 			}
-			_contrastSlider.transform.FindChild("Handle Slide Area/Handle/Popup/PopupSmall/Text").GetComponent<Text>().text = showValue.ToString();
+			_contrastSlider.transform.Find("Handle Slide Area/Handle/Popup/PopupSmall/Text").GetComponent<Text>().text = showValue.ToString();
 		}
 	}
 }

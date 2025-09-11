@@ -38,7 +38,7 @@ namespace MoleMole
 				{
 					return;
 				}
-				Transform transform = sceneCanvas.transform.FindChild(FollowTargetUIPath);
+				Transform transform = sceneCanvas.transform.Find(FollowTargetUIPath);
 				position = transform.position;
 			}
 			else if (UseParentUIPos)

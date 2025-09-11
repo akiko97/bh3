@@ -648,7 +648,7 @@ namespace MoleMole.MainMenu
 						collidedParticle.RealVelocity = _particles[i].velocity;
 						_collidedParticleMap.Add((int)_particles[i].startSize, collidedParticle);
 						_particles[i].velocity = Vector3.zero;
-						_particles[i].lifetime = 1f;
+						_particles[i].remainingLifetime = 1f;
 					}
 				}
 				if (collidedParticle != null)
@@ -657,7 +657,7 @@ namespace MoleMole.MainMenu
 					Vector3 point = LocalToCamera(collidedParticle.RealPosition);
 					if (point.z > -0.1f)
 					{
-						_particles[i].lifetime = 0f;
+						_particles[i].remainingLifetime = 0f;
 						_collidedParticleMap.Remove((int)_particles[i].startSize);
 						continue;
 					}
@@ -671,7 +671,7 @@ namespace MoleMole.MainMenu
 					color.b = Mathf.Max(1f / num2, 0.003921569f);
 					color.a = 1f / num2;
 					_particles[i].startColor = color;
-					_particles[i].lifetime = 1f;
+					_particles[i].remainingLifetime = 1f;
 				}
 			}
 		}
@@ -691,7 +691,7 @@ namespace MoleMole.MainMenu
 					shipColliderRect.size *= _particles[i].position.z / _shipColliderZ;
 					if (_shipColliderRect.Overlaps(other))
 					{
-						_particles[i].lifetime = 0f;
+						_particles[i].remainingLifetime = 0f;
 					}
 				}
 			}

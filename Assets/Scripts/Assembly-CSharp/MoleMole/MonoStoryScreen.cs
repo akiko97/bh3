@@ -404,7 +404,7 @@ namespace MoleMole
 					_currentRightModelAvatarID = avatarID;
 				}
 			}
-			Animation animation = ((side != SelectScreenSide.Left) ? _rightScreen.FindChild("Name").GetComponent<Animation>() : _leftScreen.FindChild("Name").GetComponent<Animation>());
+			Animation animation = ((side != SelectScreenSide.Left) ? _rightScreen.Find("Name").GetComponent<Animation>() : _leftScreen.Find("Name").GetComponent<Animation>());
 			animation.Play("PlotScreenCurrent");
 			if (flag)
 			{

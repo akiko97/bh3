@@ -22,7 +22,7 @@ namespace MoleMole
 		{
 			_modifiedSettingConfig = new ConfigNotificationSetting();
 			RecoverOriginState();
-			Transform settingTrans = base.gameObject.transform.FindChild("Content/NotificationSetting/ThirdLine/ActivityNotification").transform;
+			Transform settingTrans = base.gameObject.transform.Find("Content/NotificationSetting/ThirdLine/ActivityNotification").transform;
 			SetSettingEnable(settingTrans, false);
 		}
 
@@ -96,29 +96,29 @@ namespace MoleMole
 
 		private void SetSettingEnable(Transform settingTrans, bool enable)
 		{
-			Transform transform = settingTrans.FindChild("Choice/On");
-			Transform transform2 = settingTrans.FindChild("Choice/Off");
-			Transform transform3 = settingTrans.FindChild("Label");
-			Transform transform4 = transform.FindChild("Text");
-			Transform transform5 = transform2.FindChild("Text");
+			Transform transform = settingTrans.Find("Choice/On");
+			Transform transform2 = settingTrans.Find("Choice/Off");
+			Transform transform3 = settingTrans.Find("Label");
+			Transform transform4 = transform.Find("Text");
+			Transform transform5 = transform2.Find("Text");
 			if (!enable)
 			{
-				transform.FindChild("Blue").gameObject.SetActive(false);
-				transform.FindChild("Grey").gameObject.SetActive(false);
-				transform.FindChild("Disable").gameObject.SetActive(true);
-				transform2.FindChild("Grey").gameObject.SetActive(false);
-				transform2.FindChild("Disable").gameObject.SetActive(true);
+				transform.Find("Blue").gameObject.SetActive(false);
+				transform.Find("Grey").gameObject.SetActive(false);
+				transform.Find("Disable").gameObject.SetActive(true);
+				transform2.Find("Grey").gameObject.SetActive(false);
+				transform2.Find("Disable").gameObject.SetActive(true);
 				transform3.GetComponent<Text>().color = MiscData.GetColor("NotificationSettingDisableText");
 				transform4.GetComponent<Text>().color = MiscData.GetColor("GraphicsSettingDisableText");
 				transform5.GetComponent<Text>().color = MiscData.GetColor("GraphicsSettingDisableText");
 			}
 			else
 			{
-				transform.FindChild("Blue").gameObject.SetActive(true);
-				transform.FindChild("Grey").gameObject.SetActive(true);
-				transform2.FindChild("Grey").gameObject.SetActive(true);
-				transform.FindChild("Disable").gameObject.SetActive(false);
-				transform2.FindChild("Disable").gameObject.SetActive(false);
+				transform.Find("Blue").gameObject.SetActive(true);
+				transform.Find("Grey").gameObject.SetActive(true);
+				transform2.Find("Grey").gameObject.SetActive(true);
+				transform.Find("Disable").gameObject.SetActive(false);
+				transform2.Find("Disable").gameObject.SetActive(false);
 				transform3.GetComponent<Text>().color = Color.white;
 				transform4.GetComponent<Text>().color = Color.white;
 				transform5.GetComponent<Text>().color = Color.white;

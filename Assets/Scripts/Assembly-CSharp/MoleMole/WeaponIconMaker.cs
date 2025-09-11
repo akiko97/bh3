@@ -122,15 +122,15 @@ namespace MoleMole
 				mainCamera.CopyFrom(cannonCamera);
 				_weaponObj.transform.SetParent(cannonHolder, false);
 				ClearTransform(_weaponObj);
-				AdjustTransform(_weaponObj, cannonHolder.FindChild(BOUNDING_NAME).gameObject);
+				AdjustTransform(_weaponObj, cannonHolder.Find(BOUNDING_NAME).gameObject);
 				_weaponObj.transform.SetParent(null);
 				SetCannonMaterial(_weaponObj);
 			}
 			else if (weaponType == WeaponType.Katana)
 			{
 				mainCamera.CopyFrom(katanaCamera);
-				GameObject gameObject2 = _weaponObj.transform.FindChild(LONG_SWORD_NAME).gameObject;
-				GameObject gameObject3 = _weaponObj.transform.FindChild(SHORT_SWORD_NAME).gameObject;
+				GameObject gameObject2 = _weaponObj.transform.Find(LONG_SWORD_NAME).gameObject;
+				GameObject gameObject3 = _weaponObj.transform.Find(SHORT_SWORD_NAME).gameObject;
 				if (gameObject2 == null || gameObject3 == null)
 				{
 					return "Sword missing";
@@ -139,14 +139,14 @@ namespace MoleMole
 				ClearTransform(gameObject2);
 				if (wholeForKatana)
 				{
-					AdjustTransform(gameObject2, longSwordHolder.FindChild(BOUNDING_NAME).gameObject);
+					AdjustTransform(gameObject2, longSwordHolder.Find(BOUNDING_NAME).gameObject);
 				}
 				gameObject2.transform.SetParent(_weaponObj.transform);
 				gameObject3.transform.SetParent(shortSwordHolder, false);
 				ClearTransform(gameObject3);
 				if (wholeForKatana)
 				{
-					AdjustTransform(gameObject3, longSwordHolder.FindChild(BOUNDING_NAME).gameObject);
+					AdjustTransform(gameObject3, longSwordHolder.Find(BOUNDING_NAME).gameObject);
 				}
 				gameObject3.transform.SetParent(_weaponObj.transform);
 				SetKatanaMaterial(_weaponObj);
@@ -154,19 +154,19 @@ namespace MoleMole
 			else
 			{
 				mainCamera.CopyFrom(pistolCamera);
-				GameObject gameObject4 = _weaponObj.transform.FindChild(LEFT_PISTOL_NAME).gameObject;
-				GameObject gameObject5 = _weaponObj.transform.FindChild(RIGHT_PISTOL_NAME).gameObject;
+				GameObject gameObject4 = _weaponObj.transform.Find(LEFT_PISTOL_NAME).gameObject;
+				GameObject gameObject5 = _weaponObj.transform.Find(RIGHT_PISTOL_NAME).gameObject;
 				if (gameObject4 == null || gameObject5 == null)
 				{
 					return "Missing pistol";
 				}
 				gameObject4.transform.SetParent(leftPistolHolder, false);
 				ClearTransform(gameObject4);
-				AdjustTransform(gameObject4, leftPistolHolder.FindChild(BOUNDING_NAME).gameObject);
+				AdjustTransform(gameObject4, leftPistolHolder.Find(BOUNDING_NAME).gameObject);
 				gameObject4.transform.SetParent(_weaponObj.transform);
 				gameObject5.transform.SetParent(rightPistolHolder, false);
 				ClearTransform(gameObject5);
-				AdjustTransform(gameObject5, rightPistolHolder.FindChild(BOUNDING_NAME).gameObject);
+				AdjustTransform(gameObject5, rightPistolHolder.Find(BOUNDING_NAME).gameObject);
 				gameObject5.transform.SetParent(_weaponObj.transform);
 				SetPistolMaterial(_weaponObj);
 			}
@@ -186,8 +186,8 @@ namespace MoleMole
 			}
 			else if (weaponType == WeaponType.Katana)
 			{
-				GameObject gameObject = _weaponObj.transform.FindChild(LONG_SWORD_NAME).gameObject;
-				GameObject gameObject2 = _weaponObj.transform.FindChild(SHORT_SWORD_NAME).gameObject;
+				GameObject gameObject = _weaponObj.transform.Find(LONG_SWORD_NAME).gameObject;
+				GameObject gameObject2 = _weaponObj.transform.Find(SHORT_SWORD_NAME).gameObject;
 				if (gameObject == null || gameObject2 == null)
 				{
 					return "Sword missing";
@@ -203,8 +203,8 @@ namespace MoleMole
 			}
 			else
 			{
-				GameObject gameObject3 = _weaponObj.transform.FindChild(LEFT_PISTOL_NAME).gameObject;
-				GameObject gameObject4 = _weaponObj.transform.FindChild(RIGHT_PISTOL_NAME).gameObject;
+				GameObject gameObject3 = _weaponObj.transform.Find(LEFT_PISTOL_NAME).gameObject;
+				GameObject gameObject4 = _weaponObj.transform.Find(RIGHT_PISTOL_NAME).gameObject;
 				if (gameObject3 == null || gameObject4 == null)
 				{
 					return "Missing pistol";
@@ -275,7 +275,7 @@ namespace MoleMole
 			ClearTransform(obj);
 			if (needAdjust)
 			{
-				AdjustTransform(obj, holder.FindChild(BOUNDING_NAME).gameObject);
+				AdjustTransform(obj, holder.Find(BOUNDING_NAME).gameObject);
 			}
 		}
 

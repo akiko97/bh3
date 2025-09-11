@@ -335,7 +335,7 @@ namespace MoleMole
 			Transform transform = base.view.transform.Find("LosePanel/HintListPanel");
 			for (int i = 0; i < list.Count; i++)
 			{
-				Transform transform2 = transform.FindChild(i + "/Content");
+				Transform transform2 = transform.Find(i + "/Content");
 				transform2.GetComponent<Text>().text = LocalizationGeneralLogic.GetText(list[i]);
 			}
 		}

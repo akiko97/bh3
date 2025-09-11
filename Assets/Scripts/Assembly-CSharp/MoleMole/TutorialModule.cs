@@ -283,7 +283,7 @@ namespace MoleMole
 			BaseMonoCanvas sceneCanvas = Singleton<MainUIManager>.Instance.SceneCanvas;
 			if (!(sceneCanvas == null))
 			{
-				Transform transform = sceneCanvas.transform.FindChild(scrollUIPath);
+				Transform transform = sceneCanvas.transform.Find(scrollUIPath);
 				if (!(transform == null) && transform.gameObject.activeInHierarchy && !(transform.GetComponent<ScrollRect>() == null))
 				{
 					MonoGridScroller component = transform.GetComponent<MonoGridScroller>();
@@ -466,7 +466,7 @@ namespace MoleMole
 				{
 					return false;
 				}
-				Transform transform = sceneCanvas.transform.FindChild(targetUIPath);
+				Transform transform = sceneCanvas.transform.Find(targetUIPath);
 				if (transform == null)
 				{
 					return false;
@@ -821,7 +821,7 @@ namespace MoleMole
 			if (targetUIPath != string.Empty)
 			{
 				BaseMonoCanvas sceneCanvas = Singleton<MainUIManager>.Instance.SceneCanvas;
-				highlightTrans = sceneCanvas.transform.FindChild(targetUIPath);
+				highlightTrans = sceneCanvas.transform.Find(targetUIPath);
 			}
 			bool disableMask = false;
 			if (tutorialStepData.stepType == 2)

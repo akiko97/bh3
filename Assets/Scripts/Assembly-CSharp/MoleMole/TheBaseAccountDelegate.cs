@@ -15,11 +15,11 @@ namespace MoleMole
 
 		public TheBaseAccountDelegate()
 		{
-			if (_activity == null)
+			/*if (_activity == null)
 			{
 				AndroidJavaClass androidJavaClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
 				_activity = androidJavaClass.GetStatic<AndroidJavaObject>("currentActivity");
-			}
+			}*/
 		}
 
 		public virtual void init(bool debugMode, string callbackClass, string callbackMethod, Function callback)

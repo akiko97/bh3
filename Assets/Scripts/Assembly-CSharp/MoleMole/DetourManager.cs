@@ -28,7 +28,7 @@ namespace MoleMole
 		private DetourManager()
 		{
 			_detours = new Dictionary<uint, DetourElement>();
-			_stageAreaWalkMask = 1 << NavMesh.GetAreaFromName("Walkable");
+			_stageAreaWalkMask = 1 << UnityEngine.AI.NavMesh.GetAreaFromName("Walkable");
 		}
 
 		public void RemoveDetourElement(uint id)
@@ -95,12 +95,12 @@ namespace MoleMole
 			{
 				flag = uint.TryParse(locatorName.Substring(locatorName.Length - 1), out result);
 			}
-			int areaFromName = NavMesh.GetAreaFromName("Walkable");
+			int areaFromName = UnityEngine.AI.NavMesh.GetAreaFromName("Walkable");
 			if (flag)
 			{
-				areaFromName = NavMesh.GetAreaFromName("StageMask" + result);
+				areaFromName = UnityEngine.AI.NavMesh.GetAreaFromName("StageMask" + result);
 			}
-			_stageAreaWalkMask = (1 << areaFromName) | (1 << NavMesh.GetAreaFromName("Walkable"));
+			_stageAreaWalkMask = (1 << areaFromName) | (1 << UnityEngine.AI.NavMesh.GetAreaFromName("Walkable"));
 		}
 
 		public bool GetTargetPosition(BaseMonoEntity entity, Vector3 sourcePosition, Vector3 targetPosition, ref Vector3 targetCorner)
@@ -119,8 +119,8 @@ namespace MoleMole
 			for (int i = 0; i < num; i++)
 			{
 				Vector3 sourcePosition2 = sourcePosition + Random.insideUnitSphere * maxDistance;
-				NavMeshHit hit;
-				if (NavMesh.SamplePosition(sourcePosition2, out hit, 1f, _stageAreaWalkMask))
+				UnityEngine.AI.NavMeshHit hit;
+				if (UnityEngine.AI.NavMesh.SamplePosition(sourcePosition2, out hit, 1f, _stageAreaWalkMask))
 				{
 					targetPosition = hit.position;
 					return true;
@@ -132,8 +132,8 @@ namespace MoleMole
 
 		private bool Raycast(uint id, Vector3 sourcePosition, Vector3 targetPosition)
 		{
-			NavMeshHit hit;
-			bool flag = NavMesh.Raycast(sourcePosition, targetPosition, out hit, _stageAreaWalkMask);
+			UnityEngine.AI.NavMeshHit hit;
+			bool flag = UnityEngine.AI.NavMesh.Raycast(sourcePosition, targetPosition, out hit, _stageAreaWalkMask);
 			if (!flag)
 			{
 				Debug.DrawLine(sourcePosition, targetPosition, Color.red, 0.1f);
@@ -163,8 +163,8 @@ namespace MoleMole
 
 		private DetourElement GetNewDetourElement(BaseMonoEntity entity, Vector3 sourcePosition, Vector3 targetPosition)
 		{
-			NavMeshPath navMeshPath = new NavMeshPath();
-			bool isCompletePath = NavMesh.CalculatePath(sourcePosition, targetPosition, _stageAreaWalkMask, navMeshPath);
+			UnityEngine.AI.NavMeshPath navMeshPath = new UnityEngine.AI.NavMeshPath();
+			bool isCompletePath = UnityEngine.AI.NavMesh.CalculatePath(sourcePosition, targetPosition, _stageAreaWalkMask, navMeshPath);
 			for (int i = 0; i < navMeshPath.corners.Length - 1; i++)
 			{
 				Debug.DrawLine(navMeshPath.corners[i], navMeshPath.corners[i + 1], Color.green, 0.1f);
@@ -194,7 +194,7 @@ namespace MoleMole
 			return detourElement;
 		}
 
-		private Vector3[] SimplifyPath(Vector3 sourcePosition, NavMeshPath path)
+		private Vector3[] SimplifyPath(Vector3 sourcePosition, UnityEngine.AI.NavMeshPath path)
 		{
 			List<Vector3> list = new List<Vector3>();
 			Vector3[] corners = path.corners;

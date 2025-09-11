@@ -38,7 +38,7 @@ namespace MoleMole
 			_applicationBehaviour.Init(this);
 			_go.AddComponent<MonoTalkingData>();
 			_go.AddComponent<MonoNotificationServices>();
-			_go.AddComponent<AntiCheatPlugin>();
+			//_go.AddComponent<AntiCheatPlugin>();
 			_coroutines = new List<Coroutine>();
 			_manualCoroutines = new List<Tuple<int, IEnumerator>>();
 		}
@@ -225,7 +225,7 @@ namespace MoleMole
 
 		public void DetectCheat()
 		{
-			if (AntiCheatPlugin.Detect())
+			/*if (AntiCheatPlugin.Detect())
 			{
 				try
 				{
@@ -237,19 +237,19 @@ namespace MoleMole
 					SuperDebug.VeryImportantError("Exception: " + ex.ToString());
 					AntiCheatQuit("Menu_Title_AntiCheatQuit", "Menu_Desc_AntiCheatQuit");
 				}
-			}
+			}*/
 		}
 
 		public void ReportProcList()
 		{
-			byte[] buf = AntiCheatPlugin.ReadProcList();
+			/*byte[] buf = AntiCheatPlugin.ReadProcList();
 			Singleton<QAManager>.Instance.SendFileToServer(MiscData.Config.DumpFileUploadUrl, "anti-cheat", buf, delegate
 			{
 				AntiCheatQuit("Menu_Title_AntiCheatQuit", "Menu_Desc_AntiCheatQuit");
 			}, delegate
 			{
 				AntiCheatQuit("Menu_Title_AntiCheatQuit", "Menu_Desc_AntiCheatQuit");
-			}, 10f);
+			}, 10f);*/
 		}
 
 		public void AntiCheatQuit(string title, string text)

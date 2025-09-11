@@ -228,7 +228,7 @@ namespace MoleMole
 			}
 			AvatarModule instance = Singleton<AvatarModule>.Instance;
 			IslandVentureDispatchCond condition2 = condition.condition;
-			switch (condition2 - 1)
+			switch ((int)condition2 - 1)
 			{
 			case 0:
 				return selectedAvatarList.Contains(condition.para1);
@@ -373,7 +373,7 @@ namespace MoleMole
 			{
 				AvatarModule instance = Singleton<AvatarModule>.Instance;
 				IslandVentureDispatchCond condition2 = condition.condition;
-				switch (condition2 - 1)
+				switch ((int)condition2 - 1)
 				{
 				case 0:
 				{

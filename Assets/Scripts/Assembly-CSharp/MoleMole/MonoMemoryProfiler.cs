@@ -159,7 +159,7 @@ namespace MoleMole
 			for (int i = 0; i < array2.Length; i++)
 			{
 				Texture texture = (Texture)array2[i];
-				uint runtimeMemorySize = (uint)Profiler.GetRuntimeMemorySize(texture);
+				uint runtimeMemorySize = (uint)UnityEngine.Profiling.Profiler.GetRuntimeMemorySize(texture);
 				if (texture is RenderTexture)
 				{
 					_memory_renderTexture += runtimeMemorySize;
@@ -182,7 +182,7 @@ namespace MoleMole
 			for (int j = 0; j < array4.Length; j++)
 			{
 				Mesh mesh = (Mesh)array4[j];
-				uint runtimeMemorySize2 = (uint)Profiler.GetRuntimeMemorySize(mesh);
+				uint runtimeMemorySize2 = (uint)UnityEngine.Profiling.Profiler.GetRuntimeMemorySize(mesh);
 				_memory_mesh += runtimeMemorySize2;
 				if (_assetDetail == E_AssetDetail.Meshes)
 				{
@@ -194,7 +194,7 @@ namespace MoleMole
 			for (int k = 0; k < array6.Length; k++)
 			{
 				AnimationClip animationClip = (AnimationClip)array6[k];
-				uint runtimeMemorySize3 = (uint)Profiler.GetRuntimeMemorySize(animationClip);
+				uint runtimeMemorySize3 = (uint)UnityEngine.Profiling.Profiler.GetRuntimeMemorySize(animationClip);
 				_memory_animationClip += runtimeMemorySize3;
 				if (_assetDetail == E_AssetDetail.AnimationClips)
 				{
@@ -206,7 +206,7 @@ namespace MoleMole
 			for (int l = 0; l < array8.Length; l++)
 			{
 				Material material = (Material)array8[l];
-				uint runtimeMemorySize4 = (uint)Profiler.GetRuntimeMemorySize(material);
+				uint runtimeMemorySize4 = (uint)UnityEngine.Profiling.Profiler.GetRuntimeMemorySize(material);
 				_memory_material += runtimeMemorySize4;
 				if (_assetDetail == E_AssetDetail.Meterials)
 				{
@@ -221,7 +221,7 @@ namespace MoleMole
 			{
 				GameObject o = (GameObject)array10[m];
 				_num_gameobject++;
-				uint runtimeMemorySize5 = (uint)Profiler.GetRuntimeMemorySize(o);
+				uint runtimeMemorySize5 = (uint)UnityEngine.Profiling.Profiler.GetRuntimeMemorySize(o);
 				_memory_gameobject += runtimeMemorySize5;
 			}
 			_memory_texture = ToMegaBytes(_memory_texture);
@@ -229,8 +229,8 @@ namespace MoleMole
 			_memory_mesh = ToMegaBytes(_memory_mesh);
 			_memory_animationClip = ToMegaBytes(_memory_animationClip);
 			_memory_material = ToMegaBytes(_memory_material);
-			_memory_monoHeap = ToMegaBytes(Profiler.GetMonoHeapSize());
-			_memory_monoUsed = ToMegaBytes(Profiler.GetMonoUsedSize());
+			_memory_monoHeap = ToMegaBytes(UnityEngine.Profiling.Profiler.GetMonoHeapSize());
+			_memory_monoUsed = ToMegaBytes(UnityEngine.Profiling.Profiler.GetMonoUsedSize());
 			_memory_gameobject = ToMegaBytes(_memory_gameobject);
 		}
 

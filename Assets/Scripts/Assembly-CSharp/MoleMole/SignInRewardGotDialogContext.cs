@@ -96,7 +96,7 @@ namespace MoleMole
 			{
 				return;
 			}
-			RewardData val = _signInRewardRsp.reward_list[0];
+			proto.RewardData val = _signInRewardRsp.reward_list[0];
 			_missionRewardList.Clear();
 			if (val.exp != 0)
 			{

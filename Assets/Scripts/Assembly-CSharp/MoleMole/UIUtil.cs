@@ -175,7 +175,7 @@ namespace MoleMole
 					uIAvatarTattooByID2.gameObject.SetActive(item.Value != null);
 					if (item.Value != null)
 					{
-						Material material = uIAvatarTattooByID2.GetComponent<MeshRenderer>().material;
+						UnityEngine.Material material = uIAvatarTattooByID2.GetComponent<MeshRenderer>().material;
 						material.SetTexture("_MainTex", Miscs.LoadResource<Texture>(item.Value.GetTattooPath()));
 						uIAvatar.StigmataFadeIn(item.Key);
 					}

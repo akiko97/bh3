@@ -8,7 +8,7 @@ namespace MoleMole
 
 		private void Start()
 		{
-			NavMeshAgent component = GetComponent<NavMeshAgent>();
+			UnityEngine.AI.NavMeshAgent component = GetComponent<UnityEngine.AI.NavMeshAgent>();
 			component.destination = goal.position;
 		}
 

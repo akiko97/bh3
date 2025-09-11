@@ -626,7 +626,7 @@ namespace MoleMole
 				Singleton<NetworkManager>.GetInstance().RequestGetSignInRewardStatus();
 				Singleton<PlayerModule>.GetInstance().playerData.uiTempSaveData.hasShowedStartUpDialogs = true;
 			}
-			AntiCheatPlugin.Init(MiscData.Config.AntiCheat.Enable, MiscData.Config.AntiCheat.LibList, MiscData.Config.AntiCheat.ProcList);
+			//AntiCheatPlugin.Init(MiscData.Config.AntiCheat.Enable, MiscData.Config.AntiCheat.LibList, MiscData.Config.AntiCheat.ProcList);
 			Singleton<ApplicationManager>.Instance.DetectCheat();
 			AntiEmulatorPlugin.Init(MiscData.Config.AntiEmulator.Enable, MiscData.Config.AntiEmulator.DeviceModelList);
 			Singleton<ApplicationManager>.Instance.DetectEmulator();

@@ -14,6 +14,9 @@ public struct UniWebViewMessage
 
 	public UniWebViewMessage(string rawMessage)
 	{
+		this.path = null;
+		this.scheme = null;
+		this.args = null;
 		this.rawMessage = rawMessage;
 		string[] array = rawMessage.Split(new string[1] { "://" }, StringSplitOptions.None);
 		if (array.Length >= 2)

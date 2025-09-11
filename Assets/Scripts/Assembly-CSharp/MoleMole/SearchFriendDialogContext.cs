@@ -88,7 +88,7 @@ namespace MoleMole
 			//IL_0006: Unknown result type (might be due to invalid IL or missing references)
 			//IL_0007: Unknown result type (might be due to invalid IL or missing references)
 			//IL_0019: Expected I4, but got Unknown
-			Retcode retcode = rsp.retcode;
+			GetPlayerDetailDataRsp.Retcode retcode = rsp.retcode;
 			switch ((int)retcode)
 			{
 			case 0:

@@ -1107,9 +1107,9 @@ namespace MoleMole
 
 		public void SetEnvCollisionActive(bool isActive)
 		{
-			if (Singleton<StageManager>.Instance.GetStageEnv().transform.FindChild("Collision") != null)
+			if (Singleton<StageManager>.Instance.GetStageEnv().transform.Find("Collision") != null)
 			{
-				Singleton<StageManager>.Instance.GetStageEnv().transform.FindChild("Collision").gameObject.SetActive(isActive);
+				Singleton<StageManager>.Instance.GetStageEnv().transform.Find("Collision").gameObject.SetActive(isActive);
 			}
 		}
 
@@ -2168,7 +2168,7 @@ namespace MoleMole
 			if (targetUIPath != string.Empty)
 			{
 				BaseMonoCanvas sceneCanvas = Singleton<MainUIManager>.Instance.SceneCanvas;
-				highlightTrans = sceneCanvas.transform.FindChild(targetUIPath);
+				highlightTrans = sceneCanvas.transform.Find(targetUIPath);
 			}
 			NewbieDialogContext newbieDialogContext = new NewbieDialogContext();
 			newbieDialogContext.destroyByOthers = true;

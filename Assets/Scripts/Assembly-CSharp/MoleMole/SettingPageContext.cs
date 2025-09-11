@@ -89,7 +89,7 @@ namespace MoleMole
 
 		public override void Destroy()
 		{
-			base.view.transform.Find("ImageTab").FindChild("Content/RT/3dModel").GetComponent<MonoGammaSettingRenderImage>()
+			base.view.transform.Find("ImageTab").Find("Content/RT/3dModel").GetComponent<MonoGammaSettingRenderImage>()
 				.ReleaseRenderTexture();
 			base.Destroy();
 		}

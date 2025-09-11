@@ -74,8 +74,8 @@ namespace MoleMole
 
 		public void SetupApkCommentInfo()
 		{
-			apkCommentInfo = null;
-			apkCommentInfo = OpeUtil.GetApkComment();
+			//apkCommentInfo = null;
+			//apkCommentInfo = OpeUtil.GetApkComment();
 		}
 	}
 }

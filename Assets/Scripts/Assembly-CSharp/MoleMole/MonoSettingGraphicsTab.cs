@@ -249,99 +249,99 @@ namespace MoleMole
 		{
 			Transform transform = base.transform.Find("Content/DetailSetting/FirstLine/Resolution");
 			Transform transform2 = transform.Find("Mark");
-			transform2.FindChild("Enable").gameObject.SetActive(!isRecommend);
-			transform2.FindChild("Disable").gameObject.SetActive(isRecommend);
-			Transform transform3 = transform.FindChild("Choice/Low");
-			Transform transform4 = transform.FindChild("Choice/Middle");
-			Transform transform5 = transform.FindChild("Choice/High");
-			Transform transform6 = transform.FindChild("Label");
-			Transform transform7 = transform3.FindChild("Text");
-			Transform transform8 = transform4.FindChild("Text");
-			Transform transform9 = transform5.FindChild("Text");
+			transform2.Find("Enable").gameObject.SetActive(!isRecommend);
+			transform2.Find("Disable").gameObject.SetActive(isRecommend);
+			Transform transform3 = transform.Find("Choice/Low");
+			Transform transform4 = transform.Find("Choice/Middle");
+			Transform transform5 = transform.Find("Choice/High");
+			Transform transform6 = transform.Find("Label");
+			Transform transform7 = transform3.Find("Text");
+			Transform transform8 = transform4.Find("Text");
+			Transform transform9 = transform5.Find("Text");
 			if (isRecommend)
 			{
-				transform3.FindChild("Blue").gameObject.SetActive(false);
-				transform3.FindChild("Grey").gameObject.SetActive(false);
-				transform3.FindChild("Disable").gameObject.SetActive(true);
-				transform4.FindChild("Blue").gameObject.SetActive(false);
-				transform4.FindChild("Grey").gameObject.SetActive(false);
-				transform4.FindChild("Disable").gameObject.SetActive(true);
-				transform5.FindChild("Blue").gameObject.SetActive(false);
-				transform5.FindChild("Grey").gameObject.SetActive(false);
-				transform5.FindChild("Disable").gameObject.SetActive(true);
+				transform3.Find("Blue").gameObject.SetActive(false);
+				transform3.Find("Grey").gameObject.SetActive(false);
+				transform3.Find("Disable").gameObject.SetActive(true);
+				transform4.Find("Blue").gameObject.SetActive(false);
+				transform4.Find("Grey").gameObject.SetActive(false);
+				transform4.Find("Disable").gameObject.SetActive(true);
+				transform5.Find("Blue").gameObject.SetActive(false);
+				transform5.Find("Grey").gameObject.SetActive(false);
+				transform5.Find("Disable").gameObject.SetActive(true);
 				transform6.GetComponent<Text>().color = MiscData.GetColor("GraphicsSettingDisableText");
 				transform7.GetComponent<Text>().color = MiscData.GetColor("GraphicsSettingDisableText");
 				transform8.GetComponent<Text>().color = MiscData.GetColor("GraphicsSettingDisableText");
 				transform9.GetComponent<Text>().color = MiscData.GetColor("GraphicsSettingDisableText");
-				transform3.FindChild("Check").GetComponent<Image>().color = MiscData.GetColor("GraphicsSettingDisableRadioboxCheck");
-				transform4.FindChild("Check").GetComponent<Image>().color = MiscData.GetColor("GraphicsSettingDisableRadioboxCheck");
-				transform5.FindChild("Check").GetComponent<Image>().color = MiscData.GetColor("GraphicsSettingDisableRadioboxCheck");
+				transform3.Find("Check").GetComponent<Image>().color = MiscData.GetColor("GraphicsSettingDisableRadioboxCheck");
+				transform4.Find("Check").GetComponent<Image>().color = MiscData.GetColor("GraphicsSettingDisableRadioboxCheck");
+				transform5.Find("Check").GetComponent<Image>().color = MiscData.GetColor("GraphicsSettingDisableRadioboxCheck");
 			}
 			else
 			{
-				transform3.FindChild("Disable").gameObject.SetActive(false);
-				transform4.FindChild("Disable").gameObject.SetActive(false);
-				transform5.FindChild("Disable").gameObject.SetActive(false);
+				transform3.Find("Disable").gameObject.SetActive(false);
+				transform4.Find("Disable").gameObject.SetActive(false);
+				transform5.Find("Disable").gameObject.SetActive(false);
 				transform6.GetComponent<Text>().color = Color.white;
 				transform7.GetComponent<Text>().color = Color.white;
 				transform8.GetComponent<Text>().color = Color.white;
 				transform9.GetComponent<Text>().color = Color.white;
-				transform3.FindChild("Check").GetComponent<Image>().color = Color.white;
-				transform4.FindChild("Check").GetComponent<Image>().color = Color.white;
-				transform5.FindChild("Check").GetComponent<Image>().color = Color.white;
+				transform3.Find("Check").GetComponent<Image>().color = Color.white;
+				transform4.Find("Check").GetComponent<Image>().color = Color.white;
+				transform5.Find("Check").GetComponent<Image>().color = Color.white;
 			}
 			switch (resolutionGrade)
 			{
 			case ResolutionQualityGrade.High:
-				transform3.FindChild("Button").GetComponent<Button>().interactable = !isRecommend;
-				transform4.FindChild("Button").GetComponent<Button>().interactable = !isRecommend;
-				transform5.FindChild("Button").GetComponent<Button>().interactable = false;
+				transform3.Find("Button").GetComponent<Button>().interactable = !isRecommend;
+				transform4.Find("Button").GetComponent<Button>().interactable = !isRecommend;
+				transform5.Find("Button").GetComponent<Button>().interactable = false;
 				if (!isRecommend)
 				{
-					transform3.FindChild("Blue").gameObject.SetActive(false);
-					transform3.FindChild("Grey").gameObject.SetActive(true);
-					transform4.FindChild("Blue").gameObject.SetActive(false);
-					transform4.FindChild("Grey").gameObject.SetActive(true);
-					transform5.FindChild("Blue").gameObject.SetActive(true);
-					transform5.FindChild("Grey").gameObject.SetActive(false);
+					transform3.Find("Blue").gameObject.SetActive(false);
+					transform3.Find("Grey").gameObject.SetActive(true);
+					transform4.Find("Blue").gameObject.SetActive(false);
+					transform4.Find("Grey").gameObject.SetActive(true);
+					transform5.Find("Blue").gameObject.SetActive(true);
+					transform5.Find("Grey").gameObject.SetActive(false);
 				}
-				transform3.FindChild("Check").gameObject.SetActive(false);
-				transform4.FindChild("Check").gameObject.SetActive(false);
-				transform5.FindChild("Check").gameObject.SetActive(true);
+				transform3.Find("Check").gameObject.SetActive(false);
+				transform4.Find("Check").gameObject.SetActive(false);
+				transform5.Find("Check").gameObject.SetActive(true);
 				break;
 			case ResolutionQualityGrade.Middle:
-				transform3.FindChild("Button").GetComponent<Button>().interactable = !isRecommend;
-				transform4.FindChild("Button").GetComponent<Button>().interactable = false;
-				transform5.FindChild("Button").GetComponent<Button>().interactable = !isRecommend;
+				transform3.Find("Button").GetComponent<Button>().interactable = !isRecommend;
+				transform4.Find("Button").GetComponent<Button>().interactable = false;
+				transform5.Find("Button").GetComponent<Button>().interactable = !isRecommend;
 				if (!isRecommend)
 				{
-					transform3.FindChild("Blue").gameObject.SetActive(false);
-					transform3.FindChild("Grey").gameObject.SetActive(true);
-					transform4.FindChild("Blue").gameObject.SetActive(true);
-					transform4.FindChild("Grey").gameObject.SetActive(false);
-					transform5.FindChild("Blue").gameObject.SetActive(false);
-					transform5.FindChild("Grey").gameObject.SetActive(true);
+					transform3.Find("Blue").gameObject.SetActive(false);
+					transform3.Find("Grey").gameObject.SetActive(true);
+					transform4.Find("Blue").gameObject.SetActive(true);
+					transform4.Find("Grey").gameObject.SetActive(false);
+					transform5.Find("Blue").gameObject.SetActive(false);
+					transform5.Find("Grey").gameObject.SetActive(true);
 				}
-				transform3.FindChild("Check").gameObject.SetActive(false);
-				transform4.FindChild("Check").gameObject.SetActive(true);
-				transform5.FindChild("Check").gameObject.SetActive(false);
+				transform3.Find("Check").gameObject.SetActive(false);
+				transform4.Find("Check").gameObject.SetActive(true);
+				transform5.Find("Check").gameObject.SetActive(false);
 				break;
 			default:
-				transform3.FindChild("Button").GetComponent<Button>().interactable = false;
-				transform4.FindChild("Button").GetComponent<Button>().interactable = !isRecommend;
-				transform5.FindChild("Button").GetComponent<Button>().interactable = !isRecommend;
+				transform3.Find("Button").GetComponent<Button>().interactable = false;
+				transform4.Find("Button").GetComponent<Button>().interactable = !isRecommend;
+				transform5.Find("Button").GetComponent<Button>().interactable = !isRecommend;
 				if (!isRecommend)
 				{
-					transform5.FindChild("Blue").gameObject.SetActive(false);
-					transform5.FindChild("Grey").gameObject.SetActive(true);
-					transform4.FindChild("Blue").gameObject.SetActive(false);
-					transform4.FindChild("Grey").gameObject.SetActive(true);
-					transform3.FindChild("Blue").gameObject.SetActive(true);
-					transform3.FindChild("Grey").gameObject.SetActive(false);
+					transform5.Find("Blue").gameObject.SetActive(false);
+					transform5.Find("Grey").gameObject.SetActive(true);
+					transform4.Find("Blue").gameObject.SetActive(false);
+					transform4.Find("Grey").gameObject.SetActive(true);
+					transform3.Find("Blue").gameObject.SetActive(true);
+					transform3.Find("Grey").gameObject.SetActive(false);
 				}
-				transform5.FindChild("Check").gameObject.SetActive(false);
-				transform4.FindChild("Check").gameObject.SetActive(false);
-				transform3.FindChild("Check").gameObject.SetActive(true);
+				transform5.Find("Check").gameObject.SetActive(false);
+				transform4.Find("Check").gameObject.SetActive(false);
+				transform3.Find("Check").gameObject.SetActive(true);
 				break;
 			}
 		}
@@ -354,64 +354,64 @@ namespace MoleMole
 		private void ShowFirstLineElement(Transform elementTransform, bool isRecommend, bool isHigh)
 		{
 			Transform transform = elementTransform.Find("Mark");
-			transform.FindChild("Enable").gameObject.SetActive(!isRecommend);
-			transform.FindChild("Disable").gameObject.SetActive(isRecommend);
-			Transform transform2 = elementTransform.FindChild("Choice/Low");
-			Transform transform3 = elementTransform.FindChild("Choice/High");
-			Transform transform4 = elementTransform.FindChild("Label");
-			Transform transform5 = transform2.FindChild("Text");
-			Transform transform6 = transform3.FindChild("Text");
+			transform.Find("Enable").gameObject.SetActive(!isRecommend);
+			transform.Find("Disable").gameObject.SetActive(isRecommend);
+			Transform transform2 = elementTransform.Find("Choice/Low");
+			Transform transform3 = elementTransform.Find("Choice/High");
+			Transform transform4 = elementTransform.Find("Label");
+			Transform transform5 = transform2.Find("Text");
+			Transform transform6 = transform3.Find("Text");
 			if (isRecommend)
 			{
-				transform2.FindChild("Blue").gameObject.SetActive(false);
-				transform2.FindChild("Grey").gameObject.SetActive(false);
-				transform2.FindChild("Disable").gameObject.SetActive(true);
-				transform3.FindChild("Blue").gameObject.SetActive(false);
-				transform3.FindChild("Grey").gameObject.SetActive(false);
-				transform3.FindChild("Disable").gameObject.SetActive(true);
+				transform2.Find("Blue").gameObject.SetActive(false);
+				transform2.Find("Grey").gameObject.SetActive(false);
+				transform2.Find("Disable").gameObject.SetActive(true);
+				transform3.Find("Blue").gameObject.SetActive(false);
+				transform3.Find("Grey").gameObject.SetActive(false);
+				transform3.Find("Disable").gameObject.SetActive(true);
 				transform4.GetComponent<Text>().color = MiscData.GetColor("GraphicsSettingDisableText");
 				transform5.GetComponent<Text>().color = MiscData.GetColor("GraphicsSettingDisableText");
 				transform6.GetComponent<Text>().color = MiscData.GetColor("GraphicsSettingDisableText");
-				transform2.FindChild("Check").GetComponent<Image>().color = MiscData.GetColor("GraphicsSettingDisableRadioboxCheck");
-				transform3.FindChild("Check").GetComponent<Image>().color = MiscData.GetColor("GraphicsSettingDisableRadioboxCheck");
+				transform2.Find("Check").GetComponent<Image>().color = MiscData.GetColor("GraphicsSettingDisableRadioboxCheck");
+				transform3.Find("Check").GetComponent<Image>().color = MiscData.GetColor("GraphicsSettingDisableRadioboxCheck");
 			}
 			else
 			{
-				transform2.FindChild("Disable").gameObject.SetActive(false);
-				transform3.FindChild("Disable").gameObject.SetActive(false);
+				transform2.Find("Disable").gameObject.SetActive(false);
+				transform3.Find("Disable").gameObject.SetActive(false);
 				transform4.GetComponent<Text>().color = Color.white;
 				transform5.GetComponent<Text>().color = Color.white;
 				transform6.GetComponent<Text>().color = Color.white;
-				transform2.FindChild("Check").GetComponent<Image>().color = Color.white;
-				transform3.FindChild("Check").GetComponent<Image>().color = Color.white;
+				transform2.Find("Check").GetComponent<Image>().color = Color.white;
+				transform3.Find("Check").GetComponent<Image>().color = Color.white;
 			}
 			if (isHigh)
 			{
-				transform2.FindChild("Button").GetComponent<Button>().interactable = !isRecommend;
-				transform3.FindChild("Button").GetComponent<Button>().interactable = false;
+				transform2.Find("Button").GetComponent<Button>().interactable = !isRecommend;
+				transform3.Find("Button").GetComponent<Button>().interactable = false;
 				if (!isRecommend)
 				{
-					transform2.FindChild("Blue").gameObject.SetActive(false);
-					transform2.FindChild("Grey").gameObject.SetActive(true);
-					transform3.FindChild("Blue").gameObject.SetActive(true);
-					transform3.FindChild("Grey").gameObject.SetActive(false);
+					transform2.Find("Blue").gameObject.SetActive(false);
+					transform2.Find("Grey").gameObject.SetActive(true);
+					transform3.Find("Blue").gameObject.SetActive(true);
+					transform3.Find("Grey").gameObject.SetActive(false);
 				}
-				transform2.FindChild("Check").gameObject.SetActive(false);
-				transform3.FindChild("Check").gameObject.SetActive(true);
+				transform2.Find("Check").gameObject.SetActive(false);
+				transform3.Find("Check").gameObject.SetActive(true);
 			}
 			else
 			{
-				transform2.FindChild("Button").GetComponent<Button>().interactable = false;
-				transform3.FindChild("Button").GetComponent<Button>().interactable = !isRecommend;
+				transform2.Find("Button").GetComponent<Button>().interactable = false;
+				transform3.Find("Button").GetComponent<Button>().interactable = !isRecommend;
 				if (!isRecommend)
 				{
-					transform3.FindChild("Blue").gameObject.SetActive(false);
-					transform3.FindChild("Grey").gameObject.SetActive(true);
-					transform2.FindChild("Blue").gameObject.SetActive(true);
-					transform2.FindChild("Grey").gameObject.SetActive(false);
+					transform3.Find("Blue").gameObject.SetActive(false);
+					transform3.Find("Grey").gameObject.SetActive(true);
+					transform2.Find("Blue").gameObject.SetActive(true);
+					transform2.Find("Grey").gameObject.SetActive(false);
 				}
-				transform3.FindChild("Check").gameObject.SetActive(false);
-				transform2.FindChild("Check").gameObject.SetActive(true);
+				transform3.Find("Check").gameObject.SetActive(false);
+				transform2.Find("Check").gameObject.SetActive(true);
 			}
 		}
 
@@ -437,31 +437,31 @@ namespace MoleMole
 		private void ShowSecondLineElement(Transform elementTransform, bool isRecommend, bool use)
 		{
 			Transform transform = elementTransform.Find("Mark");
-			transform.FindChild("Enable").gameObject.SetActive(!isRecommend);
-			transform.FindChild("Disable").gameObject.SetActive(isRecommend);
+			transform.Find("Enable").gameObject.SetActive(!isRecommend);
+			transform.Find("Disable").gameObject.SetActive(isRecommend);
 			Transform transform2 = elementTransform.Find("Choice/On");
 			Transform transform3 = elementTransform.Find("Choice/Off");
-			Transform transform4 = elementTransform.FindChild("Label");
-			Transform transform5 = transform2.FindChild("Text");
-			Transform transform6 = transform3.FindChild("Text");
+			Transform transform4 = elementTransform.Find("Label");
+			Transform transform5 = transform2.Find("Text");
+			Transform transform6 = transform3.Find("Text");
 			if (isRecommend)
 			{
-				transform2.FindChild("Blue").gameObject.SetActive(false);
-				transform2.FindChild("Grey").gameObject.SetActive(false);
-				transform2.FindChild("Disable").gameObject.SetActive(true);
-				transform3.FindChild("Grey").gameObject.SetActive(false);
-				transform3.FindChild("Disable").gameObject.SetActive(true);
+				transform2.Find("Blue").gameObject.SetActive(false);
+				transform2.Find("Grey").gameObject.SetActive(false);
+				transform2.Find("Disable").gameObject.SetActive(true);
+				transform3.Find("Grey").gameObject.SetActive(false);
+				transform3.Find("Disable").gameObject.SetActive(true);
 				transform4.GetComponent<Text>().color = MiscData.GetColor("GraphicsSettingDisableText");
 				transform5.GetComponent<Text>().color = MiscData.GetColor("GraphicsSettingDisableText");
 				transform6.GetComponent<Text>().color = MiscData.GetColor("GraphicsSettingDisableText");
 			}
 			else
 			{
-				transform2.FindChild("Blue").gameObject.SetActive(use);
-				transform2.FindChild("Grey").gameObject.SetActive(!use);
-				transform3.FindChild("Grey").gameObject.SetActive(!use);
-				transform2.FindChild("Disable").gameObject.SetActive(false);
-				transform3.FindChild("Disable").gameObject.SetActive(false);
+				transform2.Find("Blue").gameObject.SetActive(use);
+				transform2.Find("Grey").gameObject.SetActive(!use);
+				transform3.Find("Grey").gameObject.SetActive(!use);
+				transform2.Find("Disable").gameObject.SetActive(false);
+				transform3.Find("Disable").gameObject.SetActive(false);
 				transform4.GetComponent<Text>().color = Color.white;
 				transform5.GetComponent<Text>().color = Color.white;
 				transform6.GetComponent<Text>().color = Color.white;
@@ -494,26 +494,26 @@ namespace MoleMole
 
 		private void ShowThirdLineElement(Transform elementTransform, bool isRecommend, bool usePostFX, bool use)
 		{
-			Transform transform = elementTransform.FindChild("Text");
-			Transform transform2 = elementTransform.FindChild("Check");
+			Transform transform = elementTransform.Find("Text");
+			Transform transform2 = elementTransform.Find("Check");
 			if (isRecommend)
 			{
-				elementTransform.FindChild("Blue").gameObject.SetActive(false);
-				elementTransform.FindChild("Grey").gameObject.SetActive(false);
-				elementTransform.FindChild("Disable").gameObject.SetActive(true);
+				elementTransform.Find("Blue").gameObject.SetActive(false);
+				elementTransform.Find("Grey").gameObject.SetActive(false);
+				elementTransform.Find("Disable").gameObject.SetActive(true);
 				transform.GetComponent<Text>().color = MiscData.GetColor("GraphicsSettingDisableText");
 				transform2.GetComponent<Image>().color = MiscData.GetColor("GraphicsSettingDisableRadioboxCheck");
 			}
 			else
 			{
-				elementTransform.FindChild("Blue").gameObject.SetActive(usePostFX && use);
-				elementTransform.FindChild("Grey").gameObject.SetActive(!usePostFX || !use);
-				elementTransform.FindChild("Disable").gameObject.SetActive(false);
+				elementTransform.Find("Blue").gameObject.SetActive(usePostFX && use);
+				elementTransform.Find("Grey").gameObject.SetActive(!usePostFX || !use);
+				elementTransform.Find("Disable").gameObject.SetActive(false);
 				transform.GetComponent<Text>().color = Color.white;
 				transform2.GetComponent<Image>().color = Color.white;
 			}
 			transform2.gameObject.SetActive(use);
-			elementTransform.FindChild("Button").GetComponent<Button>().interactable = !isRecommend && usePostFX;
+			elementTransform.Find("Button").GetComponent<Button>().interactable = !isRecommend && usePostFX;
 		}
 
 		private void ShowEcoModeConfig()
@@ -556,10 +556,10 @@ namespace MoleMole
 			for (int i = 0; i < grades.Length - 1; i++)
 			{
 				Transform transform = grades[i];
-				transform.FindChild("Recommend").gameObject.SetActive(false);
+				transform.Find("Recommend").gameObject.SetActive(false);
 			}
 			Transform transform2 = grades[(int)graphicsRecommendGrade];
-			transform2.FindChild("Recommend").gameObject.SetActive(true);
+			transform2.Find("Recommend").gameObject.SetActive(true);
 		}
 
 		private void ShowRecommendGradeInfo(GraphicsRecommendGrade grade)
@@ -569,14 +569,14 @@ namespace MoleMole
 				if (i != (int)grade)
 				{
 					Transform transform = grades[i];
-					transform.FindChild("Blue").gameObject.SetActive(true);
-					transform.FindChild("Check").gameObject.SetActive(false);
+					transform.Find("Blue").gameObject.SetActive(true);
+					transform.Find("Check").gameObject.SetActive(false);
 					processes[i].gameObject.SetActive(false);
 				}
 			}
 			Transform transform2 = grades[(int)grade];
-			transform2.FindChild("Blue").gameObject.SetActive(false);
-			transform2.FindChild("Check").gameObject.SetActive(true);
+			transform2.Find("Blue").gameObject.SetActive(false);
+			transform2.Find("Check").gameObject.SetActive(true);
 			processes[(int)grade].gameObject.SetActive(true);
 		}
 
@@ -587,16 +587,16 @@ namespace MoleMole
 				Transform transform = grades[i];
 				if (transform.gameObject.activeSelf)
 				{
-					transform.FindChild("Blue").gameObject.SetActive(true);
-					transform.FindChild("Check").gameObject.SetActive(false);
+					transform.Find("Blue").gameObject.SetActive(true);
+					transform.Find("Check").gameObject.SetActive(false);
 					processes[i].gameObject.SetActive(false);
 				}
 			}
 			if (!isInLevelSimpleSetting)
 			{
 				Transform transform2 = grades[grades.Length - 1];
-				transform2.FindChild("Blue").gameObject.SetActive(false);
-				transform2.FindChild("Check").gameObject.SetActive(true);
+				transform2.Find("Blue").gameObject.SetActive(false);
+				transform2.Find("Check").gameObject.SetActive(true);
 				processes[grades.Length - 1].gameObject.SetActive(true);
 			}
 		}
@@ -605,8 +605,8 @@ namespace MoleMole
 		{
 			for (int i = 0; i < grades.Length; i++)
 			{
-				grades[i].FindChild("Blue").gameObject.SetActive(true);
-				grades[i].FindChild("Check").gameObject.SetActive(false);
+				grades[i].Find("Blue").gameObject.SetActive(true);
+				grades[i].Find("Check").gameObject.SetActive(false);
 				processes[i].gameObject.SetActive(false);
 			}
 			processes[0].gameObject.SetActive(true);
@@ -617,29 +617,29 @@ namespace MoleMole
 			bool isEcoMode = _modifiedPersonalSetting.IsEcoMode;
 			if (isInLevelSimpleSetting)
 			{
-				ecoMode.FindChild("Mode/Desc/On").gameObject.SetActive(isEcoMode);
-				ecoMode.FindChild("Mode/Desc/Off").gameObject.SetActive(!isEcoMode);
+				ecoMode.Find("Mode/Desc/On").gameObject.SetActive(isEcoMode);
+				ecoMode.Find("Mode/Desc/Off").gameObject.SetActive(!isEcoMode);
 				Transform transform = ecoMode.Find("Mode/Choice/On");
 				Transform transform2 = ecoMode.Find("Mode/Choice/Off");
-				transform.FindChild("Blue").gameObject.SetActive(isEcoMode);
-				transform.FindChild("Grey").gameObject.SetActive(!isEcoMode);
-				transform.FindChild("Disable").gameObject.SetActive(false);
+				transform.Find("Blue").gameObject.SetActive(isEcoMode);
+				transform.Find("Grey").gameObject.SetActive(!isEcoMode);
+				transform.Find("Disable").gameObject.SetActive(false);
 				transform.gameObject.SetActive(isEcoMode);
 				transform.GetComponent<Button>().interactable = isEcoMode;
-				transform2.FindChild("Grey").gameObject.SetActive(!isEcoMode);
-				transform2.FindChild("Disable").gameObject.SetActive(false);
+				transform2.Find("Grey").gameObject.SetActive(!isEcoMode);
+				transform2.Find("Disable").gameObject.SetActive(false);
 				transform2.gameObject.SetActive(!isEcoMode);
 				transform2.GetComponent<Button>().interactable = !isEcoMode;
 			}
 			else
 			{
-				ecoMode.FindChild("Desc/ON").gameObject.SetActive(isEcoMode);
-				ecoMode.FindChild("Desc/OFF").gameObject.SetActive(!isEcoMode);
-				ecoMode.FindChild("Choice/Blue").gameObject.SetActive(isEcoMode);
-				ecoMode.FindChild("Choice/Grey").gameObject.SetActive(!isEcoMode);
-				ecoMode.FindChild("Choice/Disable").gameObject.SetActive(false);
-				ecoMode.FindChild("Choice/Text").GetComponent<Text>().color = Color.white;
-				Transform transform3 = ecoMode.FindChild("Choice/Check");
+				ecoMode.Find("Desc/ON").gameObject.SetActive(isEcoMode);
+				ecoMode.Find("Desc/OFF").gameObject.SetActive(!isEcoMode);
+				ecoMode.Find("Choice/Blue").gameObject.SetActive(isEcoMode);
+				ecoMode.Find("Choice/Grey").gameObject.SetActive(!isEcoMode);
+				ecoMode.Find("Choice/Disable").gameObject.SetActive(false);
+				ecoMode.Find("Choice/Text").GetComponent<Text>().color = Color.white;
+				Transform transform3 = ecoMode.Find("Choice/Check");
 				transform3.GetComponent<Image>().color = Color.white;
 				transform3.gameObject.SetActive(isEcoMode);
 			}
